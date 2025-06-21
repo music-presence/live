@@ -939,18 +939,18 @@
       {
         "label": "discord-large-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/discord-large-image.2c8e9fd578b4.png"
+        "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/discord-large-image.400da160be6d.png"
       },
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/discord-small-image.08d8385fcb5b.png"
+        "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/discord-small-image.09f531dbcde1.png"
       },
       {
         "label": "tray-menu",
         "type": "ico",
-        "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/tray-menu.3c35e3a5b20c.ico",
-        "md5": "a77736b26d6cb5904ecf2973110ffa81"
+        "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/tray-menu.4c5b7a7e033d.ico",
+        "md5": "818727bd0763b155509823df1db932a4"
       }
     ],
     "audacious": [
