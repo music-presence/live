@@ -122,6 +122,27 @@
       }
     },
     {
+      "id": "bandcamp",
+      "name": "Bandcamp",
+      "url": "https://bandcamp.com",
+      "sources": {
+        "web_domain": [
+          "bandcamp.com"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": true
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1386118429316218880"
+      }
+    },
+    {
       "id": "cider",
       "name": "Cider",
       "url": "https://cider.sh",
@@ -890,6 +911,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/tray-menu.818727bd0763.ico",
         "md5": "818727bd0763b155509823df1db932a4"
+      }
+    ],
+    "bandcamp": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/bandcamp/logo-128.333184f01283.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/bandcamp/discord-large-image.59e84d4fcffd.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/bandcamp/discord-small-image.b878973ebee2.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/bandcamp/tray-menu.46922eb90d5c.ico",
+        "md5": "46922eb90d5cbc4f25a62077e289d19d"
       }
     ],
     "cider": [
