@@ -802,9 +802,9 @@
   "icons": {
     "amazon-music": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/amazon-music/icon-128.8fdd884d02cd.png"
+        "url": "https://live.musicpresence.app/v3/icons/amazon-music/logo-128.b44fe092218c.png"
       },
       {
         "label": "discord-large-image",
@@ -825,9 +825,9 @@
     ],
     "apple-books": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/apple-books/icon-128.47eac7a4a1a7.png"
+        "url": "https://live.musicpresence.app/v3/icons/apple-books/logo-128.189ed21d5c1d.png"
       },
       {
         "label": "discord-large-image",
@@ -848,9 +848,9 @@
     ],
     "apple-music": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/apple-music/icon-128.0ae940293baa.png"
+        "url": "https://live.musicpresence.app/v3/icons/apple-music/logo-128.17be519f95a5.png"
       },
       {
         "label": "discord-large-image",
@@ -871,9 +871,9 @@
     ],
     "apple-podcasts": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/icon-128.c2e08493d639.png"
+        "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/logo-128.f0923555486d.png"
       },
       {
         "label": "discord-large-image",
@@ -894,9 +894,9 @@
     ],
     "cider": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/cider/icon-128.6a637598cb83.png"
+        "url": "https://live.musicpresence.app/v3/icons/cider/logo-128.2bab8af85c69.png"
       },
       {
         "label": "discord-large-image",
@@ -917,9 +917,9 @@
     ],
     "cog": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/cog/icon-128.1cc577ddefcc.png"
+        "url": "https://live.musicpresence.app/v3/icons/cog/logo-128.2a59d335c7f0.png"
       },
       {
         "label": "discord-large-image",
@@ -940,9 +940,9 @@
     ],
     "daftcloud": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/daftcloud/icon-128.728183cca82c.png"
+        "url": "https://live.musicpresence.app/v3/icons/daftcloud/logo-128.5d68f56a0985.png"
       },
       {
         "label": "discord-large-image",
@@ -963,9 +963,9 @@
     ],
     "deezer": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/deezer/icon-128.cb12292edd50.png"
+        "url": "https://live.musicpresence.app/v3/icons/deezer/logo-128.88769b690e76.png"
       },
       {
         "label": "discord-large-image",
@@ -986,9 +986,9 @@
     ],
     "dopamine": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/dopamine/icon-128.34e1bf766b8f.png"
+        "url": "https://live.musicpresence.app/v3/icons/dopamine/logo-128.f9deaff16d90.png"
       },
       {
         "label": "discord-large-image",
@@ -1009,9 +1009,9 @@
     ],
     "doppler": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/doppler/icon-128.33df0cb8f37d.png"
+        "url": "https://live.musicpresence.app/v3/icons/doppler/logo-128.b3d843bcf3a0.png"
       },
       {
         "label": "discord-large-image",
@@ -1032,9 +1032,9 @@
     ],
     "foobar2000": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/foobar2000/icon-128.c304f4e6047e.png"
+        "url": "https://live.musicpresence.app/v3/icons/foobar2000/logo-128.901c2a61673f.png"
       },
       {
         "label": "discord-large-image",
@@ -1055,9 +1055,9 @@
     ],
     "jiosaavn": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/jiosaavn/icon-128.1718bfe5b522.png"
+        "url": "https://live.musicpresence.app/v3/icons/jiosaavn/logo-128.9bbc0ce6b69e.png"
       },
       {
         "label": "discord-large-image",
@@ -1078,9 +1078,9 @@
     ],
     "moosync": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/moosync/icon-128.3024d674a01b.png"
+        "url": "https://live.musicpresence.app/v3/icons/moosync/logo-128.bffa36f7714c.png"
       },
       {
         "label": "discord-large-image",
@@ -1101,9 +1101,9 @@
     ],
     "mpv": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/mpv/icon-128.056a53ca6411.png"
+        "url": "https://live.musicpresence.app/v3/icons/mpv/logo-128.6d5259e208d4.png"
       },
       {
         "label": "discord-large-image",
@@ -1124,9 +1124,9 @@
     ],
     "netease-cloud-music": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/netease-cloud-music/icon-128.3251bc702f40.png"
+        "url": "https://live.musicpresence.app/v3/icons/netease-cloud-music/logo-128.61b590f50020.png"
       },
       {
         "label": "discord-large-image",
@@ -1147,9 +1147,9 @@
     ],
     "netease-cloud-music-zh-placeholder": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/netease-cloud-music-zh-placeholder/icon-128.3251bc702f40.png"
+        "url": "https://live.musicpresence.app/v3/icons/netease-cloud-music-zh-placeholder/logo-128.61b590f50020.png"
       },
       {
         "label": "discord-large-image",
@@ -1170,9 +1170,9 @@
     ],
     "pandora": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/pandora/icon-128.a008da00ef71.png"
+        "url": "https://live.musicpresence.app/v3/icons/pandora/logo-128.b4f069661ade.png"
       },
       {
         "label": "discord-large-image",
@@ -1193,9 +1193,9 @@
     ],
     "plex": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/plex/icon-128.965c85f77428.png"
+        "url": "https://live.musicpresence.app/v3/icons/plex/logo-128.cda9c0529bdf.png"
       },
       {
         "label": "discord-large-image",
@@ -1216,9 +1216,9 @@
     ],
     "plexamp": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/plexamp/icon-128.08cd34b2579c.png"
+        "url": "https://live.musicpresence.app/v3/icons/plexamp/logo-128.c9b83ce9fd75.png"
       },
       {
         "label": "discord-large-image",
@@ -1239,9 +1239,9 @@
     ],
     "pocket-casts": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/pocket-casts/icon-128.17fbe0da6bb9.png"
+        "url": "https://live.musicpresence.app/v3/icons/pocket-casts/logo-128.ee052790cdef.png"
       },
       {
         "label": "discord-large-image",
@@ -1262,9 +1262,9 @@
     ],
     "podurama": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/podurama/icon-128.a96f6f439d57.png"
+        "url": "https://live.musicpresence.app/v3/icons/podurama/logo-128.affd118aa243.png"
       },
       {
         "label": "discord-large-image",
@@ -1285,9 +1285,9 @@
     ],
     "qobuz": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/qobuz/icon-128.0eaa0bfa2384.png"
+        "url": "https://live.musicpresence.app/v3/icons/qobuz/logo-128.cad518e501de.png"
       },
       {
         "label": "discord-large-image",
@@ -1308,9 +1308,9 @@
     ],
     "qq-music": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/qq-music/icon-128.d9a86966de9a.png"
+        "url": "https://live.musicpresence.app/v3/icons/qq-music/logo-128.0178ac5facdb.png"
       },
       {
         "label": "discord-large-image",
@@ -1331,9 +1331,9 @@
     ],
     "qq-music-zh-placeholder": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/qq-music-zh-placeholder/icon-128.d9a86966de9a.png"
+        "url": "https://live.musicpresence.app/v3/icons/qq-music-zh-placeholder/logo-128.0178ac5facdb.png"
       },
       {
         "label": "discord-large-image",
@@ -1354,9 +1354,9 @@
     ],
     "reamp": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/reamp/icon-128.78fea89bebf8.png"
+        "url": "https://live.musicpresence.app/v3/icons/reamp/logo-128.119e81323926.png"
       },
       {
         "label": "discord-large-image",
@@ -1377,9 +1377,9 @@
     ],
     "roon": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/roon/icon-128.84bb65515ea7.png"
+        "url": "https://live.musicpresence.app/v3/icons/roon/logo-128.a809ad26afb3.png"
       },
       {
         "label": "discord-large-image",
@@ -1400,9 +1400,9 @@
     ],
     "soundcloud": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/soundcloud/icon-128.b5ae9676878a.png"
+        "url": "https://live.musicpresence.app/v3/icons/soundcloud/logo-128.a83b809d5a94.png"
       },
       {
         "label": "discord-large-image",
@@ -1423,9 +1423,9 @@
     ],
     "spotify": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/spotify/icon-128.63e01bb01a71.png"
+        "url": "https://live.musicpresence.app/v3/icons/spotify/logo-128.9225866fcffa.png"
       },
       {
         "label": "discord-large-image",
@@ -1446,9 +1446,9 @@
     ],
     "submariner": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/submariner/icon-128.705e767507b6.png"
+        "url": "https://live.musicpresence.app/v3/icons/submariner/logo-128.e9b688e64368.png"
       },
       {
         "label": "discord-large-image",
@@ -1469,9 +1469,9 @@
     ],
     "tidal": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/tidal/icon-128.1cb584e46959.png"
+        "url": "https://live.musicpresence.app/v3/icons/tidal/logo-128.b8e04aea19ad.png"
       },
       {
         "label": "discord-large-image",
@@ -1492,9 +1492,9 @@
     ],
     "vlc": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/vlc/icon-128.643f5ba75723.png"
+        "url": "https://live.musicpresence.app/v3/icons/vlc/logo-128.3310da7ba4d5.png"
       },
       {
         "label": "discord-large-image",
@@ -1515,9 +1515,9 @@
     ],
     "yandex-music": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/yandex-music/icon-128.ead32a314e49.png"
+        "url": "https://live.musicpresence.app/v3/icons/yandex-music/logo-128.2b5ba553b3ea.png"
       },
       {
         "label": "discord-large-image",
@@ -1538,9 +1538,9 @@
     ],
     "youtube": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/youtube/icon-128.ce06c12b4468.png"
+        "url": "https://live.musicpresence.app/v3/icons/youtube/logo-128.3217bee174a9.png"
       },
       {
         "label": "discord-large-image",
@@ -1561,9 +1561,9 @@
     ],
     "youtube-music": [
       {
-        "label": "icon-128",
+        "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/youtube-music/icon-128.3dd4bc1bb6d5.png"
+        "url": "https://live.musicpresence.app/v3/icons/youtube-music/logo-128.48100855bcbb.png"
       },
       {
         "label": "discord-large-image",
