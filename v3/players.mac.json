@@ -924,18 +924,18 @@
       {
         "label": "discord-large-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/cog/discord-large-image.9a86e1ca6486.png"
+        "url": "https://live.musicpresence.app/v3/icons/cog/discord-large-image.b3dbbb1c648e.png"
       },
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/cog/discord-small-image.ad8cc4778014.png"
+        "url": "https://live.musicpresence.app/v3/icons/cog/discord-small-image.b6345f25dcfa.png"
       },
       {
         "label": "tray-menu",
         "type": "ico",
-        "url": "https://live.musicpresence.app/v3/icons/cog/tray-menu.2671ac22e8ca.ico",
-        "md5": "2671ac22e8ca77c57d605de631f744ef"
+        "url": "https://live.musicpresence.app/v3/icons/cog/tray-menu.dae439bc9fe4.ico",
+        "md5": "dae439bc9fe46b017d4bf99cf179411e"
       }
     ],
     "daftcloud": [
