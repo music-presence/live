@@ -957,18 +957,18 @@
       {
         "label": "discord-large-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/audacious/discord-large-image.6b116c634a21.png"
+        "url": "https://live.musicpresence.app/v3/icons/audacious/discord-large-image.d89f72b93f98.png"
       },
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/audacious/discord-small-image.e97723b5ec2a.png"
+        "url": "https://live.musicpresence.app/v3/icons/audacious/discord-small-image.8f1662bd5810.png"
       },
       {
         "label": "tray-menu",
         "type": "ico",
-        "url": "https://live.musicpresence.app/v3/icons/audacious/tray-menu.c9be12073086.ico",
-        "md5": "18aaf24693cb3b838c4fcac313cc3cfb"
+        "url": "https://live.musicpresence.app/v3/icons/audacious/tray-menu.8c67941ec7cb.ico",
+        "md5": "943b5cba9c497b2c4034787fd0b83634"
       }
     ],
     "cider": [
