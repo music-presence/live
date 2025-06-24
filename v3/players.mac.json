@@ -364,6 +364,27 @@
       }
     },
     {
+      "id": "musicer",
+      "name": "Musicer",
+      "url": "https://wangchujiang.com/musicer",
+      "sources": {
+        "mac_mediaremote": [
+          "com.wangchujiang.musicer"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1387075206001987616"
+      }
+    },
+    {
       "id": "netease-cloud-music",
       "name": "NetEase Cloud Music",
       "url": "https://music.163.com",
@@ -1164,6 +1185,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/mpv/tray-menu.fd0b262c905c.ico",
         "md5": "fd0b262c905c8936bbcbb278c93d0940"
+      }
+    ],
+    "musicer": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/musicer/logo-128.55b0aaffbbec.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/musicer/discord-large-image.e5698818f90a.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/musicer/discord-small-image.664b3d5b5de7.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/musicer/tray-menu.0f174c7012de.ico",
+        "md5": "0f174c7012decd22bb703987cf67884b"
       }
     ],
     "netease-cloud-music": [
