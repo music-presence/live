@@ -899,6 +899,9 @@
       "name": "MusicBee",
       "url": "https://www.getmusicbee.com",
       "sources": {
+        "lin_mpris": [
+          "MusicBee"
+        ],
         "win_winrt": [
           "MusicBee.exe",
           "50072StevenMayall.MusicBee_kcr266et74avj!MusicBeePackage",

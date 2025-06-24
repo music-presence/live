@@ -453,6 +453,27 @@
       }
     },
     {
+      "id": "musicbee",
+      "name": "MusicBee",
+      "url": "https://www.getmusicbee.com",
+      "sources": {
+        "lin_mpris": [
+          "MusicBee"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1247654771557666889"
+      }
+    },
+    {
       "id": "netease-cloud-music",
       "name": "NetEase Cloud Music",
       "url": "https://music.163.com",
@@ -1314,6 +1335,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/kde-connect/tray-menu.e44071543a82.ico",
         "md5": "e44071543a827532612d940eb1c5e755"
+      }
+    ],
+    "musicbee": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/musicbee/logo-128.d2aee0e02ab7.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/musicbee/discord-large-image.358584fa6af4.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/musicbee/discord-small-image.87cd6cb4370a.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/musicbee/tray-menu.f2c58a761980.ico",
+        "md5": "f2c58a761980c4e7543fe1ba0864a1de"
       }
     ],
     "netease-cloud-music": [
