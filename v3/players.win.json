@@ -154,7 +154,8 @@
           "bandcamp.com"
         ],
         "win_winrt": [
-          "Bandcamp.exe"
+          "Bandcamp.exe",
+          "com.themagiulio.bandcamp-desktop"
         ]
       },
       "attributes": {
