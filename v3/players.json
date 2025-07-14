@@ -202,6 +202,9 @@
       "sources": {
         "lin_mpris": [
           "audacious"
+        ],
+        "win_winrt": [
+          "audacious.exe"
         ]
       },
       "attributes": {

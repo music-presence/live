@@ -146,6 +146,27 @@
       }
     },
     {
+      "id": "audacious",
+      "name": "Audacious",
+      "url": "https://audacious-media-player.org",
+      "sources": {
+        "win_winrt": [
+          "audacious.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1319396509602680944"
+      }
+    },
+    {
       "id": "bandcamp",
       "name": "Bandcamp",
       "url": "https://bandcamp.com",
@@ -1474,6 +1495,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/tray-menu.818727bd0763.ico",
         "md5": "818727bd0763b155509823df1db932a4"
+      }
+    ],
+    "audacious": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/audacious/logo-128.7df98ac04e93.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/audacious/discord-large-image.796dc443eaea.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/audacious/discord-small-image.1c922229a0b8.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/audacious/tray-menu.943b5cba9c49.ico",
+        "md5": "943b5cba9c497b2c4034787fd0b83634"
       }
     ],
     "bandcamp": [
