@@ -947,6 +947,27 @@
       }
     },
     {
+      "id": "namida",
+      "name": "Namida",
+      "url": "https://github.com/namidaco/namida",
+      "sources": {
+        "win_winrt": [
+          "namida.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1395045458648371240"
+      }
+    },
+    {
       "id": "netease-cloud-music",
       "name": "NetEase Cloud Music",
       "url": "https://music.163.com",
@@ -2760,6 +2781,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/musicer/tray-menu.0f174c7012de.ico",
         "md5": "0f174c7012decd22bb703987cf67884b"
+      }
+    ],
+    "namida": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/namida/logo-128.84861941dedb.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/namida/discord-large-image.fec3949b6f28.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/namida/discord-small-image.9e5e26645abb.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/namida/tray-menu.221af77fc6f7.ico",
+        "md5": "221af77fc6f7d7d302f353a48ae1aec6"
       }
     ],
     "netease-cloud-music": [
