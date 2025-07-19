@@ -301,6 +301,27 @@
       }
     },
     {
+      "id": "infuse",
+      "name": "Infuse",
+      "url": "https://firecore.com/infuse",
+      "sources": {
+        "mac_mediaremote": [
+          "com.firecore.infuse"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1396126631151796334"
+      }
+    },
+    {
       "id": "jiosaavn",
       "name": "JioSaavn",
       "url": "https://www.jiosaavn.com",
@@ -1116,6 +1137,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/foobar2000/tray-menu.933306823c37.ico",
         "md5": "933306823c37869d9afac3cdf66d2404"
+      }
+    ],
+    "infuse": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/infuse/logo-128.0dbdcd28baa0.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/infuse/discord-large-image.834605ea8e83.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/infuse/discord-small-image.63fae732f07e.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/infuse/tray-menu.58c111f6c387.ico",
+        "md5": "58c111f6c3873e415ae19ca2546b480b"
       }
     ],
     "jiosaavn": [
