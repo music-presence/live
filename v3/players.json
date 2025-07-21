@@ -1113,6 +1113,9 @@
         "web_domain": [
           "app.plex.tv"
         ],
+        "win_winrt": [
+          "Plex.exe"
+        ],
         "mac_mediaremote": [
           "tv.plex.desktop"
         ]

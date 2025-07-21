@@ -731,6 +731,9 @@
       "sources": {
         "web_domain": [
           "app.plex.tv"
+        ],
+        "win_winrt": [
+          "Plex.exe"
         ]
       },
       "attributes": {
