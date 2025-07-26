@@ -121,6 +121,28 @@
       }
     },
     {
+      "id": "amperfy",
+      "name": "Amperfy",
+      "url": "https://github.com/BLeeEZ/amperfy",
+      "sources": {
+        "mac_mediaremote": [
+          "net.hildebrand-it.amperfy-music"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music",
+        "audio_podcast"
+      ],
+      "extra": {
+        "discord_application_id": "1398589185341788212"
+      }
+    },
+    {
       "id": "apple-books",
       "name": "Apple Books",
       "url": "https://www.apple.com/apple-books",
@@ -2049,6 +2071,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/ampcast/tray-menu.796d59877b7f.ico",
         "md5": "796d59877b7f4c4d7e05edae6bc99646"
+      }
+    ],
+    "amperfy": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/amperfy/logo-128.2d0cf1f89c2d.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/amperfy/discord-large-image.e689ef49da64.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/amperfy/discord-small-image.12deb82441dd.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/amperfy/tray-menu.affc6a36d769.ico",
+        "md5": "affc6a36d769b0a009e950649cb559c7"
       }
     ],
     "apple-books": [
