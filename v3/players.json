@@ -1667,6 +1667,27 @@
       }
     },
     {
+      "id": "swinsian",
+      "name": "Swinsian",
+      "url": "https://swinsian.com",
+      "sources": {
+        "mac_mediaremote": [
+          "com.swinsian.Swinsian"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1399034733018615971"
+      }
+    },
+    {
       "id": "tauon",
       "name": "Tauon",
       "url": "https://tauonmusicbox.rocks",
@@ -3520,6 +3541,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/supersonic/tray-menu.9acceafb3eac.ico",
         "md5": "9acceafb3eacd3473d7b76583fae3e68"
+      }
+    ],
+    "swinsian": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/swinsian/logo-128.3ef9d20b97b2.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/swinsian/discord-large-image.ff033ce9da12.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/swinsian/discord-small-image.f0275ab14711.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/swinsian/tray-menu.82c02a743f65.ico",
+        "md5": "82c02a743f655c71993f4446932b4456"
       }
     ],
     "tauon": [
