@@ -105,7 +105,8 @@
       "url": "https://github.com/rekkyrosso/ampcast",
       "sources": {
         "win_winrt": [
-          "ampcast.exe"
+          "ampcast.exe",
+          "org.rekkyrosso.ampcast"
         ]
       },
       "attributes": {
