@@ -1747,6 +1747,27 @@
       }
     },
     {
+      "id": "untitled",
+      "name": "[untitled]",
+      "url": "https://untitled.stream",
+      "sources": {
+        "win_winrt": [
+          "electron.app.[untitled]"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1403424105532751963"
+      }
+    },
+    {
       "id": "vlc",
       "name": "VLC",
       "url": "https://www.videolan.org/vlc",
@@ -3611,6 +3632,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/tidal/tray-menu.97eb9875b2c5.ico",
         "md5": "97eb9875b2c56cea195f4966b8f59b7b"
+      }
+    ],
+    "untitled": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/untitled/logo-128.caec2168a748.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/untitled/discord-large-image.6fb45fd7dea7.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/untitled/discord-small-image.5b8f6846c250.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/untitled/tray-menu.08e960f8111e.ico",
+        "md5": "08e960f8111ef69028e84ce1e6614c4b"
       }
     ],
     "vlc": [
