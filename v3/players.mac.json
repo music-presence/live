@@ -75,6 +75,30 @@
       }
     },
     {
+      "id": "anghami",
+      "name": "Anghami",
+      "url": "https://www.anghami.com",
+      "sources": {
+        "web_domain": [
+          "play.anghami.com"
+        ],
+        "mac_mediaremote": [
+          "com.anghami.anghami"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": true
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1404184096405590158"
+      }
+    },
+    {
       "id": "apple-books",
       "name": "Apple Books",
       "url": "https://www.apple.com/apple-books",
@@ -971,6 +995,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/amperfy/tray-menu.affc6a36d769.ico",
         "md5": "affc6a36d769b0a009e950649cb559c7"
+      }
+    ],
+    "anghami": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/anghami/logo-128.66f725439f6f.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/anghami/discord-large-image.b8d9ee15e560.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/anghami/discord-small-image.7f92148a09ec.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/anghami/tray-menu.a55e86ef2199.ico",
+        "md5": "a55e86ef219914467f261329e526c8e6"
       }
     ],
     "apple-books": [
