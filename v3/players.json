@@ -808,6 +808,27 @@
       }
     },
     {
+      "id": "longplay",
+      "name": "Longplay",
+      "url": "https://longplay.rocks",
+      "sources": {
+        "mac_mediaremote": [
+          "app.longplay.Longplay-Mac"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1403933691348123718"
+      }
+    },
+    {
       "id": "mediamonkey",
       "name": "MediaMonkey",
       "url": "https://www.mediamonkey.com",
@@ -2735,6 +2756,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/kde-connect/tray-menu.e44071543a82.ico",
         "md5": "e44071543a827532612d940eb1c5e755"
+      }
+    ],
+    "longplay": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/longplay/logo-128.9f62c0dbd953.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/longplay/discord-large-image.4cb0f977c78d.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/longplay/discord-small-image.4d63d07b29c4.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/longplay/tray-menu.b4c1f15d27b2.ico",
+        "md5": "b4c1f15d27b2e61bcbf0ab61383bdaa2"
       }
     ],
     "mediamonkey": [
