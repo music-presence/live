@@ -214,6 +214,30 @@
       }
     },
     {
+      "id": "chromatix",
+      "name": "Chromatix",
+      "url": "https://chromatix.app",
+      "represents": [
+        "plex"
+      ],
+      "sources": {
+        "win_winrt": [
+          "com.chromatix.app"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1404499673464442910"
+      }
+    },
+    {
       "id": "cider",
       "name": "Cider",
       "url": "https://cider.sh",
@@ -1635,6 +1659,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/bandcamp/tray-menu.46922eb90d5c.ico",
         "md5": "46922eb90d5cbc4f25a62077e289d19d"
+      }
+    ],
+    "chromatix": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/chromatix/logo-128.3a66202c9e55.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/chromatix/discord-large-image.45ba4fdec99b.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/chromatix/discord-small-image.3b918589c589.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/chromatix/tray-menu.71e6816d1036.ico",
+        "md5": "71e6816d1036fd4ccc2a1cd72972225e"
       }
     ],
     "cider": [
