@@ -859,6 +859,28 @@
       }
     },
     {
+      "id": "triode",
+      "name": "Triode",
+      "url": "https://triode.app",
+      "sources": {
+        "mac_mediaremote": [
+          "com.iconfactory.StreamerMac"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_radio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1404871118128414750"
+      }
+    },
+    {
       "id": "vlc",
       "name": "VLC",
       "url": "https://www.videolan.org/vlc",
@@ -1800,6 +1822,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/tidal/tray-menu.97eb9875b2c5.ico",
         "md5": "97eb9875b2c56cea195f4966b8f59b7b"
+      }
+    ],
+    "triode": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/triode/logo-128.541c2afb891c.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/triode/discord-large-image.73799d11efee.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/triode/discord-small-image.0f670cf0545e.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/triode/tray-menu.0b2634d17e67.ico",
+        "md5": "0b2634d17e67bcb504c7790e0d629a5c"
       }
     ],
     "vlc": [
