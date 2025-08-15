@@ -482,6 +482,9 @@
       "sources": {
         "web_domain": [
           "music.163.com"
+        ],
+        "mac_mediaremote": [
+          "com.netease.163music"
         ]
       },
       "attributes": {
@@ -922,6 +925,31 @@
       ],
       "extra": {
         "discord_application_id": "1295649755535511592"
+      }
+    },
+    {
+      "id": "yesplaymusic",
+      "name": "YesPlayMusic",
+      "url": "https://github.com/qier222/YesPlayMusic",
+      "represents": [
+        "netease-cloud-music",
+        "netease-cloud-music-zh-placeholder"
+      ],
+      "sources": {
+        "mac_mediaremote": [
+          "com.electron.yesplaymusic"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1379383557004329051"
       }
     },
     {
@@ -1891,6 +1919,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/yandex-music/tray-menu.7d988302444e.ico",
         "md5": "7d988302444e37c81135aa149d93f8bc"
+      }
+    ],
+    "yesplaymusic": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/yesplaymusic/logo-128.db5a74a11c09.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/yesplaymusic/discord-large-image.03555a1ef143.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/yesplaymusic/discord-small-image.2226430b5962.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/yesplaymusic/tray-menu.f9f6e4180dae.ico",
+        "md5": "f9f6e4180daedd8a4bf81f657d493cbb"
       }
     ],
     "youtube": [

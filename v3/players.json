@@ -1090,6 +1090,9 @@
       "sources": {
         "web_domain": [
           "music.163.com"
+        ],
+        "mac_mediaremote": [
+          "com.netease.163music"
         ]
       },
       "attributes": {
@@ -2038,6 +2041,9 @@
       ],
       "sources": {
         "win_winrt": [
+          "com.electron.yesplaymusic"
+        ],
+        "mac_mediaremote": [
           "com.electron.yesplaymusic"
         ]
       },
