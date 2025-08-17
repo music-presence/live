@@ -2041,6 +2041,7 @@
       ],
       "sources": {
         "win_winrt": [
+          "YesPlayMusic.exe",
           "com.electron.yesplaymusic"
         ],
         "mac_mediaremote": [
