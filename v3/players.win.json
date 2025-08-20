@@ -951,6 +951,7 @@
       "url": "https://roon.app",
       "sources": {
         "win_winrt": [
+          "Roon.exe",
           "Roon"
         ]
       },
