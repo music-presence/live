@@ -1774,7 +1774,8 @@
           "tauon"
         ],
         "win_winrt": [
-          "Tauon.exe"
+          "Tauon.exe",
+          "Tauon Music Box.exe"
         ]
       },
       "attributes": {
