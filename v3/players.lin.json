@@ -474,6 +474,27 @@
       }
     },
     {
+      "id": "mpv",
+      "name": "mpv",
+      "url": "https://mpv.io",
+      "sources": {
+        "lin_mpris": [
+          "mpv"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1302982880515063908"
+      }
+    },
+    {
       "id": "musicbee",
       "name": "MusicBee",
       "url": "https://www.getmusicbee.com",
@@ -1379,6 +1400,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/kde-connect/tray-menu.e44071543a82.ico",
         "md5": "e44071543a827532612d940eb1c5e755"
+      }
+    ],
+    "mpv": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mpv/logo-128.38cd09134c82.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mpv/discord-large-image.76a615b5179c.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mpv/discord-small-image.bd24a9f42e55.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/mpv/tray-menu.fd0b262c905c.ico",
+        "md5": "fd0b262c905c8936bbcbb278c93d0940"
       }
     ],
     "musicbee": [

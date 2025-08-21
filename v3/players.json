@@ -993,6 +993,9 @@
       "name": "mpv",
       "url": "https://mpv.io",
       "sources": {
+        "lin_mpris": [
+          "mpv"
+        ],
         "win_winrt": [
           "mpv.exe"
         ],
