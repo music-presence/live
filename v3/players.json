@@ -558,6 +558,28 @@
       }
     },
     {
+      "id": "eter",
+      "name": "Eter",
+      "url": "https://eter.apparentsoft.com",
+      "sources": {
+        "mac_mediaremote": [
+          "com.mackozer.NewWorldRadioPlayer"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_radio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1408582995220365543"
+      }
+    },
+    {
       "id": "foobar2000",
       "name": "foobar2000",
       "url": "https://www.foobar2000.org",
@@ -2609,6 +2631,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/emby/tray-menu.6fe68942e0f3.ico",
         "md5": "6fe68942e0f3e1a5374c0728c3f2d8ab"
+      }
+    ],
+    "eter": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/eter/logo-128.2f7aea173c35.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/eter/discord-large-image.27d7e8e63e1b.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/eter/discord-small-image.1b82109e06e9.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/eter/tray-menu.0e1ad5156e6a.ico",
+        "md5": "0e1ad5156e6a3ce4e12a315e66e72616"
       }
     ],
     "foobar2000": [
