@@ -1038,6 +1038,29 @@
       }
     },
     {
+      "id": "musbox",
+      "name": "Musbox",
+      "url": "https://apps.microsoft.com/detail/9nblggh68lmn",
+      "sources": {
+        "win_winrt": [
+          "15571neosonne.Musbox_qxsn2b5e40q52!app",
+          "15571neosonne.Musbox_qxsn2b5e40q52!App",
+          "15571neosonne.Musbox_qxsn2b5e40q52!APP"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1409893620693209180"
+      }
+    },
+    {
       "id": "musicbee",
       "name": "MusicBee",
       "url": "https://www.getmusicbee.com",
@@ -3091,6 +3114,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/mpv/tray-menu.fd0b262c905c.ico",
         "md5": "fd0b262c905c8936bbcbb278c93d0940"
+      }
+    ],
+    "musbox": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/musbox/logo-128.3a614be0f1d6.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/musbox/discord-large-image.9b85426508cd.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/musbox/discord-small-image.62b227112295.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/musbox/tray-menu.dd32cf8df04b.ico",
+        "md5": "dd32cf8df04b7a1bfe40e885b01d5c2a"
       }
     ],
     "musicbee": [
