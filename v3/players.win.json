@@ -338,6 +338,27 @@
       }
     },
     {
+      "id": "fluentcast",
+      "name": "FluentCast",
+      "url": "https://luandersonn.com/fluentcast",
+      "sources": {
+        "win_winrt": [
+          "1664LuandersonnAirton.FluentCast_0srnedvzndzw6!App"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_podcast"
+      ],
+      "extra": {
+        "discord_application_id": "1411760036455121159"
+      }
+    },
+    {
       "id": "foobar2000",
       "name": "foobar2000",
       "url": "https://www.foobar2000.org",
@@ -1801,6 +1822,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/emby/tray-menu.6fe68942e0f3.ico",
         "md5": "6fe68942e0f3e1a5374c0728c3f2d8ab"
+      }
+    ],
+    "fluentcast": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/fluentcast/logo-128.ea7d7b44f8ee.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/fluentcast/discord-large-image.e5cd123082c6.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/fluentcast/discord-small-image.f2cbe1a785cf.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/fluentcast/tray-menu.c0cda02db765.ico",
+        "md5": "c0cda02db765f4084447d75ecfae6124"
       }
     ],
     "foobar2000": [
