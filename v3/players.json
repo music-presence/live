@@ -923,6 +923,30 @@
       }
     },
     {
+      "id": "khinsider",
+      "name": "KHInsider",
+      "url": "https://downloads.khinsider.com",
+      "sources": {
+        "web_domain": [
+          "downloads.khinsider.com"
+        ],
+        "win_winrt": [
+          "electron.app.Khinsider"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1412803463456493629"
+      }
+    },
+    {
       "id": "longplay",
       "name": "Longplay",
       "url": "https://longplay.rocks",
@@ -3044,6 +3068,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/kde-connect/tray-menu.e44071543a82.ico",
         "md5": "e44071543a827532612d940eb1c5e755"
+      }
+    ],
+    "khinsider": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/khinsider/logo-128.b7b02fe20ca9.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/khinsider/discord-large-image.8d2d6517c1ff.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/khinsider/discord-small-image.225722ec595e.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/khinsider/tray-menu.b54e5faf5b31.ico",
+        "md5": "b54e5faf5b31ab6c611fa201aad89ac7"
       }
     ],
     "longplay": [
