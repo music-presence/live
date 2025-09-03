@@ -761,6 +761,30 @@
       }
     },
     {
+      "id": "ibroadcast",
+      "name": "iBroadcast",
+      "url": "https://ibroadcast.com",
+      "sources": {
+        "web_domain": [
+          "media.ibroadcast.com"
+        ],
+        "win_winrt": [
+          "electron.app.iBroadcast"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1412794299963281558"
+      }
+    },
+    {
       "id": "infuse",
       "name": "Infuse",
       "url": "https://firecore.com/infuse",
@@ -1607,7 +1631,7 @@
         "audio"
       ],
       "extra": {
-        "discord_application_id": "1285586777616420885"
+        "discord_application_id": "1412795937461371010"
       }
     },
     {
@@ -2882,6 +2906,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/harmony/tray-menu.1b4103dc5018.ico",
         "md5": "1b4103dc50188d959d806e9555465864"
+      }
+    ],
+    "ibroadcast": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/ibroadcast/logo-128.673c936588d7.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/ibroadcast/discord-large-image.11c61294d6f9.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/ibroadcast/discord-small-image.1d7c6917930b.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/ibroadcast/tray-menu.bc9675907476.ico",
+        "md5": "bc96759074766e2d82956159c4948d2a"
       }
     ],
     "infuse": [
