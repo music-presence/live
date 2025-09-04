@@ -194,7 +194,8 @@
       "url": "https://music.apple.com",
       "sources": {
         "web_domain": [
-          "music.apple.com"
+          "music.apple.com",
+          "classical.music.apple.com"
         ],
         "win_winrt": [
           "AppleMusic.exe",
