@@ -391,6 +391,27 @@
       }
     },
     {
+      "id": "idagio",
+      "name": "IDAGIO",
+      "url": "https://www.idagio.com",
+      "sources": {
+        "web_domain": [
+          "app.idagio.com"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": true
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1413620683493085256"
+      }
+    },
+    {
       "id": "infuse",
       "name": "Infuse",
       "url": "https://firecore.com/infuse",
@@ -1432,6 +1453,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/ibroadcast/tray-menu.bc9675907476.ico",
         "md5": "bc96759074766e2d82956159c4948d2a"
+      }
+    ],
+    "idagio": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/idagio/logo-128.babbf0d92a93.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/idagio/discord-large-image.70afad72dd0e.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/idagio/discord-small-image.562afd9df007.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/idagio/tray-menu.c02648c7ddbd.ico",
+        "md5": "c02648c7ddbd0fddfed3afca9c4e897c"
       }
     ],
     "infuse": [
