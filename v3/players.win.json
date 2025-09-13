@@ -1553,7 +1553,8 @@
           "youtu.be"
         ],
         "win_winrt": [
-          "YouTube.exe"
+          "YouTube.exe",
+          "electron.app.YouTube"
         ]
       },
       "attributes": {
