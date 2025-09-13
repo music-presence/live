@@ -99,6 +99,27 @@
       }
     },
     {
+      "id": "aonsoku",
+      "name": "Aonsoku",
+      "url": "https://github.com/victoralvesf/aonsoku",
+      "sources": {
+        "mac_mediaremote": [
+          "com.victoralvesf.aonsoku"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1416470502184063026"
+      }
+    },
+    {
       "id": "apple-books",
       "name": "Apple Books",
       "url": "https://www.apple.com/apple-books",
@@ -1154,6 +1175,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/anghami/tray-menu.a55e86ef2199.ico",
         "md5": "a55e86ef219914467f261329e526c8e6"
+      }
+    ],
+    "aonsoku": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aonsoku/logo-128.0107408a8228.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aonsoku/discord-large-image.cbf70761346e.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aonsoku/discord-small-image.a7935cc906b9.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/aonsoku/tray-menu.24334e233b7a.ico",
+        "md5": "24334e233b7a9f7d9a5c6621d35f71df"
       }
     ],
     "apple-books": [
