@@ -1656,6 +1656,29 @@
       }
     },
     {
+      "id": "rise-media-player",
+      "name": "Rise Media Player",
+      "url": "https://github.com/Rise-Software/Rise-Media-Player",
+      "sources": {
+        "win_winrt": [
+          "60499RiseSoftware.RiseMediaPlayer_3kvj791xg7kd0!app",
+          "60499RiseSoftware.RiseMediaPlayer_3kvj791xg7kd0!App",
+          "60499RiseSoftware.RiseMediaPlayer_3kvj791xg7kd0!APP"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1416756015998832703"
+      }
+    },
+    {
       "id": "roon",
       "name": "Roon",
       "url": "https://roon.app",
@@ -3852,6 +3875,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/recordbox/tray-menu.c56e9fe7c193.ico",
         "md5": "c56e9fe7c19305fb0f4c7e2682f5afd0"
+      }
+    ],
+    "rise-media-player": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rise-media-player/logo-128.629f6b6c9be2.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rise-media-player/discord-large-image.7aef3d095dba.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rise-media-player/discord-small-image.c31aae1fbb8c.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/rise-media-player/tray-menu.eae535660fab.ico",
+        "md5": "eae535660fab7276bd01d365e52a591a"
       }
     ],
     "roon": [
