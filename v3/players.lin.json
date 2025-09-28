@@ -912,6 +912,27 @@
       }
     },
     {
+      "id": "supersonic",
+      "name": "Supersonic",
+      "url": "https://github.com/dweymouth/supersonic",
+      "sources": {
+        "lin_mpris": [
+          "Supersonic"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1351467474524049418"
+      }
+    },
+    {
       "id": "tauon",
       "name": "Tauon",
       "url": "https://tauonmusicbox.rocks",
@@ -1946,6 +1967,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/strawberry/tray-menu.678159c682f7.ico",
         "md5": "678159c682f73253c3b2cc1d58fce0ac"
+      }
+    ],
+    "supersonic": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/supersonic/logo-128.e5e5b712065e.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/supersonic/discord-large-image.7e8d3c2b19a0.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/supersonic/discord-small-image.6e74a05b03e5.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/supersonic/tray-menu.9acceafb3eac.ico",
+        "md5": "9acceafb3eacd3473d7b76583fae3e68"
       }
     ],
     "tauon": [

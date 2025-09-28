@@ -1935,6 +1935,9 @@
       "name": "Supersonic",
       "url": "https://github.com/dweymouth/supersonic",
       "sources": {
+        "lin_mpris": [
+          "Supersonic"
+        ],
         "win_winrt": [
           "Supersonic.exe"
         ]
