@@ -690,6 +690,30 @@
       }
     },
     {
+      "id": "plexamp",
+      "name": "Plexamp",
+      "url": "https://www.plex.tv/plexamp",
+      "represents": [
+        "plex"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "Plexamp"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1371460970404384848"
+      }
+    },
+    {
       "id": "pocket-casts",
       "name": "Pocket Casts",
       "url": "https://pocketcasts.com",
@@ -1737,6 +1761,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/plex/tray-menu.ec9bea1c8f20.ico",
         "md5": "ec9bea1c8f203a20a741c29896d58c9c"
+      }
+    ],
+    "plexamp": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/plexamp/logo-128.681e5edec1fb.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/plexamp/discord-large-image.43ee41c2b9ae.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/plexamp/discord-small-image.ab27b45e4216.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/plexamp/tray-menu.e96740bdfb8e.ico",
+        "md5": "e96740bdfb8e766a6798dbefb86a7af3"
       }
     ],
     "pocket-casts": [

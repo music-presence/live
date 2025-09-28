@@ -1422,6 +1422,9 @@
         "plex"
       ],
       "sources": {
+        "lin_mpris": [
+          "Plexamp"
+        ],
         "mac_mediaremote": [
           "tv.plex.plexamp"
         ]
