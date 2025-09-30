@@ -2134,6 +2134,7 @@
       "url": "https://untitled.stream",
       "sources": {
         "win_winrt": [
+          "[untitled].exe",
           "electron.app.[untitled]"
         ]
       },
