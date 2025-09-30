@@ -491,6 +491,30 @@
       }
     },
     {
+      "id": "discrete",
+      "name": "Discrete",
+      "url": "https://discrete.app",
+      "represents": [
+        "jellyfin"
+      ],
+      "sources": {
+        "mac_mediaremote": [
+          "app.discrete.apple-platforms"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1422604715396431892"
+      }
+    },
+    {
       "id": "dopamine",
       "name": "Dopamine",
       "url": "https://github.com/digimezzo/dopamine",
@@ -888,6 +912,9 @@
       "sources": {
         "win_winrt": [
           "JellyfinMediaPlayer.exe"
+        ],
+        "mac_mediaremote": [
+          "tv.jellyfin.player"
         ]
       },
       "attributes": {
@@ -1360,6 +1387,27 @@
       }
     },
     {
+      "id": "overcast",
+      "name": "Overcast",
+      "url": "https://overcast.fm",
+      "sources": {
+        "mac_mediaremote": [
+          "fm.overcast.overcast"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_podcast"
+      ],
+      "extra": {
+        "discord_application_id": "1422607371234185246"
+      }
+    },
+    {
       "id": "pandora",
       "name": "Pandora",
       "url": "https://pandora.com",
@@ -1518,6 +1566,27 @@
       ],
       "extra": {
         "discord_application_id": "1348735599317881004"
+      }
+    },
+    {
+      "id": "prologue",
+      "name": "Prologue",
+      "url": "https://prologue.audio",
+      "sources": {
+        "mac_mediaremote": [
+          "me.charlick.prismbooks"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_audiobook"
+      ],
+      "extra": {
+        "discord_application_id": "1422608751965372490"
       }
     },
     {
@@ -2756,6 +2825,29 @@
         "md5": "9dd7680d8b4c99e3ca0fcd6866754f86"
       }
     ],
+    "discrete": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/discrete/logo-128.8fdfe0025d55.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/discrete/discord-large-image.09e8850c96f2.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/discrete/discord-small-image.7953907168c4.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/discrete/tray-menu.3ba860defef4.ico",
+        "md5": "3ba860defef4000a504644c2936a1885"
+      }
+    ],
     "dopamine": [
       {
         "label": "logo-128",
@@ -3607,6 +3699,29 @@
         "md5": "50c6f51eb0d8c8daa79a5be92681acee"
       }
     ],
+    "overcast": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/overcast/logo-128.10a4a8263efb.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/overcast/discord-large-image.b19a249bc03b.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/overcast/discord-small-image.3283c38dcbfc.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/overcast/tray-menu.b3d055390720.ico",
+        "md5": "b3d055390720c3fe6eb6b1df045308b0"
+      }
+    ],
     "pandora": [
       {
         "label": "logo-128",
@@ -3743,6 +3858,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/potplayer/tray-menu.ce05b17a4e01.ico",
         "md5": "ce05b17a4e015a26802d3c68aa82dd07"
+      }
+    ],
+    "prologue": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/prologue/logo-128.4f16f10b76d0.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/prologue/discord-large-image.303e24e71482.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/prologue/discord-small-image.91c25bc86af4.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/prologue/tray-menu.3b6e176666c1.ico",
+        "md5": "3b6e176666c1794f68de147c1ba0ffc0"
       }
     ],
     "qobuz": [
