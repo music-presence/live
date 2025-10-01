@@ -415,6 +415,27 @@
       }
     },
     {
+      "id": "freefy",
+      "name": "Freefy",
+      "url": "https://freefy.app",
+      "sources": {
+        "web_domain": [
+          "freefy.app"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1422903491596259339"
+      }
+    },
+    {
       "id": "ibroadcast",
       "name": "iBroadcast",
       "url": "https://ibroadcast.com",
@@ -1584,6 +1605,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/foobar2000/tray-menu.933306823c37.ico",
         "md5": "933306823c37869d9afac3cdf66d2404"
+      }
+    ],
+    "freefy": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/freefy/logo-128.8ef9d98d1a41.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/freefy/discord-large-image.ba6d053c6263.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/freefy/discord-small-image.87348426c539.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/freefy/tray-menu.340fd5515f1e.ico",
+        "md5": "340fd5515f1e3995c4e974c8d1d0320f"
       }
     ],
     "ibroadcast": [
