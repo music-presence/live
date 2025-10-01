@@ -1327,6 +1327,29 @@
       }
     },
     {
+      "id": "musicloud",
+      "name": "Musicloud",
+      "url": "https://apps.microsoft.com/detail/9p6v0d62d4bq",
+      "sources": {
+        "win_winrt": [
+          "47059JimmyLin.Musicloud_xyw7tsdk3xz7m!APP",
+          "47059JimmyLin.Musicloud_xyw7tsdk3xz7m!App",
+          "47059JimmyLin.Musicloud_xyw7tsdk3xz7m!app"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1423002779785498724"
+      }
+    },
+    {
       "id": "namida",
       "name": "Namida",
       "url": "https://github.com/namidaco/namida",
@@ -3684,6 +3707,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/musicer/tray-menu.0f174c7012de.ico",
         "md5": "0f174c7012decd22bb703987cf67884b"
+      }
+    ],
+    "musicloud": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/musicloud/logo-128.329786162cfd.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/musicloud/discord-large-image.d23303cfaca1.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/musicloud/discord-small-image.72e137650936.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/musicloud/tray-menu.8c610b38f9f8.ico",
+        "md5": "8c610b38f9f8e1f90ebc9170ca9b0c97"
       }
     ],
     "namida": [
