@@ -315,6 +315,33 @@
       }
     },
     {
+      "id": "chillhop",
+      "name": "Chillhop",
+      "url": "https://chillhop.com",
+      "sources": {
+        "web_domain": [
+          "chillhop.com",
+          "app.chillhop.com"
+        ],
+        "win_winrt": [
+          "app.chillhop.com-336B278F_faxm46sd83344!APP",
+          "app.chillhop.com-336B278F_faxm46sd83344!App",
+          "app.chillhop.com-336B278F_faxm46sd83344!app"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1422997966779715614"
+      }
+    },
+    {
       "id": "chromatix",
       "name": "Chromatix",
       "url": "https://chromatix.app",
@@ -2714,6 +2741,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/bandcamp/tray-menu.46922eb90d5c.ico",
         "md5": "46922eb90d5cbc4f25a62077e289d19d"
+      }
+    ],
+    "chillhop": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/chillhop/logo-128.89d3819a7bde.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/chillhop/discord-large-image.70e8b4705507.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/chillhop/discord-small-image.27b09000280b.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/chillhop/tray-menu.8915094a7251.ico",
+        "md5": "8915094a725175ecf70c34fbb6d9cd4d"
       }
     ],
     "chromatix": [
