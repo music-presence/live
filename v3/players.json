@@ -659,7 +659,9 @@
       "url": "https://luandersonn.com/fluentcast",
       "sources": {
         "win_winrt": [
-          "1664LuandersonnAirton.FluentCast_0srnedvzndzw6!App"
+          "1664LuandersonnAirton.FluentCast_0srnedvzndzw6!app",
+          "1664LuandersonnAirton.FluentCast_0srnedvzndzw6!App",
+          "1664LuandersonnAirton.FluentCast_0srnedvzndzw6!APP"
         ]
       },
       "attributes": {
@@ -815,6 +817,29 @@
       ],
       "extra": {
         "discord_application_id": "1311729810908774481"
+      }
+    },
+    {
+      "id": "grover-podcast",
+      "name": "Grover Podcast",
+      "url": "https://groverpodcasts.com",
+      "sources": {
+        "win_winrt": [
+          "14610MatheusI.M.GroovePodcast_jx8kt06yv8vw6!app",
+          "14610MatheusI.M.GroovePodcast_jx8kt06yv8vw6!App",
+          "14610MatheusI.M.GroovePodcast_jx8kt06yv8vw6!APP"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_podcast"
+      ],
+      "extra": {
+        "discord_application_id": "1423294518047801384"
       }
     },
     {
@@ -3224,6 +3249,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/gnome-music/tray-menu.4b6754786b0f.ico",
         "md5": "4b6754786b0f461f4aa6748aa8f5e9d8"
+      }
+    ],
+    "grover-podcast": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/grover-podcast/logo-128.98c68807380e.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/grover-podcast/discord-large-image.c70fbada9104.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/grover-podcast/discord-small-image.9b3c870c6946.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/grover-podcast/tray-menu.3764ecbcc8fc.ico",
+        "md5": "3764ecbcc8fc61a912af8e45c22f0f83"
       }
     ],
     "harmonoid": [
