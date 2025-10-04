@@ -631,7 +631,7 @@
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/amazon-music/discord-small-image.1d4496e7a09c.png"
+        "url": "https://live.musicpresence.app/v3/icons/amazon-music/discord-small-image.2f4b5d918562.png"
       },
       {
         "label": "tray-menu",
@@ -677,7 +677,7 @@
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/apple-music/discord-small-image.2f2a4a16e5aa.png"
+        "url": "https://live.musicpresence.app/v3/icons/apple-music/discord-small-image.9dae2109ba9b.png"
       },
       {
         "label": "tray-menu",
@@ -759,23 +759,23 @@
       {
         "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/deezer/logo-128.4cd91d0585bf.png"
+        "url": "https://live.musicpresence.app/v3/icons/deezer/logo-128.6f1fde7008ef.png"
       },
       {
         "label": "discord-large-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/deezer/discord-large-image.08537f6e05f6.png"
+        "url": "https://live.musicpresence.app/v3/icons/deezer/discord-large-image.6d135f24eaed.png"
       },
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/deezer/discord-small-image.5d511473c9e8.png"
+        "url": "https://live.musicpresence.app/v3/icons/deezer/discord-small-image.0adf7958531c.png"
       },
       {
         "label": "tray-menu",
         "type": "ico",
-        "url": "https://live.musicpresence.app/v3/icons/deezer/tray-menu.9dd7680d8b4c.ico",
-        "md5": "9dd7680d8b4c99e3ca0fcd6866754f86"
+        "url": "https://live.musicpresence.app/v3/icons/deezer/tray-menu.69cac4278220.ico",
+        "md5": "69cac4278220db493181199c8a5910cd"
       }
     ],
     "freefy": [
@@ -907,7 +907,7 @@
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/netease-cloud-music/discord-small-image.ff0575c63288.png"
+        "url": "https://live.musicpresence.app/v3/icons/netease-cloud-music/discord-small-image.70365aa7d145.png"
       },
       {
         "label": "tray-menu",
@@ -930,7 +930,7 @@
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/netease-cloud-music-zh-placeholder/discord-small-image.ff0575c63288.png"
+        "url": "https://live.musicpresence.app/v3/icons/netease-cloud-music-zh-placeholder/discord-small-image.70365aa7d145.png"
       },
       {
         "label": "tray-menu",
@@ -1114,7 +1114,7 @@
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/soundcloud/discord-small-image.12ac873c70e2.png"
+        "url": "https://live.musicpresence.app/v3/icons/soundcloud/discord-small-image.5cfbfdc0e020.png"
       },
       {
         "label": "tray-menu",
@@ -1137,7 +1137,7 @@
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/spotify/discord-small-image.f4d35e7aa231.png"
+        "url": "https://live.musicpresence.app/v3/icons/spotify/discord-small-image.f9d4e1be42ca.png"
       },
       {
         "label": "tray-menu",
@@ -1160,7 +1160,7 @@
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/tidal/discord-small-image.931beedff6b1.png"
+        "url": "https://live.musicpresence.app/v3/icons/tidal/discord-small-image.1b03069cc4c3.png"
       },
       {
         "label": "tray-menu",
@@ -1229,7 +1229,7 @@
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/youtube-music/discord-small-image.8e4fe9070d8d.png"
+        "url": "https://live.musicpresence.app/v3/icons/youtube-music/discord-small-image.8bbde080aafa.png"
       },
       {
         "label": "tray-menu",
