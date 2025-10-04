@@ -905,6 +905,9 @@
       "sources": {
         "web_domain": [
           "y.qq.com"
+        ],
+        "mac_mediaremote": [
+          "com.tencent.QQMusicMac"
         ]
       },
       "attributes": {

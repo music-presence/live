@@ -1731,6 +1731,9 @@
         ],
         "win_winrt": [
           "QQMusic.exe"
+        ],
+        "mac_mediaremote": [
+          "com.tencent.QQMusicMac"
         ]
       },
       "attributes": {
