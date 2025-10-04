@@ -1219,23 +1219,23 @@
       {
         "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/youtube-music/logo-128.91d42835fae1.png"
+        "url": "https://live.musicpresence.app/v3/icons/youtube-music/logo-128.5540b52171f0.png"
       },
       {
         "label": "discord-large-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/youtube-music/discord-large-image.ddd0049f646b.png"
+        "url": "https://live.musicpresence.app/v3/icons/youtube-music/discord-large-image.94f018b35673.png"
       },
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/youtube-music/discord-small-image.cf0b2a7001d5.png"
+        "url": "https://live.musicpresence.app/v3/icons/youtube-music/discord-small-image.8668a28fe2ae.png"
       },
       {
         "label": "tray-menu",
         "type": "ico",
-        "url": "https://live.musicpresence.app/v3/icons/youtube-music/tray-menu.7e8b046fc471.ico",
-        "md5": "7e8b046fc471a8219ff65e658c63d86e"
+        "url": "https://live.musicpresence.app/v3/icons/youtube-music/tray-menu.b4af43c01dbb.ico",
+        "md5": "b4af43c01dbb14f75d4446326ed7efe2"
       }
     ]
   }
