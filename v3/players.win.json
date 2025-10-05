@@ -515,7 +515,8 @@
           "media.ibroadcast.com"
         ],
         "win_winrt": [
-          "electron.app.iBroadcast"
+          "electron.app.iBroadcast",
+          "electron.app.ibroadcast"
         ]
       },
       "attributes": {
