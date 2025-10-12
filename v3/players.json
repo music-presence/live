@@ -2310,6 +2310,27 @@
       }
     },
     {
+      "id": "vox-mac",
+      "name": "VOX",
+      "url": "https://vox.rocks/mac-music-player",
+      "sources": {
+        "mac_mediaremote": [
+          "com.coppertino.Vox"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1426851601171222679"
+      }
+    },
+    {
       "id": "wacup",
       "name": "WACUP",
       "url": "https://getwacup.com",
@@ -4655,6 +4676,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/vlc/tray-menu.b2f48ea89388.ico",
         "md5": "b2f48ea89388867beb5b0d042755339c"
+      }
+    ],
+    "vox-mac": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/vox-mac/logo-128.eb8d22635d84.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/vox-mac/discord-large-image.b6c8958c5797.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/vox-mac/discord-small-image.bdb17f4b2f95.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/vox-mac/tray-menu.a8647b634888.ico",
+        "md5": "a8647b6348880b8462ca998331b43ffe"
       }
     ],
     "wacup": [
