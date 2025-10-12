@@ -191,6 +191,28 @@
       }
     },
     {
+      "id": "audible",
+      "name": "Audible",
+      "url": "https://www.audible.com",
+      "sources": {
+        "mac_mediaremote": [
+          "com.audible.iphone",
+          "com.webcatalog.juli.audible"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": true
+      },
+      "content": [
+        "audio",
+        "audio_audiobook"
+      ],
+      "extra": {
+        "discord_application_id": "1426973618771857468"
+      }
+    },
+    {
       "id": "bandcamp",
       "name": "Bandcamp",
       "url": "https://bandcamp.com",
@@ -465,6 +487,9 @@
       "sources": {
         "web_domain": [
           "media.ibroadcast.com"
+        ],
+        "mac_mediaremote": [
+          "com.webcatalog.juli.ibroadcast"
         ]
       },
       "attributes": {
@@ -1422,6 +1447,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/tray-menu.818727bd0763.ico",
         "md5": "818727bd0763b155509823df1db932a4"
+      }
+    ],
+    "audible": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/audible/logo-128.1f12ff04ab5d.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/audible/discord-large-image.225c7d377593.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/audible/discord-small-image.ba858d511044.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/audible/tray-menu.93060213961c.ico",
+        "md5": "93060213961c567020fbf8031025bb60"
       }
     ],
     "bandcamp": [
