@@ -677,6 +677,27 @@
       }
     },
     {
+      "id": "feishin",
+      "name": "Feishin",
+      "url": "https://github.com/jeffvli/feishin",
+      "sources": {
+        "lin_mpris": [
+          "Feishin"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1427650346028892191"
+      }
+    },
+    {
       "id": "fluentcast",
       "name": "FluentCast",
       "url": "https://luandersonn.com/fluentcast",
@@ -3183,6 +3204,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/eter/tray-menu.0e1ad5156e6a.ico",
         "md5": "0e1ad5156e6a3ce4e12a315e66e72616"
+      }
+    ],
+    "feishin": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/feishin/logo-128.2d575a41acb6.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/feishin/discord-large-image.33a827bd4c52.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/feishin/discord-small-image.5a27ac38eb95.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/feishin/tray-menu.ef3d3cb189c4.ico",
+        "md5": "ef3d3cb189c42477c3c790978a6f9d62"
       }
     ],
     "fluentcast": [
