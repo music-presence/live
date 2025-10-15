@@ -1126,7 +1126,8 @@
         ],
         "win_winrt": [
           "Qobuz.exe",
-          "com.squirrel.Qobuz.Qobuz"
+          "com.squirrel.Qobuz.Qobuz",
+          "electron.app.Qobuz"
         ]
       },
       "attributes": {
