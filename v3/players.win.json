@@ -368,6 +368,30 @@
       }
     },
     {
+      "id": "fladder",
+      "name": "Fladder",
+      "url": "https://github.com/DonutWare/Fladder",
+      "represents": [
+        "jellyfin"
+      ],
+      "sources": {
+        "win_winrt": [
+          "fladder.exe"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1428410544464855051"
+      }
+    },
+    {
       "id": "fluentcast",
       "name": "FluentCast",
       "url": "https://luandersonn.com/fluentcast",
@@ -2072,6 +2096,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/emby/tray-menu.6fe68942e0f3.ico",
         "md5": "6fe68942e0f3e1a5374c0728c3f2d8ab"
+      }
+    ],
+    "fladder": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/fladder/logo-128.d83b1c3d86d0.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/fladder/discord-large-image.66acb4ac7460.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/fladder/discord-small-image.2e3f75a81d30.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/fladder/tray-menu.8d75fea7e711.ico",
+        "md5": "8d75fea7e711996789c344f6d838d7d8"
       }
     ],
     "fluentcast": [
