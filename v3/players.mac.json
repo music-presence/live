@@ -1199,6 +1199,9 @@
         "web_domain": [
           "music.yandex.com",
           "music.yandex.ru"
+        ],
+        "mac_mediaremote": [
+          "ru.yandex.desktop.music"
         ]
       },
       "attributes": {
