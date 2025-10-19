@@ -2618,7 +2618,8 @@
           "com.squirrel.youtube_music_desktop_app.youtube-music-desktop-app"
         ],
         "mac_mediaremote": [
-          "com.github.th-ch.youtube-music"
+          "com.github.th-ch.youtube-music",
+          "com.webcatalog.juli.youtube-music"
         ]
       },
       "attributes": {
