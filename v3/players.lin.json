@@ -931,6 +931,27 @@
       }
     },
     {
+      "id": "sayonara",
+      "name": "Sayonara",
+      "url": "https://sayonara-player.com",
+      "sources": {
+        "lin_mpris": [
+          "sayonara"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1429817963808030840"
+      }
+    },
+    {
       "id": "soundcloud",
       "name": "SoundCloud",
       "url": "https://soundcloud.com",
@@ -2079,6 +2100,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/recordbox/tray-menu.c56e9fe7c193.ico",
         "md5": "c56e9fe7c19305fb0f4c7e2682f5afd0"
+      }
+    ],
+    "sayonara": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sayonara/logo-128.64e44af5ecd2.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sayonara/discord-large-image.b333b2bacf2b.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sayonara/discord-small-image.4fc962eb6ffe.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/sayonara/tray-menu.d7e3aa1e5d24.ico",
+        "md5": "d7e3aa1e5d24be26a1c079cbba8a256d"
       }
     ],
     "soundcloud": [
