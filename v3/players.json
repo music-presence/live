@@ -1927,6 +1927,27 @@
       }
     },
     {
+      "id": "rhythmbox",
+      "name": "Rhythmbox",
+      "url": "https://wiki.gnome.org/Apps/Rhythmbox",
+      "sources": {
+        "lin_mpris": [
+          "rhythmbox"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1430094591809556531"
+      }
+    },
+    {
       "id": "rise-media-player",
       "name": "Rise Media Player",
       "url": "https://github.com/Rise-Software/Rise-Media-Player",
@@ -4427,6 +4448,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/recordbox/tray-menu.c56e9fe7c193.ico",
         "md5": "c56e9fe7c19305fb0f4c7e2682f5afd0"
+      }
+    ],
+    "rhythmbox": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rhythmbox/logo-128.798beb635a3f.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rhythmbox/discord-large-image.cea2154b0ff1.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rhythmbox/discord-small-image.f31f4b88b61e.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/rhythmbox/tray-menu.828b528b1adf.ico",
+        "md5": "828b528b1adf90982d393456b2aef703"
       }
     ],
     "rise-media-player": [
