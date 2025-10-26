@@ -966,6 +966,53 @@
       }
     },
     {
+      "id": "neutron-music-player",
+      "name": "Neutron Music Player",
+      "url": "https://neutroncode.com/apps/player",
+      "represents": [
+        "neutron-music-player-placeholder"
+      ],
+      "sources": {
+        "win_winrt": [
+          "NeutronCodeLimited.NeutronMusicPlayer_63vf3jxagy284!app",
+          "NeutronCodeLimited.NeutronMusicPlayer_63vf3jxagy284!App",
+          "NeutronCodeLimited.NeutronMusicPlayer_63vf3jxagy284!APP"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1431934928240775319"
+      }
+    },
+    {
+      "id": "neutron-music-player-placeholder",
+      "name": "Neutron",
+      "url": "https://neutroncode.com/apps/player",
+      "sources": {
+        "web_domain": [
+          "neutroncode.com.example.com"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1431935967454826496"
+      }
+    },
+    {
       "id": "next-player",
       "name": "Next-Player",
       "url": "https://apps.microsoft.com/detail/9nblggh67n4f",
@@ -2671,6 +2718,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/netease-cloud-music-zh-placeholder/tray-menu.5a308635de50.ico",
         "md5": "5a308635de5052f75cfda45c8cb902b1"
+      }
+    ],
+    "neutron-music-player": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/neutron-music-player/logo-128.3628a1708cad.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/neutron-music-player/discord-large-image.f7a937a1fb51.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/neutron-music-player/discord-small-image.856ebcc051b6.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/neutron-music-player/tray-menu.c80f8da37019.ico",
+        "md5": "c80f8da37019fa7c7fed658901396e14"
       }
     ],
     "next-player": [
