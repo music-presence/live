@@ -631,6 +631,30 @@
       }
     },
     {
+      "id": "manet",
+      "name": "Manet",
+      "url": "https://tilosoftware.io/manet",
+      "represents": [
+        "jellyfin"
+      ],
+      "sources": {
+        "mac_mediaremote": [
+          "dev.tilo.Manet"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1434162741093994619"
+      }
+    },
+    {
       "id": "moosync",
       "name": "Moosync",
       "url": "https://moosync.app",
@@ -1932,6 +1956,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/longplay/tray-menu.b4c1f15d27b2.ico",
         "md5": "b4c1f15d27b2e61bcbf0ab61383bdaa2"
+      }
+    ],
+    "manet": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/manet/logo-128.e24d241dcf5e.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/manet/discord-large-image.3d3eb2d9b3a0.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/manet/discord-small-image.3ad72a5455a0.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/manet/tray-menu.bbad2362c7cc.ico",
+        "md5": "bbad2362c7cc9802e5cfcd25f7a86db3"
       }
     ],
     "moosync": [

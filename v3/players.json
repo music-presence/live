@@ -846,6 +846,27 @@
       }
     },
     {
+      "id": "gmusicbrowser",
+      "name": "gmusicbrowser",
+      "url": "https://gmusicbrowser.org",
+      "sources": {
+        "lin_mpris": [
+          "gmusicbrowser"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1434164430148468806"
+      }
+    },
+    {
       "id": "gnome-lollypop",
       "name": "Lollypop",
       "url": "https://wiki.gnome.org/Apps/Lollypop",
@@ -1191,6 +1212,30 @@
       ],
       "extra": {
         "discord_application_id": "1403933691348123718"
+      }
+    },
+    {
+      "id": "manet",
+      "name": "Manet",
+      "url": "https://tilosoftware.io/manet",
+      "represents": [
+        "jellyfin"
+      ],
+      "sources": {
+        "mac_mediaremote": [
+          "dev.tilo.Manet"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1434162741093994619"
       }
     },
     {
@@ -3485,6 +3530,29 @@
         "md5": "07b4b62f03c1875291b4e66dcb974e6b"
       }
     ],
+    "gmusicbrowser": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/gmusicbrowser/logo-128.ed06ac9a9c4d.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/gmusicbrowser/discord-large-image.cd6861962f61.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/gmusicbrowser/discord-small-image.47ea4c2594bf.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/gmusicbrowser/tray-menu.81856af6ec83.ico",
+        "md5": "81856af6ec83f1eed81b0fa87607cc7c"
+      }
+    ],
     "gnome-lollypop": [
       {
         "label": "logo-128",
@@ -3805,6 +3873,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/longplay/tray-menu.b4c1f15d27b2.ico",
         "md5": "b4c1f15d27b2e61bcbf0ab61383bdaa2"
+      }
+    ],
+    "manet": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/manet/logo-128.e24d241dcf5e.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/manet/discord-large-image.3d3eb2d9b3a0.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/manet/discord-small-image.3ad72a5455a0.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/manet/tray-menu.bbad2362c7cc.ico",
+        "md5": "bbad2362c7cc9802e5cfcd25f7a86db3"
       }
     ],
     "mediamonkey": [
