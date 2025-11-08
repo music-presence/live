@@ -510,6 +510,27 @@
       }
     },
     {
+      "id": "deadbeef",
+      "name": "DeaDBeeF",
+      "url": "https://deadbeef.sourceforge.io",
+      "sources": {
+        "lin_mpris": [
+          "DeaDBeeF"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1436822886336823296"
+      }
+    },
+    {
       "id": "deezer",
       "name": "Deezer",
       "url": "https://deezer.com",
@@ -3207,6 +3228,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/daftcloud/tray-menu.7da5f7517db0.ico",
         "md5": "7da5f7517db0c4dabe0119952d35926a"
+      }
+    ],
+    "deadbeef": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/deadbeef/logo-128.5ad8cddb16a9.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/deadbeef/discord-large-image.2577b511f86c.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/deadbeef/discord-small-image.61d2a946b95b.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/deadbeef/tray-menu.18900f9da7ad.ico",
+        "md5": "18900f9da7ad161fcb7110d102e73a77"
       }
     ],
     "deezer": [
