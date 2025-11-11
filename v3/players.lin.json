@@ -351,6 +351,28 @@
       }
     },
     {
+      "id": "firefox",
+      "name": "Firefox",
+      "url": "https://firefox.com",
+      "sources": {
+        "lin_mpris": [
+          "firefox"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false,
+        "browser": true
+      },
+      "content": [
+        "audio",
+        "video"
+      ],
+      "extra": {
+        "discord_application_id": "1205619376275980288"
+      }
+    },
+    {
       "id": "foobar2000",
       "name": "foobar2000",
       "url": "https://www.foobar2000.org",
