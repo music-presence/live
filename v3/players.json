@@ -719,28 +719,6 @@
       }
     },
     {
-      "id": "firefox",
-      "name": "Firefox",
-      "url": "https://firefox.com",
-      "sources": {
-        "lin_mpris": [
-          "firefox"
-        ]
-      },
-      "attributes": {
-        "pure": false,
-        "service": false,
-        "browser": true
-      },
-      "content": [
-        "audio",
-        "video"
-      ],
-      "extra": {
-        "discord_application_id": "1205619376275980288"
-      }
-    },
-    {
       "id": "fladder",
       "name": "Fladder",
       "url": "https://github.com/DonutWare/Fladder",
