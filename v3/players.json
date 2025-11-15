@@ -1149,6 +1149,27 @@
       }
     },
     {
+      "id": "kasts",
+      "name": "Kasts",
+      "url": "https://apps.kde.org/kasts",
+      "sources": {
+        "lin_mpris": [
+          "kasts"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_podcast"
+      ],
+      "extra": {
+        "discord_application_id": "1439169193844146226"
+      }
+    },
+    {
       "id": "kde-connect",
       "name": "KDE Connect",
       "url": "https://kdeconnect.kde.org",
@@ -3849,6 +3870,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/jiosaavn/tray-menu.ae57dce529fa.ico",
         "md5": "ae57dce529facf97a7d5ff8f839b750d"
+      }
+    ],
+    "kasts": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kasts/logo-128.9a200058bd4a.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kasts/discord-large-image.43492305a059.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kasts/discord-small-image.13184cd41d21.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/kasts/tray-menu.9a53061f030b.ico",
+        "md5": "9a53061f030b20d779d3fcc12ff9f899"
       }
     ],
     "kde-connect": [
