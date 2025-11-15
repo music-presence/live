@@ -2535,6 +2535,34 @@
       }
     },
     {
+      "id": "vacuumtube",
+      "name": "VacuumTube",
+      "url": "https://github.com/shy1132/VacuumTube",
+      "represents": [
+        "youtube"
+      ],
+      "sources": {},
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1439302515186335996"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "VacuumTube"
+          }
+        ]
+      }
+    },
+    {
       "id": "vlc",
       "name": "VLC",
       "url": "https://www.videolan.org/vlc",
@@ -5166,6 +5194,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/untitled/tray-menu.53425ed87e9e.ico",
         "md5": "53425ed87e9ef9994029a848d7fc3ff0"
+      }
+    ],
+    "vacuumtube": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/vacuumtube/logo-128.6536c9b5b41c.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/vacuumtube/discord-large-image.a21128c2b655.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/vacuumtube/discord-small-image.4dc0b1320999.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/vacuumtube/tray-menu.b0842153bb89.ico",
+        "md5": "b0842153bb89766c14881da44eaecfd6"
       }
     ],
     "vlc": [
