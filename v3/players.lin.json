@@ -221,6 +221,14 @@
       ],
       "extra": {
         "discord_application_id": "1302023626018787379"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "Cider"
+          }
+        ]
       }
     },
     {
