@@ -528,6 +528,30 @@
       }
     },
     {
+      "id": "high-tide",
+      "name": "High Tide",
+      "url": "https://github.com/Nokse22/high-tide",
+      "represents": [
+        "tidal"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "io.github.nokse22.high-tide"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1440291708020461589"
+      }
+    },
+    {
       "id": "ibroadcast",
       "name": "iBroadcast",
       "url": "https://ibroadcast.com",
@@ -1827,6 +1851,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/harmonoid/tray-menu.f34499b0a823.ico",
         "md5": "f34499b0a82373c314f07090f3c3a51f"
+      }
+    ],
+    "high-tide": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/high-tide/logo-128.8f4b1715975d.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/high-tide/discord-large-image.9338855cab05.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/high-tide/discord-small-image.7b75063612f6.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/high-tide/tray-menu.65f4b48afea9.ico",
+        "md5": "65f4b48afea9080621c883c451dbce26"
       }
     ],
     "ibroadcast": [
