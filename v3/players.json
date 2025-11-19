@@ -727,6 +727,30 @@
       }
     },
     {
+      "id": "finamp",
+      "name": "Finamp",
+      "url": "https://github.com/jmshrv/finamp",
+      "represents": [
+        "jellyfin"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "com.unicornsonlsd.finamp.audio"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1440754630072991918"
+      }
+    },
+    {
       "id": "fladder",
       "name": "Fladder",
       "url": "https://github.com/DonutWare/Fladder",
@@ -3516,6 +3540,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/feishin/tray-menu.7acbf8c15531.ico",
         "md5": "7acbf8c155314ed125167bede1d7b004"
+      }
+    ],
+    "finamp": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/finamp/logo-128.6d3676ea1297.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/finamp/discord-large-image.f30aa6ad14db.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/finamp/discord-small-image.a7f50066516b.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/finamp/tray-menu.0a0d50588bd1.ico",
+        "md5": "0a0d50588bd1d876cdcf722e72287b4e"
       }
     ],
     "fladder": [
