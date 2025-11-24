@@ -1345,7 +1345,8 @@
       "url": "https://example.com",
       "sources": {
         "win_winrt": [
-          "phone utils.exe"
+          "phone utils.exe",
+          "Vermilia phone-utils.exe"
         ]
       },
       "attributes": {
