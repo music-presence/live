@@ -712,6 +712,9 @@
       "sources": {
         "lin_mpris": [
           "Feishin"
+        ],
+        "win_winrt": [
+          "Feishin.exe"
         ]
       },
       "attributes": {
