@@ -343,7 +343,8 @@
       "url": "https://github.com/jeffvli/feishin",
       "sources": {
         "lin_mpris": [
-          "Feishin"
+          "Feishin",
+          "org.jeffvli.feishin"
         ]
       },
       "attributes": {
