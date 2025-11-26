@@ -810,7 +810,9 @@
       ],
       "sources": {
         "win_winrt": [
-          "55968SamsidGameStudios.FocalSonic_r9j5xrxak4zje!FocalSonic"
+          "55968SamsidGameStudios.FocalSonic_r9j5xrxak4zje!FocalSonic",
+          "55968SamsidGameStudios.FocalSonic_r9j5xrxak4zje!focalsonic",
+          "55968SamsidGameStudios.FocalSonic_r9j5xrxak4zje!FOCALSONIC"
         ]
       },
       "attributes": {
