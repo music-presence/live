@@ -802,6 +802,30 @@
       }
     },
     {
+      "id": "focalsonic",
+      "name": "FocalSonic",
+      "url": "https://apps.microsoft.com/detail/9n5gfqvkdbfm",
+      "represents": [
+        "apple-music"
+      ],
+      "sources": {
+        "win_winrt": [
+          "55968SamsidGameStudios.FocalSonic_r9j5xrxak4zje!FocalSonic"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1443227033709838466"
+      }
+    },
+    {
       "id": "foobar2000",
       "name": "foobar2000",
       "url": "https://www.foobar2000.org",
@@ -3614,6 +3638,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/fluentcast/tray-menu.cf832fe3468a.ico",
         "md5": "cf832fe3468ae8dfe09050c6debe35e2"
+      }
+    ],
+    "focalsonic": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/focalsonic/logo-128.df129611f935.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/focalsonic/discord-large-image.12470811cd8e.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/focalsonic/discord-small-image.90eaea167161.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/focalsonic/tray-menu.ead52ef354ed.ico",
+        "md5": "ead52ef354ed6e2ad7ff7fb4ba089976"
       }
     ],
     "foobar2000": [
