@@ -1060,6 +1060,27 @@
       }
     },
     {
+      "id": "haruna",
+      "name": "Haruna",
+      "url": "https://haruna.kde.org",
+      "sources": {
+        "lin_mpris": [
+          "haruna"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1443713661410611274"
+      }
+    },
+    {
       "id": "high-tide",
       "name": "High Tide",
       "url": "https://github.com/Nokse22/high-tide",
@@ -3893,6 +3914,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/harmony/tray-menu.d60038de6188.ico",
         "md5": "d60038de6188bbe3b478902431fdf5d3"
+      }
+    ],
+    "haruna": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/haruna/logo-128.3189afacbf8b.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/haruna/discord-large-image.7a36b80cd209.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/haruna/discord-small-image.f61321ea5a02.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/haruna/tray-menu.51af98791b7a.ico",
+        "md5": "51af98791b7af5f6e8d7e2234fd66ced"
       }
     ],
     "high-tide": [
