@@ -1663,6 +1663,27 @@
       }
     },
     {
+      "id": "nagi",
+      "name": "Nagi",
+      "url": "https://github.com/Anthonyy232/Nagi",
+      "sources": {
+        "win_winrt": [
+          "velopack.Nagi"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1444026909217259581"
+      }
+    },
+    {
       "id": "namida",
       "name": "Namida",
       "url": "https://github.com/namidaco/namida",
@@ -4466,6 +4487,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/musicloud/tray-menu.3c4897edc598.ico",
         "md5": "3c4897edc598ebb1448cf2f3f55a30ed"
+      }
+    ],
+    "nagi": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/nagi/logo-128.281f0d68391f.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/nagi/discord-large-image.b472b50b779d.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/nagi/discord-small-image.f8b95688a9d2.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/nagi/tray-menu.98217fc2e116.ico",
+        "md5": "98217fc2e11637fcc916b0739c913a31"
       }
     ],
     "namida": [
