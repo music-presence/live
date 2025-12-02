@@ -862,7 +862,8 @@
       ],
       "sources": {
         "mac_mediaremote": [
-          "tv.plex.plexamp"
+          "tv.plex.plexamp",
+          "tv.plex.labs.plexamp"
         ]
       },
       "attributes": {
@@ -1192,6 +1193,27 @@
       ],
       "extra": {
         "discord_application_id": "1404871118128414750"
+      }
+    },
+    {
+      "id": "untitled",
+      "name": "[untitled]",
+      "url": "https://untitled.stream",
+      "sources": {
+        "mac_mediaremote": [
+          "com.untitledinbrackets.untitled-macos"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1403424105532751963"
       }
     },
     {
@@ -2531,6 +2553,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/triode/tray-menu.431243b74d29.ico",
         "md5": "431243b74d299750628097aeef342a9e"
+      }
+    ],
+    "untitled": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/untitled/logo-128.caec2168a748.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/untitled/discord-large-image.6fb45fd7dea7.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/untitled/discord-small-image.5b8f6846c250.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/untitled/tray-menu.53425ed87e9e.ico",
+        "md5": "53425ed87e9ef9994029a848d7fc3ff0"
       }
     ],
     "vlc": [

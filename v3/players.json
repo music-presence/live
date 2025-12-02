@@ -1932,7 +1932,8 @@
           "Plexamp"
         ],
         "mac_mediaremote": [
-          "tv.plex.plexamp"
+          "tv.plex.plexamp",
+          "tv.plex.labs.plexamp"
         ]
       },
       "attributes": {
@@ -2641,6 +2642,9 @@
         "win_winrt": [
           "[untitled].exe",
           "electron.app.[untitled]"
+        ],
+        "mac_mediaremote": [
+          "com.untitledinbrackets.untitled-macos"
         ]
       },
       "attributes": {
