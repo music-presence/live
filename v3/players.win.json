@@ -1742,7 +1742,8 @@
         "win_winrt": [
           "MicrosoftCorporationII.WindowsSubsystemForAndroid_8wekyb3d8bbwe!app",
           "MicrosoftCorporationII.WindowsSubsystemForAndroid_8wekyb3d8bbwe!App",
-          "MicrosoftCorporationII.WindowsSubsystemForAndroid_8wekyb3d8bbwe!APP"
+          "MicrosoftCorporationII.WindowsSubsystemForAndroid_8wekyb3d8bbwe!APP",
+          "WsaClient.exe"
         ]
       },
       "attributes": {
