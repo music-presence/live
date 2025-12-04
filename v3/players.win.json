@@ -373,7 +373,8 @@
       "url": "https://github.com/jeffvli/feishin",
       "sources": {
         "win_winrt": [
-          "Feishin.exe"
+          "Feishin.exe",
+          "org.jeffvli.feishin"
         ]
       },
       "attributes": {

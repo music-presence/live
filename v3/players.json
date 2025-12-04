@@ -715,7 +715,8 @@
           "org.jeffvli.feishin"
         ],
         "win_winrt": [
-          "Feishin.exe"
+          "Feishin.exe",
+          "org.jeffvli.feishin"
         ]
       },
       "attributes": {
