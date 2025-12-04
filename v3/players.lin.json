@@ -983,6 +983,31 @@
       }
     },
     {
+      "id": "poweramp",
+      "name": "Poweramp",
+      "url": "https://powerampapp.com",
+      "sources": {},
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1446202094045630524"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "Valent",
+            "identity": "Poweramp"
+          }
+        ]
+      }
+    },
+    {
       "id": "qobuz",
       "name": "Qobuz",
       "url": "https://qobuz.com",
@@ -1298,6 +1323,27 @@
             "identity": "VacuumTube"
           }
         ]
+      }
+    },
+    {
+      "id": "valent",
+      "name": "Valent",
+      "url": "https://valent.andyholmes.ca",
+      "sources": {
+        "lin_mpris": [
+          "Valent"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1446204568198316052"
       }
     },
     {
@@ -2359,6 +2405,29 @@
         "md5": "d2f06efabf52f693cd798e2520df17f6"
       }
     ],
+    "poweramp": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/poweramp/logo-128.61bbee922571.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/poweramp/discord-large-image.da72502f6efa.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/poweramp/discord-small-image.7f64f35e89ea.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/poweramp/tray-menu.bd96d9a7120a.ico",
+        "md5": "bd96d9a7120a9ae478a55d5a1ae7b182"
+      }
+    ],
     "qobuz": [
       {
         "label": "logo-128",
@@ -2679,6 +2748,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/vacuumtube/tray-menu.b0842153bb89.ico",
         "md5": "b0842153bb89766c14881da44eaecfd6"
+      }
+    ],
+    "valent": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/valent/logo-128.d08a3be64b8f.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/valent/discord-large-image.291f6e8e65a6.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/valent/discord-small-image.80d847e9948b.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/valent/tray-menu.1506dc12771e.ico",
+        "md5": "1506dc12771ec6d1dc64fb4e6be7304e"
       }
     ],
     "vlc": [
