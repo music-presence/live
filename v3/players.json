@@ -1571,6 +1571,27 @@
       }
     },
     {
+      "id": "murglar",
+      "name": "Murglar",
+      "url": "https://murglar.app",
+      "sources": {
+        "win_winrt": [
+          "com.badmanners.murglar"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1448789813254951002"
+      }
+    },
+    {
       "id": "musbox",
       "name": "Musbox",
       "url": "https://apps.microsoft.com/detail/9nblggh68lmn",
@@ -4447,6 +4468,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/mpv/tray-menu.0b6c56827341.ico",
         "md5": "0b6c56827341b2977a1fd62b42da08e2"
+      }
+    ],
+    "murglar": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/murglar/logo-128.83540a3b2514.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/murglar/discord-large-image.55c7939b32c4.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/murglar/discord-small-image.479a865f34ef.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/murglar/tray-menu.383c951c8105.ico",
+        "md5": "383c951c8105cb71a0c0172a3cd94715"
       }
     ],
     "musbox": [
