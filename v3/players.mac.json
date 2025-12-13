@@ -526,6 +526,27 @@
       }
     },
     {
+      "id": "iina",
+      "name": "IINA",
+      "url": "https://iina.io",
+      "sources": {
+        "mac_mediaremote": [
+          "com.colliderli.iina"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1449324750357663785"
+      }
+    },
+    {
       "id": "infuse",
       "name": "Infuse",
       "url": "https://firecore.com/infuse",
@@ -1863,6 +1884,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/idagio/tray-menu.aa20d050b97e.ico",
         "md5": "aa20d050b97ef344847db1530b235551"
+      }
+    ],
+    "iina": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/iina/logo-128.021231db6fd7.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/iina/discord-large-image.957b73df7445.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/iina/discord-small-image.21d3b6ffd3b8.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/iina/tray-menu.a2845cb24853.ico",
+        "md5": "a2845cb24853b06f12b525fe40d96aca"
       }
     ],
     "infuse": [
