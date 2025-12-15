@@ -120,6 +120,27 @@
       }
     },
     {
+      "id": "aonsoku",
+      "name": "Aonsoku",
+      "url": "https://github.com/victoralvesf/aonsoku",
+      "sources": {
+        "win_winrt": [
+          "com.victoralvesf.aonsoku"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1416470502184063026"
+      }
+    },
+    {
       "id": "apple-music",
       "name": "Apple Music",
       "url": "https://music.apple.com",
@@ -2006,6 +2027,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/anghami/tray-menu.9d2bced7ce48.ico",
         "md5": "9d2bced7ce48487ef3d03c63f6efd99a"
+      }
+    ],
+    "aonsoku": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aonsoku/logo-128.0107408a8228.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aonsoku/discord-large-image.cbf70761346e.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aonsoku/discord-small-image.a7935cc906b9.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/aonsoku/tray-menu.d718b012c860.ico",
+        "md5": "d718b012c860071234ef9012fb087af8"
       }
     ],
     "apple-music": [
