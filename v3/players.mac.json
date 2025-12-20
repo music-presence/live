@@ -191,6 +191,27 @@
       }
     },
     {
+      "id": "apple-tv",
+      "name": "Apple TV",
+      "url": "https://www.apple.com/apple-tv",
+      "sources": {
+        "mac_mediaremote": [
+          "com.apple.TV"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": true
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1451931372221366364"
+      }
+    },
+    {
       "id": "audible",
       "name": "Audible",
       "url": "https://www.audible.com",
@@ -1539,6 +1560,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/tray-menu.ba2cbd9447fd.ico",
         "md5": "ba2cbd9447fd9a32cecb046973f814ac"
+      }
+    ],
+    "apple-tv": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/apple-tv/logo-128.0eb6a77b289a.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/apple-tv/discord-large-image.a616b816dcfc.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/apple-tv/discord-small-image.84fd33922d49.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/apple-tv/tray-menu.0d6cf386da20.ico",
+        "md5": "0d6cf386da202abd48a740cdc69dd094"
       }
     ],
     "audible": [
