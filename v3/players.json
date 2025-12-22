@@ -1498,6 +1498,34 @@
       }
     },
     {
+      "id": "metrolist",
+      "name": "Metrolist",
+      "url": "https://github.com/mostafaalagamy/Metrolist",
+      "represents": [
+        "youtube-music"
+      ],
+      "sources": {},
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1452691320702505154"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "Valent",
+            "identity": "Metrolist"
+          }
+        ]
+      }
+    },
+    {
       "id": "miniradioplayer",
       "name": "Mini Radio Player",
       "url": "https://www.miniradioplayer.net",
@@ -4468,6 +4496,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/melon/tray-menu.8bc8e1fcefa5.ico",
         "md5": "8bc8e1fcefa5af6a9fdbe6bd04032279"
+      }
+    ],
+    "metrolist": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/metrolist/logo-128.989233a0fd9e.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/metrolist/discord-large-image.0301643f5265.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/metrolist/discord-small-image.5137d63bbeb0.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/metrolist/tray-menu.eb714a500175.ico",
+        "md5": "eb714a500175223b83ee882a477a0e16"
       }
     ],
     "miniradioplayer": [
