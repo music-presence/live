@@ -1940,6 +1940,34 @@
       }
     },
     {
+      "id": "outertune",
+      "name": "OuterTune",
+      "url": "https://github.com/OuterTune/OuterTune",
+      "represents": [
+        "youtube-music"
+      ],
+      "sources": {},
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1452693380399235092"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "Valent",
+            "identity": "OuterTune"
+          }
+        ]
+      }
+    },
+    {
       "id": "overcast",
       "name": "Overcast",
       "url": "https://overcast.fm",
@@ -4933,6 +4961,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/nora/tray-menu.a41c6342ac54.ico",
         "md5": "a41c6342ac54f0aafbceb0330be4e515"
+      }
+    ],
+    "outertune": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/outertune/logo-128.8b0d4496d508.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/outertune/discord-large-image.745d6f11cf86.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/outertune/discord-small-image.952740aa9bce.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/outertune/tray-menu.1b714dc69c66.ico",
+        "md5": "1b714dc69c66eff79e44a3f1bf0c7bc6"
       }
     ],
     "overcast": [
