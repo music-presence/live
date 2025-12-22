@@ -2166,6 +2166,14 @@
       ],
       "extra": {
         "discord_application_id": "1247655024637513778"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "Valent",
+            "identity": "Qobuz"
+          }
+        ]
       }
     },
     {
@@ -2504,6 +2512,14 @@
       ],
       "extra": {
         "discord_application_id": "1247651846936596540"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "Valent",
+            "identity": "Spotify"
+          }
+        ]
       }
     },
     {
@@ -3085,6 +3101,14 @@
       ],
       "extra": {
         "discord_application_id": "1247847788302172273"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "Valent",
+            "identity": "YouTube Music"
+          }
+        ]
       }
     }
   ],
