@@ -2416,6 +2416,27 @@
       }
     },
     {
+      "id": "samply",
+      "name": "Samply",
+      "url": "https://samply.app",
+      "sources": {
+        "mac_mediaremote": [
+          "com.electron.samply"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1453478081552449717"
+      }
+    },
+    {
       "id": "saturn",
       "name": "Saturn",
       "url": "https://saturn.kim",
@@ -5398,6 +5419,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/roon/tray-menu.70af0ab6f3ba.ico",
         "md5": "70af0ab6f3bad148fd231fbff43561e5"
+      }
+    ],
+    "samply": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/samply/logo-128.805f33dee65d.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/samply/discord-large-image.b45716d4af6e.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/samply/discord-small-image.70d652a7b5bf.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/samply/tray-menu.d785be2bd798.ico",
+        "md5": "d785be2bd7987986b38c72acd2e50688"
       }
     ],
     "saturn": [
