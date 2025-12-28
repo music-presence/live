@@ -238,6 +238,31 @@
       }
     },
     {
+      "id": "bloomee",
+      "name": "Bloomee",
+      "url": "https://github.com/HemantKArya/BloomeeTunes",
+      "represents": [
+        "youtube-music",
+        "youtube"
+      ],
+      "sources": {
+        "win_winrt": [
+          "Bloomee.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1454908037616763124"
+      }
+    },
+    {
       "id": "chillhop",
       "name": "Chillhop",
       "url": "https://chillhop.com",
@@ -2142,6 +2167,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/bandcamp/tray-menu.83bb12379cce.ico",
         "md5": "83bb12379cceb99f5e95791204d385f2"
+      }
+    ],
+    "bloomee": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/bloomee/logo-128.2978ffbe0461.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/bloomee/discord-large-image.430092d73312.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/bloomee/discord-small-image.656591af6558.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/bloomee/tray-menu.a021517c4456.ico",
+        "md5": "a021517c44567efebbd77868d8f39271"
       }
     ],
     "chillhop": [
