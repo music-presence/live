@@ -745,6 +745,51 @@
       }
     },
     {
+      "id": "kugou",
+      "name": "KuGou",
+      "url": "https://www.kugou.com",
+      "represents": [
+        "kugou-zh-placeholder"
+      ],
+      "sources": {
+        "web_domain": [
+          "kugou.com"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": true
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1455595637159760007"
+      }
+    },
+    {
+      "id": "kugou-zh-placeholder",
+      "name": "\u9177\u72d7\u97f3\u4e50",
+      "url": "https://www.kugou.com",
+      "sources": {
+        "web_domain": [
+          "kugou.com.example.com"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": true
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1455597392681373717"
+      }
+    },
+    {
       "id": "metrolist",
       "name": "Metrolist",
       "url": "https://github.com/mostafaalagamy/Metrolist",
@@ -1061,6 +1106,51 @@
             "identity": "Poweramp"
           }
         ]
+      }
+    },
+    {
+      "id": "qishui",
+      "name": "Qishui",
+      "url": "https://music.douyin.com",
+      "represents": [
+        "qishui-zh-placeholder"
+      ],
+      "sources": {
+        "web_domain": [
+          "music.douyin.com"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": true
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1455593535142236381"
+      }
+    },
+    {
+      "id": "qishui-zh-placeholder",
+      "name": "\u6c7d\u6c34\u97f3\u4e50",
+      "url": "https://music.douyin.com",
+      "sources": {
+        "web_domain": [
+          "music.douyin.com.example.com"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": true
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1455593994816847932"
       }
     },
     {
@@ -2232,6 +2322,52 @@
         "md5": "4e48fcb5c9cf594fa7860a73947914fe"
       }
     ],
+    "kugou": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kugou/logo-128.cf479b14e15a.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kugou/discord-large-image.08f81ec4f946.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kugou/discord-small-image.cc36150acac9.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/kugou/tray-menu.a96e687d34ee.ico",
+        "md5": "a96e687d34ee88cedf0d86212b3b72ec"
+      }
+    ],
+    "kugou-zh-placeholder": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kugou-zh-placeholder/logo-128.cf479b14e15a.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kugou-zh-placeholder/discord-large-image.08f81ec4f946.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kugou-zh-placeholder/discord-small-image.cc36150acac9.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/kugou-zh-placeholder/tray-menu.a96e687d34ee.ico",
+        "md5": "a96e687d34ee88cedf0d86212b3b72ec"
+      }
+    ],
     "metrolist": [
       {
         "label": "logo-128",
@@ -2552,6 +2688,52 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/poweramp/tray-menu.bd96d9a7120a.ico",
         "md5": "bd96d9a7120a9ae478a55d5a1ae7b182"
+      }
+    ],
+    "qishui": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/qishui/logo-128.026631f39ab3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/qishui/discord-large-image.db7458e95b2e.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/qishui/discord-small-image.ed5b3e278ca7.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/qishui/tray-menu.4be89a1abdfb.ico",
+        "md5": "4be89a1abdfbabc94079b9b498f9583f"
+      }
+    ],
+    "qishui-zh-placeholder": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/qishui-zh-placeholder/logo-128.026631f39ab3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/qishui-zh-placeholder/discord-large-image.db7458e95b2e.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/qishui-zh-placeholder/discord-small-image.ed5b3e278ca7.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/qishui-zh-placeholder/tray-menu.4be89a1abdfb.ico",
+        "md5": "4be89a1abdfbabc94079b9b498f9583f"
       }
     ],
     "qobuz": [
