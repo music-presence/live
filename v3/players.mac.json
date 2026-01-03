@@ -460,6 +460,30 @@
       }
     },
     {
+      "id": "finer",
+      "name": "Finer",
+      "url": "https://monk-studio.com/finer",
+      "represents": [
+        "jellyfin"
+      ],
+      "sources": {
+        "mac_mediaremote": [
+          "com.monk-studio.jellyfin-music"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1456950829008551991"
+      }
+    },
+    {
       "id": "foobar2000",
       "name": "foobar2000",
       "url": "https://www.foobar2000.org",
@@ -1953,6 +1977,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/eter/tray-menu.1bec13c678ff.ico",
         "md5": "1bec13c678fff2dcdaafc9aa22a916ce"
+      }
+    ],
+    "finer": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/finer/logo-128.bb9e969f66ea.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/finer/discord-large-image.b259f996f3be.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/finer/discord-small-image.482a2d9581df.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/finer/tray-menu.349ffefe021d.ico",
+        "md5": "349ffefe021d56189f69dd39e9faeec8"
       }
     ],
     "foobar2000": [
