@@ -460,6 +460,27 @@
       }
     },
     {
+      "id": "feishin",
+      "name": "Feishin",
+      "url": "https://github.com/jeffvli/feishin",
+      "sources": {
+        "mac_mediaremote": [
+          "org.jeffvli.feishin"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1427650346028892191"
+      }
+    },
+    {
       "id": "finer",
       "name": "Finer",
       "url": "https://monk-studio.com/finer",
@@ -1977,6 +1998,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/eter/tray-menu.1bec13c678ff.ico",
         "md5": "1bec13c678fff2dcdaafc9aa22a916ce"
+      }
+    ],
+    "feishin": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/feishin/logo-128.2d575a41acb6.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/feishin/discord-large-image.33a827bd4c52.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/feishin/discord-small-image.5a27ac38eb95.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/feishin/tray-menu.7acbf8c15531.ico",
+        "md5": "7acbf8c155314ed125167bede1d7b004"
       }
     ],
     "finer": [

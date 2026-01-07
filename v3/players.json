@@ -766,6 +766,9 @@
         "win_winrt": [
           "Feishin.exe",
           "org.jeffvli.feishin"
+        ],
+        "mac_mediaremote": [
+          "org.jeffvli.feishin"
         ]
       },
       "attributes": {
