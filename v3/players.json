@@ -347,6 +347,9 @@
         "win_winrt": [
           "Bandcamp.exe",
           "com.themagiulio.bandcamp-desktop"
+        ],
+        "mac_mediaremote": [
+          "com.bandcamp.iosapp"
         ]
       },
       "attributes": {

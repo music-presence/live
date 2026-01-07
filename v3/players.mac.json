@@ -240,6 +240,9 @@
       "sources": {
         "web_domain": [
           "bandcamp.com"
+        ],
+        "mac_mediaremote": [
+          "com.bandcamp.iosapp"
         ]
       },
       "attributes": {
