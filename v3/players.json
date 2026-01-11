@@ -1311,6 +1311,9 @@
       "name": "Jellyfin",
       "url": "https://jellyfin.org",
       "sources": {
+        "lin_mpris": [
+          "JellyfinDesktop"
+        ],
         "win_winrt": [
           "JellyfinMediaPlayer.exe"
         ],

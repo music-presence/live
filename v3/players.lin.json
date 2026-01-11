@@ -640,6 +640,27 @@
       }
     },
     {
+      "id": "jellyfin",
+      "name": "Jellyfin",
+      "url": "https://jellyfin.org",
+      "sources": {
+        "lin_mpris": [
+          "JellyfinDesktop"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1304291534463832215"
+      }
+    },
+    {
       "id": "jiosaavn",
       "name": "JioSaavn",
       "url": "https://www.jiosaavn.com",
@@ -2228,6 +2249,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/idagio/tray-menu.aa20d050b97e.ico",
         "md5": "aa20d050b97ef344847db1530b235551"
+      }
+    ],
+    "jellyfin": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/jellyfin/logo-128.1658ee2e815a.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/jellyfin/discord-large-image.737a60390dd6.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/jellyfin/discord-small-image.76c4bac12c68.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/jellyfin/tray-menu.53c25463de9e.ico",
+        "md5": "53c25463de9e886dd49ecd8f939d8b01"
       }
     ],
     "jiosaavn": [
