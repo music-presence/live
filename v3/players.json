@@ -3102,6 +3102,27 @@
       }
     },
     {
+      "id": "voxity",
+      "name": "Voxity",
+      "url": "https://voxity.exerinity.com",
+      "sources": {
+        "win_winrt": [
+          "com.exerinity.voxity"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1460911569339809812"
+      }
+    },
+    {
       "id": "wacup",
       "name": "WACUP",
       "url": "https://getwacup.com",
@@ -6198,6 +6219,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/vox-mac/tray-menu.7e26bf047260.ico",
         "md5": "7e26bf04726032af61c0b2469fae4f03"
+      }
+    ],
+    "voxity": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/voxity/logo-128.7c224d286663.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/voxity/discord-large-image.ea76c8922cf3.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/voxity/discord-small-image.e1b35e58f811.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/voxity/tray-menu.61e3087a9e74.ico",
+        "md5": "61e3087a9e74e9ecc8efd2bb2f5b581a"
       }
     ],
     "wacup": [
