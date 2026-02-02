@@ -5,6 +5,27 @@
   "subset": "mac",
   "players": [
     {
+      "id": "adamp",
+      "name": "AdAmp",
+      "url": "https://github.com/ad-repo/adamp",
+      "sources": {
+        "mac_mediaremote": [
+          "com.adamp.player"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1467799317762019390"
+      }
+    },
+    {
       "id": "amazon-music",
       "name": "Amazon Music",
       "url": "https://music.amazon.com",
@@ -1566,6 +1587,29 @@
     }
   ],
   "icons": {
+    "adamp": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/adamp/logo-128.bcb232999f4c.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/adamp/discord-large-image.5cc733058ad2.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/adamp/discord-small-image.52230456be25.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/adamp/tray-menu.2feb4936a362.ico",
+        "md5": "2feb4936a362238be88835df65585586"
+      }
+    ],
     "amazon-music": [
       {
         "label": "logo-128",
