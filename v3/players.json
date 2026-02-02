@@ -2704,6 +2704,27 @@
       }
     },
     {
+      "id": "smplayer",
+      "name": "SMPlayer",
+      "url": "https://www.smplayer.info",
+      "sources": {
+        "lin_mpris": [
+          "smplayer"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1467801048646422712"
+      }
+    },
+    {
       "id": "sonixd",
       "name": "Sonixd",
       "url": "https://github.com/jeffvli/sonixd",
@@ -5937,6 +5958,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/screenbox/tray-menu.b4dad04060d4.ico",
         "md5": "b4dad04060d4f06bfd125521330c9cd2"
+      }
+    ],
+    "smplayer": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/smplayer/logo-128.af38cf01baf7.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/smplayer/discord-large-image.b36d672bf4dd.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/smplayer/discord-small-image.e82ba46fdf69.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/smplayer/tray-menu.bdbe92ea23e8.ico",
+        "md5": "bdbe92ea23e8a0cd572cb5c715e511bf"
       }
     ],
     "sonixd": [
