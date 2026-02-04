@@ -1175,6 +1175,27 @@
       }
     },
     {
+      "id": "qmplay2",
+      "name": "QMPlay2",
+      "url": "https://github.com/zaps166/QMPlay2",
+      "sources": {
+        "lin_mpris": [
+          "QMPlay2"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1468602800534720609"
+      }
+    },
+    {
       "id": "qobuz",
       "name": "Qobuz",
       "url": "https://qobuz.com",
@@ -2799,6 +2820,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/qishui-zh-placeholder/tray-menu.4be89a1abdfb.ico",
         "md5": "4be89a1abdfbabc94079b9b498f9583f"
+      }
+    ],
+    "qmplay2": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/qmplay2/logo-128.211f04d2ae0c.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/qmplay2/discord-large-image.5860b682f436.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/qmplay2/discord-small-image.86611bc36fc9.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/qmplay2/tray-menu.bbdb96d646d1.ico",
+        "md5": "bbdb96d646d1247096360c33e686d2fe"
       }
     ],
     "qobuz": [
