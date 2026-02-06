@@ -553,6 +553,31 @@
       }
     },
     {
+      "id": "harmony",
+      "name": "Harmony",
+      "url": "https://github.com/anandnet/Harmony-Music",
+      "sources": {},
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1312403971981447249"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "com.mycompany.myapp.audio",
+            "identity": "Harmony Music Notification"
+          }
+        ]
+      }
+    },
+    {
       "id": "haruna",
       "name": "Haruna",
       "url": "https://haruna.kde.org",
@@ -2199,6 +2224,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/harmonoid/tray-menu.f34499b0a823.ico",
         "md5": "f34499b0a82373c314f07090f3c3a51f"
+      }
+    ],
+    "harmony": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/harmony/logo-128.b065218dba6d.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/harmony/discord-large-image.c96c900e5b9b.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/harmony/discord-small-image.f8a168717080.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/harmony/tray-menu.d60038de6188.ico",
+        "md5": "d60038de6188bbe3b478902431fdf5d3"
       }
     ],
     "haruna": [

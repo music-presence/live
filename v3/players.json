@@ -1158,6 +1158,14 @@
       ],
       "extra": {
         "discord_application_id": "1312403971981447249"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "com.mycompany.myapp.audio",
+            "identity": "Harmony Music Notification"
+          }
+        ]
       }
     },
     {
