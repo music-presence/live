@@ -2096,6 +2096,27 @@
       }
     },
     {
+      "id": "nullplayer",
+      "name": "NullPlayer",
+      "url": "https://github.com/ad-repo/nullplayer",
+      "sources": {
+        "mac_mediaremote": [
+          "com.nullplayer.app"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1470541144147624113"
+      }
+    },
+    {
       "id": "outertune",
       "name": "OuterTune",
       "url": "https://github.com/OuterTune/OuterTune",
@@ -5458,6 +5479,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/nora/tray-menu.a41c6342ac54.ico",
         "md5": "a41c6342ac54f0aafbceb0330be4e515"
+      }
+    ],
+    "nullplayer": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/nullplayer/logo-128.21847220a0f4.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/nullplayer/discord-large-image.cadc5fc88011.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/nullplayer/discord-small-image.7dd3b7d4e37c.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/nullplayer/tray-menu.8bed28369250.ico",
+        "md5": "8bed283692504a17d7dcd9d3fc6c89b5"
       }
     ],
     "outertune": [
