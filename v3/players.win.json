@@ -1626,6 +1626,27 @@
       }
     },
     {
+      "id": "sonosano",
+      "name": "Sonosano",
+      "url": "https://github.com/KRSHH/Sonosano",
+      "sources": {
+        "win_winrt": [
+          "com.sonosano.app"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1470539812132884652"
+      }
+    },
+    {
       "id": "soundcloud",
       "name": "SoundCloud",
       "url": "https://soundcloud.com",
@@ -3658,6 +3679,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/sonixd/tray-menu.bf35c34261b4.ico",
         "md5": "bf35c34261b43c34ae559a511c8f5127"
+      }
+    ],
+    "sonosano": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sonosano/logo-128.cf16bb99d17f.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sonosano/discord-large-image.bc58f634fa29.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sonosano/discord-small-image.d25e3c7acd60.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/sonosano/tray-menu.3991a664ad78.ico",
+        "md5": "3991a664ad784a27c8d6ef31a317d3a8"
       }
     ],
     "soundcloud": [

@@ -1384,6 +1384,28 @@
       }
     },
     {
+      "id": "shortwave",
+      "name": "Shortwave",
+      "url": "https://github.com/maunalinux/shortwave",
+      "sources": {
+        "lin_mpris": [
+          "de.haeckerfelix.Shortwave"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_radio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1470536777990275082"
+      }
+    },
+    {
       "id": "smplayer",
       "name": "SMPlayer",
       "url": "https://www.smplayer.info",
@@ -3055,6 +3077,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/sayonara/tray-menu.3f8b860462d4.ico",
         "md5": "3f8b860462d4df3272eabc06055553df"
+      }
+    ],
+    "shortwave": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/shortwave/logo-128.7ff47fb6d526.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/shortwave/discord-large-image.cf1dc24ce913.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/shortwave/discord-small-image.2927cc7fcc96.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/shortwave/tray-menu.295d60ee7686.ico",
+        "md5": "295d60ee7686d2903d4c8885696b5e97"
       }
     ],
     "smplayer": [
