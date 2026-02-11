@@ -1606,6 +1606,28 @@
       }
     },
     {
+      "id": "siriusxm",
+      "name": "SiriusXM",
+      "url": "https://www.siriusxm.com",
+      "sources": {
+        "win_winrt": [
+          "electron.app.SiriusXM"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_radio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1471112567865741490"
+      }
+    },
+    {
       "id": "sonixd",
       "name": "Sonixd",
       "url": "https://github.com/jeffvli/sonixd",
@@ -3657,6 +3679,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/screenbox/tray-menu.b4dad04060d4.ico",
         "md5": "b4dad04060d4f06bfd125521330c9cd2"
+      }
+    ],
+    "siriusxm": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/siriusxm/logo-128.5b05f8331ed3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/siriusxm/discord-large-image.0aef2d45e5ef.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/siriusxm/discord-small-image.ae6c264b8b58.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/siriusxm/tray-menu.feebfc0354ca.ico",
+        "md5": "feebfc0354caa20d2d684d0b50ce19f2"
       }
     ],
     "sonixd": [
