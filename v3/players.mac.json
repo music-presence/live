@@ -529,6 +529,27 @@
       }
     },
     {
+      "id": "flacbox",
+      "name": "Flacbox",
+      "url": "https://everappz.com/products/flacbox",
+      "sources": {
+        "mac_mediaremote": [
+          "com.leshko.flap.mac"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1472394776337715392"
+      }
+    },
+    {
       "id": "foobar2000",
       "name": "foobar2000",
       "url": "https://www.foobar2000.org",
@@ -2112,6 +2133,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/finer/tray-menu.349ffefe021d.ico",
         "md5": "349ffefe021d56189f69dd39e9faeec8"
+      }
+    ],
+    "flacbox": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/flacbox/logo-128.cde7f115cb95.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/flacbox/discord-large-image.ad2ec086dc45.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/flacbox/discord-small-image.d1648c475912.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/flacbox/tray-menu.2c92137b18e8.ico",
+        "md5": "2c92137b18e82cd854e24cafbe1c60aa"
       }
     ],
     "foobar2000": [
