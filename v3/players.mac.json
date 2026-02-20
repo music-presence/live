@@ -329,6 +329,9 @@
       "id": "classictunes",
       "name": "ClassicTunes",
       "url": "https://happysmaran.github.io/ClassicTunes",
+      "represents": [
+        "itunes"
+      ],
       "sources": {
         "mac_mediaremote": [
           "com.smaran.ClassicTunes"
