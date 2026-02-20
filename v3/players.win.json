@@ -846,8 +846,6 @@
       "url": "https://example.com",
       "sources": {
         "win_winrt": [
-          "phone utils.exe",
-          "Vermilia phone-utils.exe",
           "AndroidMusicPresenceLink.exe"
         ]
       },
