@@ -1401,6 +1401,9 @@
       "sources": {
         "web_domain": [
           "music.douyin.com"
+        ],
+        "win_winrt": [
+          "\u6c7d\u6c34\u97f3\u4e50"
         ]
       },
       "attributes": {
