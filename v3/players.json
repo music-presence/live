@@ -1961,6 +1961,9 @@
       "name": "Namida",
       "url": "https://github.com/namidaco/namida",
       "sources": {
+        "lin_mpris": [
+          "namida"
+        ],
         "win_winrt": [
           "namida.exe"
         ]
