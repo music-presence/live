@@ -505,6 +505,27 @@
       }
     },
     {
+      "id": "classictunes",
+      "name": "ClassicTunes",
+      "url": "https://happysmaran.github.io/ClassicTunes",
+      "sources": {
+        "mac_mediaremote": [
+          "com.smaran.ClassicTunes"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1474339830551806125"
+      }
+    },
+    {
       "id": "clementine",
       "name": "Clementine",
       "url": "https://www.clementine-player.org",
@@ -4035,6 +4056,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/cider/tray-menu.9ebdc1d28152.ico",
         "md5": "9ebdc1d2815243084657e4a6e52bebfb"
+      }
+    ],
+    "classictunes": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/classictunes/logo-128.75dba97ad393.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/classictunes/discord-large-image.22a1ac3a6b9f.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/classictunes/discord-small-image.72ba292e2136.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/classictunes/tray-menu.6a7e893c75cc.ico",
+        "md5": "6a7e893c75ccce4e99beec2693676f4e"
       }
     ],
     "clementine": [
