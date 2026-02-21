@@ -3261,7 +3261,11 @@
       "represents": [
         "youtube"
       ],
-      "sources": {},
+      "sources": {
+        "win_winrt": [
+          "rocks.shy.VacuumTube"
+        ]
+      },
       "attributes": {
         "pure": false,
         "service": false
