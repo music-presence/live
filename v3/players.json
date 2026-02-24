@@ -2060,6 +2060,7 @@
       ],
       "sources": {
         "win_winrt": [
+          "neutronmp.exe",
           "NeutronCodeLimited.NeutronMusicPlayer_63vf3jxagy284!app",
           "NeutronCodeLimited.NeutronMusicPlayer_63vf3jxagy284!App",
           "NeutronCodeLimited.NeutronMusicPlayer_63vf3jxagy284!APP"
