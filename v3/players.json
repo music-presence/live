@@ -1964,7 +1964,8 @@
       "url": "https://github.com/Anthonyy232/Nagi",
       "sources": {
         "win_winrt": [
-          "velopack.Nagi"
+          "velopack.Nagi",
+          "Nagi.MusicPlayer"
         ]
       },
       "attributes": {
@@ -3443,6 +3444,27 @@
       ],
       "extra": {
         "discord_application_id": "1247847866622410784"
+      }
+    },
+    {
+      "id": "windows-media-player-legacy",
+      "name": "Windows Media Player",
+      "url": "https://en.wikipedia.org/wiki/Windows_Media_Player",
+      "sources": {
+        "win_winrt": [
+          "Discord WMP.exe"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1476731618008764569"
       }
     },
     {
@@ -6823,6 +6845,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/windows-media-player/tray-menu.a94dae22712d.ico",
         "md5": "a94dae22712db20a7c7f7875b45cd645"
+      }
+    ],
+    "windows-media-player-legacy": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/windows-media-player-legacy/logo-128.769ed8cc7204.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/windows-media-player-legacy/discord-large-image.55ad97638c25.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/windows-media-player-legacy/discord-small-image.cd298e12064b.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/windows-media-player-legacy/tray-menu.ae9937cb703c.ico",
+        "md5": "ae9937cb703cb80bc211dbd73350c3a2"
       }
     ],
     "windows-subsystem-for-android": [
