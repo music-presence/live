@@ -804,6 +804,27 @@
       }
     },
     {
+      "id": "evervideo",
+      "name": "Evervideo",
+      "url": "https://www.everappz.com/products/evervideo",
+      "sources": {
+        "mac_mediaremote": [
+          "com.leshko.videoplayer.mac"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1477771175244464260"
+      }
+    },
+    {
       "id": "feishin",
       "name": "Feishin",
       "url": "https://github.com/jeffvli/feishin",
@@ -4361,6 +4382,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/eter/tray-menu.1bec13c678ff.ico",
         "md5": "1bec13c678fff2dcdaafc9aa22a916ce"
+      }
+    ],
+    "evervideo": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/evervideo/logo-128.8b27b5c06e9e.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/evervideo/discord-large-image.ec89dbc11f65.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/evervideo/discord-small-image.f50acdaee24e.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/evervideo/tray-menu.3e3e711af762.ico",
+        "md5": "3e3e711af76286441490b6f3fb8af162"
       }
     ],
     "feishin": [
