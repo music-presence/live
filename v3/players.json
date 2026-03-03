@@ -2917,6 +2917,30 @@
       }
     },
     {
+      "id": "sone",
+      "name": "SONE",
+      "url": "https://github.com/lullabyX/sone",
+      "represents": [
+        "tidal"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "io.github.lullabyX.sone"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1478519842968567958"
+      }
+    },
+    {
       "id": "sonixd",
       "name": "Sonixd",
       "url": "https://github.com/jeffvli/sonixd",
@@ -6404,6 +6428,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/smplayer/tray-menu.bdbe92ea23e8.ico",
         "md5": "bdbe92ea23e8a0cd572cb5c715e511bf"
+      }
+    ],
+    "sone": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sone/logo-128.627737a0afc9.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sone/discord-large-image.edb4db0561a3.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sone/discord-small-image.b0c26d290485.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/sone/tray-menu.7132ae3bdd1e.ico",
+        "md5": "7132ae3bdd1ec864690f375bbfa9accd"
       }
     ],
     "sonixd": [
