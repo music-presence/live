@@ -193,6 +193,27 @@
       }
     },
     {
+      "id": "astra",
+      "name": "AdAmp",
+      "url": "https://github.com/boof2015/astra",
+      "sources": {
+        "win_winrt": [
+          "com.astra.musicplayer"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1478330755825275021"
+      }
+    },
+    {
       "id": "audacious",
       "name": "Audacious",
       "url": "https://audacious-media-player.org",
@@ -2372,6 +2393,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/tray-menu.ba2cbd9447fd.ico",
         "md5": "ba2cbd9447fd9a32cecb046973f814ac"
+      }
+    ],
+    "astra": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/astra/logo-128.e216c32926d9.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/astra/discord-large-image.4adf08f84ea1.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/astra/discord-small-image.0ef1d8a8543a.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/astra/tray-menu.c58ecab310d5.ico",
+        "md5": "c58ecab310d5808846242b992b4295e1"
       }
     ],
     "audacious": [
