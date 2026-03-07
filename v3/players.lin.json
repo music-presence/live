@@ -71,6 +71,31 @@
       }
     },
     {
+      "id": "ampcast",
+      "name": "ampcast",
+      "url": "https://github.com/rekkyrosso/ampcast",
+      "sources": {},
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1344990632602632293"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "ampcast"
+          }
+        ]
+      }
+    },
+    {
       "id": "anghami",
       "name": "Anghami",
       "url": "https://www.anghami.com",
@@ -89,6 +114,31 @@
       ],
       "extra": {
         "discord_application_id": "1404184096405590158"
+      }
+    },
+    {
+      "id": "aonsoku",
+      "name": "Aonsoku",
+      "url": "https://github.com/victoralvesf/aonsoku",
+      "sources": {},
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1416470502184063026"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "Aonsoku"
+          }
+        ]
       }
     },
     {
@@ -1813,6 +1863,29 @@
         "md5": "fe2b0350460c1d16f80b11ddf4ad8cb9"
       }
     ],
+    "ampcast": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/ampcast/logo-128.4881acb37af6.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/ampcast/discord-large-image.31b2379ab7cd.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/ampcast/discord-small-image.b46c1e386eae.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/ampcast/tray-menu.8702d71556ee.ico",
+        "md5": "8702d71556ee1b126dca69251afd2536"
+      }
+    ],
     "anghami": [
       {
         "label": "logo-128",
@@ -1834,6 +1907,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/anghami/tray-menu.9d2bced7ce48.ico",
         "md5": "9d2bced7ce48487ef3d03c63f6efd99a"
+      }
+    ],
+    "aonsoku": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aonsoku/logo-128.0107408a8228.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aonsoku/discord-large-image.cbf70761346e.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aonsoku/discord-small-image.a7935cc906b9.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/aonsoku/tray-menu.d718b012c860.ico",
+        "md5": "d718b012c860071234ef9012fb087af8"
       }
     ],
     "apple-music": [

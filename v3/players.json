@@ -140,6 +140,14 @@
       ],
       "extra": {
         "discord_application_id": "1344990632602632293"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "ampcast"
+          }
+        ]
       }
     },
     {
@@ -210,6 +218,14 @@
       ],
       "extra": {
         "discord_application_id": "1416470502184063026"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "Aonsoku"
+          }
+        ]
       }
     },
     {
