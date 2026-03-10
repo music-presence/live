@@ -1076,6 +1076,27 @@
       }
     },
     {
+      "id": "petrichor",
+      "name": "Petrichor",
+      "url": "https://github.com/kushalpandya/Petrichor",
+      "sources": {
+        "mac_mediaremote": [
+          "org.Petrichor"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1480937621625503835"
+      }
+    },
+    {
       "id": "plex",
       "name": "Plex",
       "url": "https://plex.tv",
@@ -2774,6 +2795,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/pandora/tray-menu.2e08addc7597.ico",
         "md5": "2e08addc7597f3a2b8a3d90d7577b775"
+      }
+    ],
+    "petrichor": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/petrichor/logo-128.e65db559c1be.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/petrichor/discord-large-image.1f4b7f7f58c2.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/petrichor/discord-small-image.e312de20e858.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/petrichor/tray-menu.4d6ad1f4e8da.ico",
+        "md5": "4d6ad1f4e8da9e605dcd23f0ab217b74"
       }
     ],
     "plex": [
