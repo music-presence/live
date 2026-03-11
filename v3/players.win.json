@@ -1284,6 +1284,27 @@
       }
     },
     {
+      "id": "optimus-player-placeholder",
+      "name": "Optimus",
+      "url": "https://www.optimusplayer.com",
+      "sources": {
+        "web_domain": [
+          "optimusplayer.com.example.com"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1481321867473059961"
+      }
+    },
+    {
       "id": "pandora",
       "name": "Pandora",
       "url": "https://pandora.com",
@@ -3451,6 +3472,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/nora/tray-menu.a41c6342ac54.ico",
         "md5": "a41c6342ac54f0aafbceb0330be4e515"
+      }
+    ],
+    "optimus-player-placeholder": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/optimus-player-placeholder/logo-128.a05282b035c9.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/optimus-player-placeholder/discord-large-image.c833dfccf0a2.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/optimus-player-placeholder/discord-small-image.0d38adc90c81.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/optimus-player-placeholder/tray-menu.523b53d4239b.ico",
+        "md5": "523b53d4239baa6c1a2af98c3ce80a5d"
       }
     ],
     "pandora": [

@@ -2225,6 +2225,51 @@
       }
     },
     {
+      "id": "optimus-player",
+      "name": "Optimus Player",
+      "url": "https://www.optimusplayer.com",
+      "represents": [
+        "neutron-music-player-placeholder"
+      ],
+      "sources": {
+        "mac_mediaremote": [
+          "mo.darren.optimus.player.mac"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1481321362160353331"
+      }
+    },
+    {
+      "id": "optimus-player-placeholder",
+      "name": "Optimus",
+      "url": "https://www.optimusplayer.com",
+      "sources": {
+        "web_domain": [
+          "optimusplayer.com.example.com"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1481321867473059961"
+      }
+    },
+    {
       "id": "outertune",
       "name": "OuterTune",
       "url": "https://github.com/OuterTune/OuterTune",
@@ -5819,6 +5864,52 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/nullplayer/tray-menu.8bed28369250.ico",
         "md5": "8bed283692504a17d7dcd9d3fc6c89b5"
+      }
+    ],
+    "optimus-player": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/optimus-player/logo-128.a05282b035c9.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/optimus-player/discord-large-image.c833dfccf0a2.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/optimus-player/discord-small-image.0d38adc90c81.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/optimus-player/tray-menu.523b53d4239b.ico",
+        "md5": "523b53d4239baa6c1a2af98c3ce80a5d"
+      }
+    ],
+    "optimus-player-placeholder": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/optimus-player-placeholder/logo-128.a05282b035c9.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/optimus-player-placeholder/discord-large-image.c833dfccf0a2.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/optimus-player-placeholder/discord-small-image.0d38adc90c81.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/optimus-player-placeholder/tray-menu.523b53d4239b.ico",
+        "md5": "523b53d4239baa6c1a2af98c3ce80a5d"
       }
     ],
     "outertune": [
