@@ -3401,6 +3401,29 @@
       }
     },
     {
+      "id": "tunein",
+      "name": "TuneIn",
+      "url": "https://tunein.com",
+      "sources": {
+        "mac_mediaremote": [
+          "com.tunein.desktop"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_radio",
+        "audio_music",
+        "audio_podcast"
+      ],
+      "extra": {
+        "discord_application_id": "1481340771889316051"
+      }
+    },
+    {
       "id": "untitled",
       "name": "[untitled]",
       "url": "https://untitled.stream",
@@ -6968,6 +6991,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/tunebar/tray-menu.86a6a60f8b22.ico",
         "md5": "86a6a60f8b22249ea93a6cb954eecbfd"
+      }
+    ],
+    "tunein": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/tunein/logo-128.0653bdfbab6a.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/tunein/discord-large-image.d14afc589efd.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/tunein/discord-small-image.d5de367132c7.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/tunein/tray-menu.d0661b094163.ico",
+        "md5": "d0661b094163f6dfcf2df01034b79209"
       }
     ],
     "untitled": [
