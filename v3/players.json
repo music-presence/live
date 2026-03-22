@@ -1493,6 +1493,31 @@
       }
     },
     {
+      "id": "kaset",
+      "name": "Kaset",
+      "url": "https://github.com/sozercan/kaset",
+      "represents": [
+        "youtube-music"
+      ],
+      "sources": {
+        "mac_mediaremote": [
+          "com.sertacozercan.Kaset"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music",
+        "audio_podcast"
+      ],
+      "extra": {
+        "discord_application_id": "1485220633536368761"
+      }
+    },
+    {
       "id": "kasts",
       "name": "Kasts",
       "url": "https://apps.kde.org/kasts",
@@ -5197,6 +5222,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/jiosaavn/tray-menu.ae57dce529fa.ico",
         "md5": "ae57dce529facf97a7d5ff8f839b750d"
+      }
+    ],
+    "kaset": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kaset/logo-128.961a742ee1b3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kaset/discord-large-image.7cf493b7aa24.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kaset/discord-small-image.4fea4f1f42e3.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/kaset/tray-menu.c659982df8c7.ico",
+        "md5": "c659982df8c76378e6e63dc824de9a8e"
       }
     ],
     "kasts": [
