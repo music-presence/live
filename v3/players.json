@@ -1318,6 +1318,27 @@
       }
     },
     {
+      "id": "hummingbird",
+      "name": "Hummingbird",
+      "url": "https://github.com/hummingbird-player/hummingbird",
+      "sources": {
+        "mac_mediaremote": [
+          "org.mailliw.hummingbird"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1485618408291700797"
+      }
+    },
+    {
       "id": "ibroadcast",
       "name": "iBroadcast",
       "url": "https://ibroadcast.com",
@@ -5061,6 +5082,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/high-tide/tray-menu.65f4b48afea9.ico",
         "md5": "65f4b48afea9080621c883c451dbce26"
+      }
+    ],
+    "hummingbird": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/hummingbird/logo-128.2350dc33d747.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/hummingbird/discord-large-image.45bd7703a61f.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/hummingbird/discord-small-image.3dcc7e886903.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/hummingbird/tray-menu.a84633e599c9.ico",
+        "md5": "a84633e599c9569df52a6125942d28ef"
       }
     ],
     "ibroadcast": [
