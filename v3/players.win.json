@@ -1604,6 +1604,27 @@
       }
     },
     {
+      "id": "rune",
+      "name": "Rune",
+      "url": "https://rune.not.ci",
+      "sources": {
+        "win_winrt": [
+          "rune.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1488638266717765742"
+      }
+    },
+    {
       "id": "saturn",
       "name": "Saturn",
       "url": "https://saturn.kim",
@@ -3771,6 +3792,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/roon/tray-menu.70af0ab6f3ba.ico",
         "md5": "70af0ab6f3bad148fd231fbff43561e5"
+      }
+    ],
+    "rune": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rune/logo-128.a42fb05344b7.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rune/discord-large-image.e312fb476bed.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rune/discord-small-image.6e8480a8d9ef.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/rune/tray-menu.6eecf4f22ca1.ico",
+        "md5": "6eecf4f22ca1ea4c19214f67adc73398"
       }
     ],
     "saturn": [
