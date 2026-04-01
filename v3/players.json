@@ -2109,6 +2109,30 @@
       }
     },
     {
+      "id": "ncspot",
+      "name": "ncspot",
+      "url": "https://github.com/hrkfdn/ncspot",
+      "represents": [
+        "spotify"
+      ],
+      "sources": {
+        "win_winrt": [
+          "ncspot.terminal.player"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1488838783230148769"
+      }
+    },
+    {
       "id": "netease-cloud-music",
       "name": "NetEase Cloud Music",
       "url": "https://music.163.com",
@@ -5839,6 +5863,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/namida/tray-menu.c025c2c413b0.ico",
         "md5": "c025c2c413b0e5712d2f5c849e0f42ba"
+      }
+    ],
+    "ncspot": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/ncspot/logo-128.b0485a28a81f.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/ncspot/discord-large-image.093864f6d933.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/ncspot/discord-small-image.fd0cb4fd302f.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/ncspot/tray-menu.a3d2d3ea2ee2.ico",
+        "md5": "a3d2d3ea2ee20fa944228399298f65fd"
       }
     ],
     "netease-cloud-music": [
