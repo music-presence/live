@@ -878,8 +878,7 @@
           "org.jeffvli.feishin"
         ],
         "mac_mediaremote": [
-          "org.jeffvli.feishin",
-          "com.unicornsonlsd.finamp-ios"
+          "org.jeffvli.feishin"
         ]
       },
       "attributes": {
@@ -904,6 +903,9 @@
       "sources": {
         "lin_mpris": [
           "com.unicornsonlsd.finamp.audio"
+        ],
+        "mac_mediaremote": [
+          "com.unicornsonlsd.finamp-ios"
         ]
       },
       "attributes": {
