@@ -391,6 +391,9 @@
       "id": "feishin",
       "name": "Feishin",
       "url": "https://github.com/jeffvli/feishin",
+      "represents": [
+        "jellyfin"
+      ],
       "sources": {
         "lin_mpris": [
           "Feishin",

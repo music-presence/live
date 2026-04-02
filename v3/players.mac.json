@@ -532,9 +532,13 @@
       "id": "feishin",
       "name": "Feishin",
       "url": "https://github.com/jeffvli/feishin",
+      "represents": [
+        "jellyfin"
+      ],
       "sources": {
         "mac_mediaremote": [
-          "org.jeffvli.feishin"
+          "org.jeffvli.feishin",
+          "com.unicornsonlsd.finamp-ios"
         ]
       },
       "attributes": {

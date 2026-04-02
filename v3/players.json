@@ -865,6 +865,9 @@
       "id": "feishin",
       "name": "Feishin",
       "url": "https://github.com/jeffvli/feishin",
+      "represents": [
+        "jellyfin"
+      ],
       "sources": {
         "lin_mpris": [
           "Feishin",
@@ -875,7 +878,8 @@
           "org.jeffvli.feishin"
         ],
         "mac_mediaremote": [
-          "org.jeffvli.feishin"
+          "org.jeffvli.feishin",
+          "com.unicornsonlsd.finamp-ios"
         ]
       },
       "attributes": {

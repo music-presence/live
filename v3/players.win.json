@@ -439,6 +439,9 @@
       "id": "feishin",
       "name": "Feishin",
       "url": "https://github.com/jeffvli/feishin",
+      "represents": [
+        "jellyfin"
+      ],
       "sources": {
         "win_winrt": [
           "Feishin.exe",
