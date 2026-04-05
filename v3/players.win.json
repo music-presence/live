@@ -1894,6 +1894,27 @@
       }
     },
     {
+      "id": "swingmusic",
+      "name": "Swing Music",
+      "url": "https://github.com/swingmx/swingmusic",
+      "sources": {
+        "win_winrt": [
+          "swing-nativefier-fda710"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1490296277148237875"
+      }
+    },
+    {
       "id": "tauon",
       "name": "Tauon",
       "url": "https://tauonmusicbox.rocks",
@@ -4095,6 +4116,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/supersonic/tray-menu.62a8b36734e6.ico",
         "md5": "62a8b36734e690bd5121e5b5c0856087"
+      }
+    ],
+    "swingmusic": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/swingmusic/logo-128.ac9634244ffe.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/swingmusic/discord-large-image.43bdfa5b6c1c.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/swingmusic/discord-small-image.48bd97ce5e9b.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/swingmusic/tray-menu.15dffa99e151.ico",
+        "md5": "15dffa99e151dceec0eb7baaceec5dc7"
       }
     ],
     "tauon": [
