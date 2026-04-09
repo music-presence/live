@@ -244,7 +244,8 @@
         ],
         "win_winrt": [
           "Bandcamp.exe",
-          "com.themagiulio.bandcamp-desktop"
+          "com.themagiulio.bandcamp-desktop",
+          "electron.app.Bandcamp"
         ]
       },
       "attributes": {
@@ -4122,23 +4123,23 @@
       {
         "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/swingmusic/logo-128.ac9634244ffe.png"
+        "url": "https://live.musicpresence.app/v3/icons/swingmusic/logo-128.5e9a790b3b9a.png"
       },
       {
         "label": "discord-large-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/swingmusic/discord-large-image.43bdfa5b6c1c.png"
+        "url": "https://live.musicpresence.app/v3/icons/swingmusic/discord-large-image.0f0c79c4f12a.png"
       },
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/swingmusic/discord-small-image.48bd97ce5e9b.png"
+        "url": "https://live.musicpresence.app/v3/icons/swingmusic/discord-small-image.01031f20f7e7.png"
       },
       {
         "label": "tray-menu",
         "type": "ico",
-        "url": "https://live.musicpresence.app/v3/icons/swingmusic/tray-menu.15dffa99e151.ico",
-        "md5": "15dffa99e151dceec0eb7baaceec5dc7"
+        "url": "https://live.musicpresence.app/v3/icons/swingmusic/tray-menu.104c6799e21e.ico",
+        "md5": "104c6799e21ed9ae477f6369a64edef3"
       }
     ],
     "tauon": [

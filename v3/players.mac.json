@@ -814,6 +814,27 @@
       }
     },
     {
+      "id": "jriver",
+      "name": "JRiver",
+      "url": "https://www.jriver.com",
+      "sources": {
+        "mac_mediaremote": [
+          "com.jriver.MediaCenter35"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "video"
+      ],
+      "extra": {
+        "discord_application_id": "1491764195580968982"
+      }
+    },
+    {
       "id": "kaset",
       "name": "Kaset",
       "url": "https://github.com/sozercan/kaset",
@@ -1082,6 +1103,30 @@
       ],
       "extra": {
         "discord_application_id": "1431935967454826496"
+      }
+    },
+    {
+      "id": "nuage",
+      "name": "Nuage",
+      "url": "https://github.com/lbrndnr/nuage-macos",
+      "represents": [
+        "soundcloud"
+      ],
+      "sources": {
+        "mac_mediaremote": [
+          "ch.laurinbrandner.nuage"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1491742320859811841"
       }
     },
     {
@@ -2662,6 +2707,29 @@
         "md5": "ae57dce529facf97a7d5ff8f839b750d"
       }
     ],
+    "jriver": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/jriver/logo-128.ff05f12ae728.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/jriver/discord-large-image.b1ed1c962a61.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/jriver/discord-small-image.83793639f47e.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/jriver/tray-menu.0222da06d3cb.ico",
+        "md5": "0222da06d3cb7e53c738127ee72dfda1"
+      }
+    ],
     "kaset": [
       {
         "label": "logo-128",
@@ -2936,6 +3004,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/neutron-music-player-placeholder/tray-menu.a2c557a32dce.ico",
         "md5": "a2c557a32dcef9054784559cbdecc1fa"
+      }
+    ],
+    "nuage": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/nuage/logo-128.473a2d05d47b.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/nuage/discord-large-image.e46438a93460.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/nuage/discord-small-image.c180f9648896.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/nuage/tray-menu.b596f4e32d1b.ico",
+        "md5": "b596f4e32d1b23b6e3bfecbff8d7f0f8"
       }
     ],
     "nullplayer": [
