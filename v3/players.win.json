@@ -830,6 +830,9 @@
       "sources": {
         "web_domain": [
           "kugou.com"
+        ],
+        "win_winrt": [
+          "kugou"
         ]
       },
       "attributes": {

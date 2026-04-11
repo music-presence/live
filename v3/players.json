@@ -1685,6 +1685,9 @@
         "web_domain": [
           "kugou.com"
         ],
+        "win_winrt": [
+          "kugou"
+        ],
         "mac_mediaremote": [
           "com.kugou.mac.Music"
         ]
