@@ -959,6 +959,27 @@
       }
     },
     {
+      "id": "mtoc",
+      "name": "mtoc",
+      "url": "https://mtoc.app",
+      "sources": {
+        "lin_mpris": [
+          "org._3fz.mtoc"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1492972128956317776"
+      }
+    },
+    {
       "id": "musicbee",
       "name": "MusicBee",
       "url": "https://www.getmusicbee.com",
@@ -1498,6 +1519,31 @@
       ],
       "extra": {
         "discord_application_id": "1429817963808030840"
+      }
+    },
+    {
+      "id": "seanime",
+      "name": "Seanime",
+      "url": "https://seanime.app",
+      "sources": {},
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1492974440970064054"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "seanime-denshi"
+          }
+        ]
       }
     },
     {
@@ -2783,6 +2829,29 @@
         "md5": "0b6c56827341b2977a1fd62b42da08e2"
       }
     ],
+    "mtoc": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mtoc/logo-128.ca4a0e6ba582.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mtoc/discord-large-image.99f77c8f955b.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mtoc/discord-small-image.a057baf79fa0.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/mtoc/tray-menu.761c851f13c9.ico",
+        "md5": "761c851f13c97d264077636518c741b6"
+      }
+    ],
     "musicbee": [
       {
         "label": "logo-128",
@@ -3333,6 +3402,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/sayonara/tray-menu.3f8b860462d4.ico",
         "md5": "3f8b860462d4df3272eabc06055553df"
+      }
+    ],
+    "seanime": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/seanime/logo-128.945dd2404fe2.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/seanime/discord-large-image.58a43cf09d2b.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/seanime/discord-small-image.4915319328cc.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/seanime/tray-menu.aa573d864a07.ico",
+        "md5": "aa573d864a077c13948b5890db9cae72"
       }
     ],
     "shortwave": [
