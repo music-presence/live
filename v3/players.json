@@ -1329,6 +1329,9 @@
       "name": "Hummingbird",
       "url": "https://github.com/hummingbird-player/hummingbird",
       "sources": {
+        "win_winrt": [
+          "Hummingbird.exe"
+        ],
         "mac_mediaremote": [
           "org.mailliw.hummingbird"
         ]
