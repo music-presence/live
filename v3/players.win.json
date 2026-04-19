@@ -1725,6 +1725,27 @@
       }
     },
     {
+      "id": "shairportqt",
+      "name": "ShairportQt",
+      "url": "https://github.com/Frank-Friemel/ShairportQt",
+      "sources": {
+        "win_winrt": [
+          "Airplay.Shairport.Audio.1.0"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1495482062361334043"
+      }
+    },
+    {
       "id": "siriusxm",
       "name": "SiriusXM",
       "url": "https://www.siriusxm.com",
@@ -3980,6 +4001,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/screenbox/tray-menu.b4dad04060d4.ico",
         "md5": "b4dad04060d4f06bfd125521330c9cd2"
+      }
+    ],
+    "shairportqt": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/shairportqt/logo-128.84a1b4c498e7.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/shairportqt/discord-large-image.d6eb55b706ef.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/shairportqt/discord-small-image.b092593bec40.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/shairportqt/tray-menu.553e76bcafaa.ico",
+        "md5": "553e76bcafaaace533b162796f1a33ae"
       }
     ],
     "siriusxm": [
