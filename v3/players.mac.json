@@ -1375,6 +1375,30 @@
       }
     },
     {
+      "id": "qbz",
+      "name": "QBZ",
+      "url": "https://github.com/vicrodh/qbz",
+      "represents": [
+        "qobuz"
+      ],
+      "sources": {
+        "mac_mediaremote": [
+          "com.blitzfc.qbz"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1489004426273231069"
+      }
+    },
+    {
       "id": "qishui",
       "name": "Qishui",
       "url": "https://music.douyin.com",
@@ -3280,6 +3304,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/prologue/tray-menu.3854d9b9e1d1.ico",
         "md5": "3854d9b9e1d1ffeeab61d16e2e0e6fd8"
+      }
+    ],
+    "qbz": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/qbz/logo-128.88a64002a7d1.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/qbz/discord-large-image.48817785226a.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/qbz/discord-small-image.6aaec0d32c00.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/qbz/tray-menu.1c40f92f5436.ico",
+        "md5": "1c40f92f54368324bea5a85ec261318d"
       }
     ],
     "qishui": [
