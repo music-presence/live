@@ -142,6 +142,48 @@
       }
     },
     {
+      "id": "apple-control-center-airplay-placeholder",
+      "name": "AirPlay",
+      "url": "https://en.wikipedia.org/wiki/AirPlay",
+      "sources": {
+        "web_domain": [
+          "airplay.com.apple.controlcenter.example.com"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1497895364358049822"
+      }
+    },
+    {
+      "id": "apple-control-center-control-centre-placeholder",
+      "name": "Control Centre",
+      "url": "https://en.wikipedia.org/wiki/Control_Center_(Apple)",
+      "sources": {
+        "web_domain": [
+          "com.apple.controlcenter.example.com"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1497895231905857626"
+      }
+    },
+    {
       "id": "apple-music",
       "name": "Apple Music",
       "url": "https://music.apple.com",
@@ -2024,6 +2066,52 @@
         "md5": "d718b012c860071234ef9012fb087af8"
       }
     ],
+    "apple-control-center-airplay-placeholder": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/apple-control-center-airplay-placeholder/logo-128.d42202fcc280.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/apple-control-center-airplay-placeholder/discord-large-image.0950e9eb1d0a.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/apple-control-center-airplay-placeholder/discord-small-image.702456db3616.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/apple-control-center-airplay-placeholder/tray-menu.dfff444f877f.ico",
+        "md5": "dfff444f877fcb2af97a8ce0b98493d2"
+      }
+    ],
+    "apple-control-center-control-centre-placeholder": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/apple-control-center-control-centre-placeholder/logo-128.d42202fcc280.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/apple-control-center-control-centre-placeholder/discord-large-image.0950e9eb1d0a.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/apple-control-center-control-centre-placeholder/discord-small-image.702456db3616.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/apple-control-center-control-centre-placeholder/tray-menu.dfff444f877f.ico",
+        "md5": "dfff444f877fcb2af97a8ce0b98493d2"
+      }
+    ],
     "apple-music": [
       {
         "label": "logo-128",
@@ -2120,7 +2208,7 @@
       {
         "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/chillhop/logo-128.89d3819a7bde.png"
+        "url": "https://live.musicpresence.app/v3/icons/chillhop/logo-128.a3b6a22cf547.png"
       },
       {
         "label": "discord-large-image",
