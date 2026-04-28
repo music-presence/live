@@ -4016,7 +4016,7 @@
     {
       "id": "wora",
       "name": "Wora",
-      "url": "https://github.com/hiaaryan/wora",
+      "url": "https://wora.app",
       "sources": {
         "win_winrt": [
           "com.wora.player"
@@ -4032,6 +4032,14 @@
       ],
       "extra": {
         "discord_application_id": "1347007321532010547"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "wora"
+          }
+        ]
       }
     },
     {

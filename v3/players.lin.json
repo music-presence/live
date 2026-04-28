@@ -1872,6 +1872,31 @@
       }
     },
     {
+      "id": "wora",
+      "name": "Wora",
+      "url": "https://wora.app",
+      "sources": {},
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1347007321532010547"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "wora"
+          }
+        ]
+      }
+    },
+    {
       "id": "yandex-music",
       "name": "Yandex Music",
       "url": "https://music.yandex.com",
@@ -3789,6 +3814,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/vlc/tray-menu.d9f1e62ca938.ico",
         "md5": "d9f1e62ca93856e6b9bdb9c7d6fce5da"
+      }
+    ],
+    "wora": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/wora/logo-128.040b1ce575c4.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/wora/discord-large-image.8385e8933099.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/wora/discord-small-image.23a140e80f39.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/wora/tray-menu.22ea26b3ee16.ico",
+        "md5": "22ea26b3ee16df09693d23296bac2ff7"
       }
     ],
     "yandex-music": [
