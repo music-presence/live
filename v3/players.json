@@ -4019,7 +4019,8 @@
       "url": "https://wora.app",
       "sources": {
         "win_winrt": [
-          "com.wora.player"
+          "com.wora.player",
+          "com.hiaaryan.wora"
         ]
       },
       "attributes": {
