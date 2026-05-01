@@ -1817,6 +1817,27 @@
       }
     },
     {
+      "id": "lyra",
+      "name": "Lyra",
+      "url": "https://play.google.com/store/apps/details?id=com.musicapp.lyra",
+      "sources": {
+        "win_winrt": [
+          "com.musicapp.lyra"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1499704187963969616"
+      }
+    },
+    {
       "id": "manet",
       "name": "Manet",
       "url": "https://tilosoftware.io/manet",
@@ -3886,6 +3907,9 @@
       "name": "Voxity",
       "url": "https://voxity.exerinity.com",
       "sources": {
+        "lin_mpris": [
+          "voxity"
+        ],
         "win_winrt": [
           "com.exerinity.voxity",
           "Voxity.exe"
@@ -3901,6 +3925,14 @@
       ],
       "extra": {
         "discord_application_id": "1460911569339809812"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "Voxity"
+          }
+        ]
       }
     },
     {
@@ -5835,6 +5867,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/longplay/tray-menu.e4276b2202a3.ico",
         "md5": "e4276b2202a340f080f51ea17fada258"
+      }
+    ],
+    "lyra": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/lyra/logo-128.277033fd3418.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/lyra/discord-large-image.7f4e34ce2d0d.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/lyra/discord-small-image.b293c879535f.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/lyra/tray-menu.526358028880.ico",
+        "md5": "526358028880b19ffe40a49527aae402"
       }
     ],
     "manet": [

@@ -932,6 +932,27 @@
       }
     },
     {
+      "id": "lyra",
+      "name": "Lyra",
+      "url": "https://play.google.com/store/apps/details?id=com.musicapp.lyra",
+      "sources": {
+        "win_winrt": [
+          "com.musicapp.lyra"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1499704187963969616"
+      }
+    },
+    {
       "id": "media",
       "name": "Media",
       "url": "https://example.com",
@@ -3286,6 +3307,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/kugou-zh-placeholder/tray-menu.a96e687d34ee.ico",
         "md5": "a96e687d34ee88cedf0d86212b3b72ec"
+      }
+    ],
+    "lyra": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/lyra/logo-128.277033fd3418.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/lyra/discord-large-image.7f4e34ce2d0d.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/lyra/discord-small-image.b293c879535f.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/lyra/tray-menu.526358028880.ico",
+        "md5": "526358028880b19ffe40a49527aae402"
       }
     ],
     "mediamonkey": [
