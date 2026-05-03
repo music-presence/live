@@ -1109,7 +1109,8 @@
       "url": "https://murglar.app",
       "sources": {
         "win_winrt": [
-          "com.badmanners.murglar"
+          "com.badmanners.murglar",
+          "Murglar.exe"
         ]
       },
       "attributes": {
