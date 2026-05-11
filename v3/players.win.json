@@ -1551,6 +1551,28 @@
       }
     },
     {
+      "id": "psysonic",
+      "name": "Psysonic",
+      "url": "https://github.com/Psychotoxical/psysonic",
+      "sources": {
+        "win_winrt": [
+          "psysonic.exe",
+          "dev.psysonic.player"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1501889987510141030"
+      }
+    },
+    {
       "id": "qishui",
       "name": "Qishui",
       "url": "https://music.douyin.com",
@@ -3906,6 +3928,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/potplayer/tray-menu.4959a731c251.ico",
         "md5": "4959a731c2511cabb54428f8d7dfd454"
+      }
+    ],
+    "psysonic": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/psysonic/logo-128.733e961f2222.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/psysonic/discord-large-image.7cfccbc825a1.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/psysonic/discord-small-image.6841e9c624ce.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/psysonic/tray-menu.6a87601116c5.ico",
+        "md5": "6a87601116c5b53ddb2b72f4678f9539"
       }
     ],
     "qishui": [

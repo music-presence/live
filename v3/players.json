@@ -2788,6 +2788,34 @@
       }
     },
     {
+      "id": "psysonic",
+      "name": "Psysonic",
+      "url": "https://github.com/Psychotoxical/psysonic",
+      "sources": {
+        "lin_mpris": [
+          "psysonic"
+        ],
+        "win_winrt": [
+          "psysonic.exe",
+          "dev.psysonic.player"
+        ],
+        "mac_mediaremote": [
+          "dev.psysonic.player"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1501889987510141030"
+      }
+    },
+    {
       "id": "qbz",
       "name": "QBZ",
       "url": "https://github.com/vicrodh/qbz",
@@ -6788,6 +6816,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/prologue/tray-menu.3854d9b9e1d1.ico",
         "md5": "3854d9b9e1d1ffeeab61d16e2e0e6fd8"
+      }
+    ],
+    "psysonic": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/psysonic/logo-128.733e961f2222.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/psysonic/discord-large-image.7cfccbc825a1.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/psysonic/discord-small-image.6841e9c624ce.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/psysonic/tray-menu.6a87601116c5.ico",
+        "md5": "6a87601116c5b53ddb2b72f4678f9539"
       }
     ],
     "qbz": [
