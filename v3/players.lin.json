@@ -5,6 +5,27 @@
   "subset": "lin",
   "players": [
     {
+      "id": "airplay-placeholder",
+      "name": "AirPlay",
+      "url": "https://en.wikipedia.org/wiki/AirPlay",
+      "sources": {
+        "web_domain": [
+          "airplay.example.com"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1503395377116610661"
+      }
+    },
+    {
       "id": "amazon-music",
       "name": "Amazon Music",
       "url": "https://music.amazon.com",
@@ -1610,6 +1631,30 @@
       }
     },
     {
+      "id": "shairport-sync",
+      "name": "Shairport Sync",
+      "url": "https://github.com/mikebrady/shairport-sync",
+      "represents": [
+        "airplay-placeholder"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "ShairportSync"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1503394531704311868"
+      }
+    },
+    {
       "id": "shortwave",
       "name": "Shortwave",
       "url": "https://github.com/maunalinux/shortwave",
@@ -2026,6 +2071,29 @@
     }
   ],
   "icons": {
+    "airplay-placeholder": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/airplay-placeholder/logo-128.d42202fcc280.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/airplay-placeholder/discord-large-image.0950e9eb1d0a.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/airplay-placeholder/discord-small-image.702456db3616.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/airplay-placeholder/tray-menu.dfff444f877f.ico",
+        "md5": "dfff444f877fcb2af97a8ce0b98493d2"
+      }
+    ],
     "amazon-music": [
       {
         "label": "logo-128",
