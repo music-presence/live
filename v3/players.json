@@ -2308,6 +2308,9 @@
         "web_domain": [
           "music.163.com"
         ],
+        "win_winrt": [
+          "cloudmusic.exe"
+        ],
         "mac_mediaremote": [
           "com.netease.163music"
         ]
