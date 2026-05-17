@@ -752,6 +752,27 @@
       }
     },
     {
+      "id": "hifidelity",
+      "name": "HiFidelity",
+      "url": "https://rvarunrathod.github.io/HiFidelity",
+      "sources": {
+        "mac_mediaremote": [
+          "vr.HiFidelity"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1505610840399806686"
+      }
+    },
+    {
       "id": "hummingbird",
       "name": "Hummingbird",
       "url": "https://github.com/hummingbird-player/hummingbird",
@@ -2769,6 +2790,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/freefy/tray-menu.340fd5515f1e.ico",
         "md5": "340fd5515f1e3995c4e974c8d1d0320f"
+      }
+    ],
+    "hifidelity": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/hifidelity/logo-128.da9c68155b22.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/hifidelity/discord-large-image.db01c865d4f7.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/hifidelity/discord-small-image.2d1c1cc57eff.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/hifidelity/tray-menu.4750113fb675.ico",
+        "md5": "4750113fb675ea933d47452bd400bb03"
       }
     ],
     "hummingbird": [
