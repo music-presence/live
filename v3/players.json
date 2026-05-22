@@ -3386,6 +3386,27 @@
       }
     },
     {
+      "id": "silphium",
+      "name": "Silphium",
+      "url": "https://github.com/metaisfacil/silphium",
+      "sources": {
+        "win_winrt": [
+          "Silphium.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1507295958415839273"
+      }
+    },
+    {
       "id": "siriusxm",
       "name": "SiriusXM",
       "url": "https://www.siriusxm.com",
@@ -3426,6 +3447,28 @@
       ],
       "extra": {
         "discord_application_id": "1467801048646422712"
+      }
+    },
+    {
+      "id": "somafm",
+      "name": "SomaFM",
+      "url": "https://somafm.com",
+      "sources": {
+        "mac_mediaremote": [
+          "com.somafm.somafmmac"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_radio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1507300203676565625"
       }
     },
     {
@@ -3806,6 +3849,28 @@
       ],
       "extra": {
         "discord_application_id": "1246943204411179120"
+      }
+    },
+    {
+      "id": "trdo",
+      "name": "Trdo",
+      "url": "https://trdo.net",
+      "sources": {
+        "win_winrt": [
+          "40087JoeFinApps.Trdo_kdbpvth5scec4!App"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_radio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1507293722390302842"
       }
     },
     {
@@ -7442,6 +7507,29 @@
         "md5": "295d60ee7686d2903d4c8885696b5e97"
       }
     ],
+    "silphium": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/silphium/logo-128.dc579b47ad97.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/silphium/discord-large-image.75f14cc93d5f.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/silphium/discord-small-image.f3549f484d24.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/silphium/tray-menu.3cbbce520096.ico",
+        "md5": "3cbbce520096b8f6ec316ca1f69e3169"
+      }
+    ],
     "siriusxm": [
       {
         "label": "logo-128",
@@ -7486,6 +7574,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/smplayer/tray-menu.bdbe92ea23e8.ico",
         "md5": "bdbe92ea23e8a0cd572cb5c715e511bf"
+      }
+    ],
+    "somafm": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/somafm/logo-128.daf34aa2be73.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/somafm/discord-large-image.dd28002e6dfc.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/somafm/discord-small-image.0f80002616c2.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/somafm/tray-menu.ab03fc184db3.ico",
+        "md5": "ab03fc184db3fb6f0c6b2d04864452ac"
       }
     ],
     "sone": [
@@ -7831,6 +7942,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/tidal/tray-menu.6559603207ce.ico",
         "md5": "6559603207ce466ff0d8f94403dc6af9"
+      }
+    ],
+    "trdo": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/trdo/logo-128.f81d8cfeb172.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/trdo/discord-large-image.eeb866e3bb03.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/trdo/discord-small-image.eddc4f39f7e1.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/trdo/tray-menu.c6c19a101c4c.ico",
+        "md5": "c6c19a101c4c8b70d9e48803e50c9df2"
       }
     ],
     "triode": [

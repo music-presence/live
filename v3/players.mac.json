@@ -1711,6 +1711,28 @@
       }
     },
     {
+      "id": "somafm",
+      "name": "SomaFM",
+      "url": "https://somafm.com",
+      "sources": {
+        "mac_mediaremote": [
+          "com.somafm.somafmmac"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_radio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1507300203676565625"
+      }
+    },
+    {
       "id": "soundcloud",
       "name": "SoundCloud",
       "url": "https://soundcloud.com",
@@ -3779,6 +3801,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/samply/tray-menu.d785be2bd798.ico",
         "md5": "d785be2bd7987986b38c72acd2e50688"
+      }
+    ],
+    "somafm": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/somafm/logo-128.daf34aa2be73.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/somafm/discord-large-image.dd28002e6dfc.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/somafm/discord-small-image.0f80002616c2.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/somafm/tray-menu.ab03fc184db3.ico",
+        "md5": "ab03fc184db3fb6f0c6b2d04864452ac"
       }
     ],
     "soundcloud": [
