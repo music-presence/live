@@ -2065,6 +2065,10 @@
           {
             "service": "Valent",
             "identity": "YouTube Music"
+          },
+          {
+            "service": "chromium",
+            "identity": "com.github.th_ch.youtube_music"
           }
         ]
       }
