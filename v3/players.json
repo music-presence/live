@@ -102,7 +102,9 @@
           "AmazonMobileLLC.AmazonMusic_kc6t79cpj4tp0!AmazonMobileLLC.AmazonMusic",
           "AmazonMobileLLC.AmazonMusic_kc6t79cpj4tp0!AMAZONMOBILELLC.AMAZONMUSIC",
           "Amazon.Music",
-          "music.amazon.com-A4232AAE_pwn81ww419gp8!App"
+          "music.amazon.com-A4232AAE_pwn81ww419gp8!app",
+          "music.amazon.com-A4232AAE_pwn81ww419gp8!App",
+          "music.amazon.com-A4232AAE_pwn81ww419gp8!APP"
         ],
         "mac_mediaremote": [
           "com.amazon.music"
@@ -3552,6 +3554,9 @@
           "SoundcloudLtd.SoundCloudforWindowsBeta_2xc63xn306dnw!app",
           "SoundcloudLtd.SoundCloudforWindowsBeta_2xc63xn306dnw!App",
           "SoundcloudLtd.SoundCloudforWindowsBeta_2xc63xn306dnw!APP",
+          "soundcloud.com-11A6A179_mz0ydhkgwkv3y!app",
+          "soundcloud.com-11A6A179_mz0ydhkgwkv3y!App",
+          "soundcloud.com-11A6A179_mz0ydhkgwkv3y!APP",
           "SoundCloud.exe",
           "electron.app.SoundCloud"
         ]
