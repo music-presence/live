@@ -4219,6 +4219,27 @@
       }
     },
     {
+      "id": "windowsspin",
+      "name": "WindowsSpin",
+      "url": "https://github.com/chrisuthe/windowsSpin",
+      "sources": {
+        "win_winrt": [
+          "SendspinClient.exe"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1510183558470176898"
+      }
+    },
+    {
       "id": "wora",
       "name": "Wora",
       "url": "https://wora.app",
@@ -8298,6 +8319,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/windows-subsystem-for-android/tray-menu.aaf2b637eed2.ico",
         "md5": "aaf2b637eed2ce2da7417b8860bd7dae"
+      }
+    ],
+    "windowsspin": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/windowsspin/logo-128.3e72fa9e8614.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/windowsspin/discord-large-image.8573d69ff547.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/windowsspin/discord-small-image.3470df6a317f.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/windowsspin/tray-menu.7e20cc360d5e.ico",
+        "md5": "7e20cc360d5ebf6aea09f536f06a6e99"
       }
     ],
     "wora": [
