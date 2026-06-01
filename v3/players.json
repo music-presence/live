@@ -3415,6 +3415,30 @@
       }
     },
     {
+      "id": "sidra",
+      "name": "Sidra",
+      "url": "https://github.com/wimpysworld/sidra",
+      "represents": [
+        "apple-music"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "sidra"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1510984239632617502"
+      }
+    },
+    {
       "id": "silphium",
       "name": "Silphium",
       "url": "https://github.com/metaisfacil/silphium",
@@ -7585,6 +7609,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/shortwave/tray-menu.295d60ee7686.ico",
         "md5": "295d60ee7686d2903d4c8885696b5e97"
+      }
+    ],
+    "sidra": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sidra/logo-128.e8d144e08f6a.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sidra/discord-large-image.775fb8f21bca.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sidra/discord-small-image.d18eaabbb93e.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/sidra/tray-menu.df6f1ba152da.ico",
+        "md5": "df6f1ba152dadaa77991ccd020fc8a2d"
       }
     ],
     "silphium": [
