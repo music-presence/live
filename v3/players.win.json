@@ -5,6 +5,27 @@
   "subset": "win",
   "players": [
     {
+      "id": "aiiko-music",
+      "name": "Aiiko Music",
+      "url": "https://github.com/HirayamaAiiko/Aiiko-Music",
+      "sources": {
+        "win_winrt": [
+          "Aiiko Music"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1511655883443011686"
+      }
+    },
+    {
       "id": "aimp",
       "name": "AIMP",
       "url": "https://www.aimp.ru",
@@ -2556,6 +2577,29 @@
     }
   ],
   "icons": {
+    "aiiko-music": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aiiko-music/logo-128.4548cdeb9272.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aiiko-music/discord-large-image.d6170aabae07.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aiiko-music/discord-small-image.62101839f632.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/aiiko-music/tray-menu.6a7cfbfc7a04.ico",
+        "md5": "6a7cfbfc7a041dc793a37cc995943d44"
+      }
+    ],
     "aimp": [
       {
         "label": "logo-128",
