@@ -774,6 +774,7 @@
       "sources": {
         "web_domain": [
           "youtube.com",
+          "youtube-nocookie.com",
           "youtu.be"
         ]
       },
