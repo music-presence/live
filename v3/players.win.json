@@ -501,6 +501,27 @@
       }
     },
     {
+      "id": "eclipse",
+      "name": "Eclipse",
+      "url": "https://eclipsemusic.app",
+      "sources": {
+        "win_winrt": [
+          "velopack.Eclipse"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1514537002568253543"
+      }
+    },
+    {
       "id": "emby",
       "name": "Emby",
       "url": "https://emby.media",
@@ -3036,6 +3057,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/dopamine/tray-menu.111d2d86d55a.ico",
         "md5": "111d2d86d55a57f62d92b6454f93f434"
+      }
+    ],
+    "eclipse": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/eclipse/logo-128.07524b63fef1.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/eclipse/discord-large-image.3c380e49cbbe.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/eclipse/discord-small-image.de22c9e85513.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/eclipse/tray-menu.6674f07fb2b6.ico",
+        "md5": "6674f07fb2b6b9c9b276c1cb8fb480f5"
       }
     ],
     "emby": [
