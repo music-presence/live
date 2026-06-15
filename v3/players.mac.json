@@ -95,6 +95,27 @@
       }
     },
     {
+      "id": "ampcast",
+      "name": "ampcast",
+      "url": "https://github.com/rekkyrosso/ampcast",
+      "sources": {
+        "mac_mediaremote": [
+          "org.rekkyrosso.ampcast"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1344990632602632293"
+      }
+    },
+    {
       "id": "amperfy",
       "name": "Amperfy",
       "url": "https://github.com/BLeeEZ/amperfy",
@@ -2146,6 +2167,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/amazon-music/tray-menu.5ee996d57480.ico",
         "md5": "5ee996d574808f0bc537f1b1440ce7e0"
+      }
+    ],
+    "ampcast": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/ampcast/logo-128.4881acb37af6.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/ampcast/discord-large-image.31b2379ab7cd.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/ampcast/discord-small-image.b46c1e386eae.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/ampcast/tray-menu.8702d71556ee.ico",
+        "md5": "8702d71556ee1b126dca69251afd2536"
       }
     ],
     "amperfy": [

@@ -173,6 +173,9 @@
         "win_winrt": [
           "ampcast.exe",
           "org.rekkyrosso.ampcast"
+        ],
+        "mac_mediaremote": [
+          "org.rekkyrosso.ampcast"
         ]
       },
       "attributes": {
