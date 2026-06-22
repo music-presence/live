@@ -31,7 +31,8 @@
       "url": "https://www.aimp.ru",
       "sources": {
         "win_winrt": [
-          "AIMP.exe"
+          "AIMP.exe",
+          "NimiGames68.AimpSmtc"
         ]
       },
       "attributes": {
