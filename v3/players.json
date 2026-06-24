@@ -121,6 +121,7 @@
         ],
         "win_winrt": [
           "Amazon Music.exe",
+          "AmazonMobileLLC.AmazonMusic_kc6t79cpj4tp0!amazonmobilellc.amazonmusic",
           "AmazonMobileLLC.AmazonMusic_kc6t79cpj4tp0!AmazonMobileLLC.AmazonMusic",
           "AmazonMobileLLC.AmazonMusic_kc6t79cpj4tp0!AMAZONMOBILELLC.AMAZONMUSIC",
           "Amazon.Music",
@@ -801,6 +802,7 @@
         "win_winrt": [
           "Deezer.exe",
           "com.deezer.deezer-desktop",
+          "Deezer.62021768415AF_q7m17pa7q8kj0!deezer.music",
           "Deezer.62021768415AF_q7m17pa7q8kj0!Deezer.Music",
           "Deezer.62021768415AF_q7m17pa7q8kj0!DEEZER.MUSIC"
         ],
@@ -1159,8 +1161,8 @@
       ],
       "sources": {
         "win_winrt": [
-          "55968SamsidGameStudios.FocalSonic_r9j5xrxak4zje!FocalSonic",
           "55968SamsidGameStudios.FocalSonic_r9j5xrxak4zje!focalsonic",
+          "55968SamsidGameStudios.FocalSonic_r9j5xrxak4zje!FocalSonic",
           "55968SamsidGameStudios.FocalSonic_r9j5xrxak4zje!FOCALSONIC"
         ]
       },
@@ -2238,6 +2240,7 @@
         ],
         "win_winrt": [
           "MusicBee.exe",
+          "50072StevenMayall.MusicBee_kcr266et74avj!musicbeepackage",
           "50072StevenMayall.MusicBee_kcr266et74avj!MusicBeePackage",
           "50072StevenMayall.MusicBee_kcr266et74avj!MUSICBEEPACKAGE"
         ]
@@ -2792,7 +2795,10 @@
         ],
         "win_winrt": [
           "com.squirrel.pocket_casts_desktop.PocketCasts",
-          "Pocket Casts.exe"
+          "Pocket Casts.exe",
+          "ShiftyJelly.PocketCastsDesktop_jr8twj5yc2snp!pocketcasts",
+          "ShiftyJelly.PocketCastsDesktop_jr8twj5yc2snp!PocketCasts",
+          "ShiftyJelly.PocketCastsDesktop_jr8twj5yc2snp!POCKETCASTS"
         ],
         "mac_mediaremote": [
           "com.electron.pocket-casts"
@@ -3687,6 +3693,7 @@
         "win_winrt": [
           "Spotify.exe",
           "Spotify Desktop.exe",
+          "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!spotify",
           "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify",
           "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!SPOTIFY",
           "Spotishka Desktop.exe"
@@ -4255,6 +4262,7 @@
       "url": "https://en.wikipedia.org/wiki/Groove_Music",
       "sources": {
         "win_winrt": [
+          "Microsoft.ZuneMusic_8wekyb3d8bbwe!microsoft.zunemusic",
           "Microsoft.ZuneMusic_8wekyb3d8bbwe!Microsoft.ZuneMusic",
           "Microsoft.ZuneMusic_8wekyb3d8bbwe!MICROSOFT.ZUNEMUSIC"
         ]
