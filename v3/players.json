@@ -517,7 +517,7 @@
       "name": "Audion",
       "url": "https://www.audionplayer.com",
       "sources": {
-        "mac_mediaremote": [
+        "win_winrt": [
           "com.audion.app"
         ]
       },
@@ -4282,7 +4282,7 @@
       "name": "WaveFlow",
       "url": "https://waveflow.app",
       "sources": {
-        "mac_mediaremote": [
+        "win_winrt": [
           "app.waveflow"
         ]
       },
