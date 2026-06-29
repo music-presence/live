@@ -3150,6 +3150,27 @@
       }
     },
     {
+      "id": "ratune",
+      "name": "ratune",
+      "url": "https://github.com/acmagn/ratune",
+      "sources": {
+        "lin_mpris": [
+          "ratune"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1521063756220862567"
+      }
+    },
+    {
       "id": "reamp",
       "name": "re:AMP",
       "url": "https://re-amp.ru",
