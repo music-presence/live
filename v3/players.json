@@ -513,6 +513,27 @@
       }
     },
     {
+      "id": "audion",
+      "name": "Audion",
+      "url": "https://www.audionplayer.com",
+      "sources": {
+        "mac_mediaremote": [
+          "com.audion.app"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1521215344663072973"
+      }
+    },
+    {
       "id": "bandcamp",
       "name": "Bandcamp",
       "url": "https://bandcamp.com",
@@ -4257,6 +4278,27 @@
       }
     },
     {
+      "id": "waveflow",
+      "name": "WaveFlow",
+      "url": "https://waveflow.app",
+      "sources": {
+        "mac_mediaremote": [
+          "app.waveflow"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1521218200585371778"
+      }
+    },
+    {
       "id": "winamp",
       "name": "Winamp",
       "url": "https://winamp.com",
@@ -4888,7 +4930,7 @@
       {
         "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/logo-128.69e83ef32a79.png"
+        "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/logo-128.2455da3216d9.png"
       },
       {
         "label": "discord-large-image",
@@ -4898,7 +4940,7 @@
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/discord-small-image.343c718ae118.png"
+        "url": "https://live.musicpresence.app/v3/icons/apple-podcasts/discord-small-image.3295f1650926.png"
       },
       {
         "label": "tray-menu",
@@ -4997,6 +5039,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/audible/tray-menu.0af4905553e3.ico",
         "md5": "0af4905553e33995f691827f6ff6ef3b"
+      }
+    ],
+    "audion": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/audion/logo-128.dc3047f4f26e.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/audion/discord-large-image.e0c516c520da.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/audion/discord-small-image.968e5416803a.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/audion/tray-menu.f2a925cd9db3.ico",
+        "md5": "f2a925cd9db336403eaa07ae9f01eeba"
       }
     ],
     "bandcamp": [
@@ -8447,6 +8512,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/wacup/tray-menu.66aedf5a69dd.ico",
         "md5": "66aedf5a69ddeec70eed69c91223b375"
+      }
+    ],
+    "waveflow": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/waveflow/logo-128.ed6a425e4b28.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/waveflow/discord-large-image.48295e7fe11e.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/waveflow/discord-small-image.95c9ffac7269.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/waveflow/tray-menu.9662ada465c4.ico",
+        "md5": "9662ada465c4a8c5457bad22ed8f545c"
       }
     ],
     "winamp": [
