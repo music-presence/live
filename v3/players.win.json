@@ -32,6 +32,7 @@
       "sources": {
         "win_winrt": [
           "AIMP.exe",
+          "AimpSmtc.exe",
           "NimiGames68.AimpSmtc"
         ]
       },

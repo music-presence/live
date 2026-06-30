@@ -52,6 +52,7 @@
       "sources": {
         "win_winrt": [
           "AIMP.exe",
+          "AimpSmtc.exe",
           "NimiGames68.AimpSmtc"
         ]
       },
@@ -623,6 +624,9 @@
       ],
       "sources": {
         "win_winrt": [
+          "com.chromatix.app"
+        ],
+        "mac_mediaremote": [
           "com.chromatix.app"
         ]
       },
