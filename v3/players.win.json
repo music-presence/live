@@ -2303,7 +2303,8 @@
       ],
       "sources": {
         "win_winrt": [
-          "rocks.shy.VacuumTube"
+          "rocks.shy.VacuumTube",
+          "electron.app.VacuumTube"
         ]
       },
       "attributes": {
