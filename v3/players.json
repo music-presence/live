@@ -175,7 +175,8 @@
       "sources": {
         "win_winrt": [
           "ampcast.exe",
-          "org.rekkyrosso.ampcast"
+          "org.rekkyrosso.ampcast",
+          "electron.app.ampcast"
         ],
         "mac_mediaremote": [
           "org.rekkyrosso.ampcast"
