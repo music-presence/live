@@ -3526,6 +3526,9 @@
       "sources": {
         "lin_mpris": [
           "sidra"
+        ],
+        "win_winrt": [
+          "com.wimpysworld.sidra"
         ]
       },
       "attributes": {
