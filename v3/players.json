@@ -3808,6 +3808,9 @@
       "sources": {
         "lin_mpris": [
           "strawberry"
+        ],
+        "win_winrt": [
+          "strawberry.exe"
         ]
       },
       "attributes": {

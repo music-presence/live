@@ -2137,6 +2137,27 @@
       }
     },
     {
+      "id": "strawberry",
+      "name": "Strawberry",
+      "url": "https://www.strawberrymusicplayer.org",
+      "sources": {
+        "win_winrt": [
+          "strawberry.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1311732691699367998"
+      }
+    },
+    {
       "id": "stream-music",
       "name": "Stream Music",
       "url": "https://music.aqzscn.cn/en",
@@ -4705,6 +4726,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/spotube/tray-menu.c56d8a8fed3b.ico",
         "md5": "c56d8a8fed3b72d8e8184471f2a16ac5"
+      }
+    ],
+    "strawberry": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/strawberry/logo-128.c8f7d959153f.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/strawberry/discord-large-image.b3643e162173.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/strawberry/discord-small-image.f0cd4863d987.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/strawberry/tray-menu.a94ab76523d4.ico",
+        "md5": "a94ab76523d4907a53e3f64544813a5b"
       }
     ],
     "stream-music": [
