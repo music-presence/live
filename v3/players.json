@@ -1671,7 +1671,8 @@
           "JellyfinMediaPlayer.exe"
         ],
         "mac_mediaremote": [
-          "tv.jellyfin.player"
+          "tv.jellyfin.player",
+          "org.jellyfin.jellyfin-desktop"
         ]
       },
       "attributes": {
