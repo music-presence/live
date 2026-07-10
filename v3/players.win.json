@@ -1407,6 +1407,32 @@
       }
     },
     {
+      "id": "netflix",
+      "name": "Netflix",
+      "url": "https://www.netflix.com",
+      "sources": {
+        "web_domain": [
+          "netflix.com"
+        ],
+        "win_winrt": [
+          "4DF9E0F8.Netflix_mcm4njqhnhss8!netflix.app",
+          "4DF9E0F8.Netflix_mcm4njqhnhss8!Netflix.App",
+          "4DF9E0F8.Netflix_mcm4njqhnhss8!NETFLIX.APP"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": true
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1525158713952960552"
+      }
+    },
+    {
       "id": "neutron-music-player",
       "name": "Neutron Music Player",
       "url": "https://neutroncode.com/apps/player",
@@ -2654,7 +2680,10 @@
         ],
         "win_winrt": [
           "YouTube.exe",
-          "electron.app.YouTube"
+          "electron.app.YouTube",
+          "www.youtube.com-54E21B02_pd8mbgmqs65xy!app",
+          "www.youtube.com-54E21B02_pd8mbgmqs65xy!App",
+          "www.youtube.com-54E21B02_pd8mbgmqs65xy!APP"
         ]
       },
       "attributes": {
@@ -4036,6 +4065,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/netease-cloud-music-zh-placeholder/tray-menu.e7fe486a4b0e.ico",
         "md5": "e7fe486a4b0e1ebc3c5468c2fe81622f"
+      }
+    ],
+    "netflix": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/netflix/logo-128.c121ff74510e.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/netflix/discord-large-image.a0cfa8837560.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/netflix/discord-small-image.3012cd34a415.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/netflix/tray-menu.19cee6029903.ico",
+        "md5": "19cee602990359663b98bdaaff258f6d"
       }
     ],
     "neutron-music-player": [

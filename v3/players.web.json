@@ -438,6 +438,27 @@
       }
     },
     {
+      "id": "netflix",
+      "name": "Netflix",
+      "url": "https://www.netflix.com",
+      "sources": {
+        "web_domain": [
+          "netflix.com"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": true
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1525158713952960552"
+      }
+    },
+    {
       "id": "neutron-music-player-placeholder",
       "name": "Neutron",
       "url": "https://neutroncode.com/apps/player",
@@ -1249,6 +1270,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/netease-cloud-music-zh-placeholder/tray-menu.e7fe486a4b0e.ico",
         "md5": "e7fe486a4b0e1ebc3c5468c2fe81622f"
+      }
+    ],
+    "netflix": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/netflix/logo-128.c121ff74510e.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/netflix/discord-large-image.a0cfa8837560.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/netflix/discord-small-image.3012cd34a415.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/netflix/tray-menu.19cee6029903.ico",
+        "md5": "19cee602990359663b98bdaaff258f6d"
       }
     ],
     "neutron-music-player-placeholder": [
