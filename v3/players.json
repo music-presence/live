@@ -965,6 +965,27 @@
       }
     },
     {
+      "id": "elycast",
+      "name": "ElyCast",
+      "url": "https://github.com/kudasaixc/elycast",
+      "sources": {
+        "win_winrt": [
+          "ElyCast"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1525527300190507310"
+      }
+    },
+    {
       "id": "emby",
       "name": "Emby",
       "url": "https://emby.media",
@@ -5499,6 +5520,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/elisa/tray-menu.33905f1f9040.ico",
         "md5": "33905f1f90403e4edabf0ff957f489f2"
+      }
+    ],
+    "elycast": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/elycast/logo-128.a803d6efa5b6.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/elycast/discord-large-image.09d908363944.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/elycast/discord-small-image.e6b35d7e43e8.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/elycast/tray-menu.99326984b8f0.ico",
+        "md5": "99326984b8f03e8eadd4adf3d83a53f4"
       }
     ],
     "emby": [
