@@ -2377,6 +2377,27 @@
       }
     },
     {
+      "id": "musikcube",
+      "name": "musikcube",
+      "url": "https://github.com/clangen/musikcube",
+      "sources": {
+        "lin_mpris": [
+          "musikcube"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1525984685304315964"
+      }
+    },
+    {
       "id": "nagi",
       "name": "Nagi",
       "url": "https://github.com/Anthonyy232/Nagi",
