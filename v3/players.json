@@ -899,6 +899,14 @@
       ],
       "extra": {
         "discord_application_id": "1285571881667268618"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "Dopamine"
+          }
+        ]
       }
     },
     {

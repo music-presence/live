@@ -430,6 +430,31 @@
       }
     },
     {
+      "id": "dopamine",
+      "name": "Dopamine",
+      "url": "https://github.com/digimezzo/dopamine",
+      "sources": {},
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1285571881667268618"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "Dopamine"
+          }
+        ]
+      }
+    },
+    {
       "id": "elisa",
       "name": "Elisa",
       "url": "https://apps.kde.org/elisa",
@@ -2577,6 +2602,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/deezer/tray-menu.aa7d982aa6e1.ico",
         "md5": "aa7d982aa6e165cb429246f5b5a7729e"
+      }
+    ],
+    "dopamine": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/dopamine/logo-128.afa96bea9e99.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/dopamine/discord-large-image.7c602215c7ad.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/dopamine/discord-small-image.56b5b63d68a0.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/dopamine/tray-menu.111d2d86d55a.ico",
+        "md5": "111d2d86d55a57f62d92b6454f93f434"
       }
     ],
     "elisa": [
