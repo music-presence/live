@@ -806,6 +806,30 @@
       }
     },
     {
+      "id": "jellium",
+      "name": "Jellium",
+      "url": "https://github.com/andrewrabert/jellium-desktop",
+      "represents": [
+        "jellyfin"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "JelliumDesktop"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1528828309910196305"
+      }
+    },
+    {
       "id": "jellyfin",
       "name": "Jellyfin",
       "url": "https://jellyfin.org",
@@ -2993,6 +3017,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/idagio/tray-menu.aa20d050b97e.ico",
         "md5": "aa20d050b97ef344847db1530b235551"
+      }
+    ],
+    "jellium": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/jellium/logo-128.1658ee2e815a.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/jellium/discord-large-image.737a60390dd6.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/jellium/discord-small-image.76c4bac12c68.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/jellium/tray-menu.86ab84862683.ico",
+        "md5": "86ab848626835771e604a1b1cc6d4048"
       }
     ],
     "jellyfin": [
