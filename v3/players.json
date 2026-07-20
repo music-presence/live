@@ -3709,6 +3709,27 @@
       }
     },
     {
+      "id": "snowify",
+      "name": "Snowify",
+      "url": "https://snowify.cc",
+      "sources": {
+        "win_winrt": [
+          "com.nyaku.snowify"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1528675178559701093"
+      }
+    },
+    {
       "id": "somafm",
       "name": "SomaFM",
       "url": "https://somafm.com",
@@ -7786,7 +7807,7 @@
       {
         "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/roon/logo-128.0e75b3c8eff5.png"
+        "url": "https://live.musicpresence.app/v3/icons/roon/logo-128.bc6a1a864626.png"
       },
       {
         "label": "discord-large-image",
@@ -8079,6 +8100,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/smplayer/tray-menu.bdbe92ea23e8.ico",
         "md5": "bdbe92ea23e8a0cd572cb5c715e511bf"
+      }
+    ],
+    "snowify": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/snowify/logo-128.5fc6f9d1236d.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/snowify/discord-large-image.f6145d777684.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/snowify/discord-small-image.98b07330daa4.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/snowify/tray-menu.3effcde362ad.ico",
+        "md5": "3effcde362ad12aa2f0edd7cbe30e90e"
       }
     ],
     "somafm": [
