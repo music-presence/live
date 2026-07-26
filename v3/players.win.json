@@ -595,6 +595,27 @@
       }
     },
     {
+      "id": "esound",
+      "name": "eSound",
+      "url": "https://esound.app",
+      "sources": {
+        "win_winrt": [
+          "com.earlystudio.esound"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1530954959875608838"
+      }
+    },
+    {
       "id": "feishin",
       "name": "Feishin",
       "url": "https://github.com/jeffvli/feishin",
@@ -1133,6 +1154,27 @@
       ],
       "extra": {
         "discord_application_id": "1285577373114437703"
+      }
+    },
+    {
+      "id": "mei-music",
+      "name": "Mei Music",
+      "url": "https://store.steampowered.com/app/4578490/Mei_Music",
+      "sources": {
+        "win_winrt": [
+          "com.meimusic.desktop"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1530952595672141944"
       }
     },
     {
@@ -3351,6 +3393,29 @@
         "md5": "1b52f3fe0d54cdd5061eec44dd29d117"
       }
     ],
+    "esound": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/esound/logo-128.3fa0de996d2d.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/esound/discord-large-image.480e3c98c5b9.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/esound/discord-small-image.86f97da95b0e.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/esound/tray-menu.3777bac8bfdd.ico",
+        "md5": "3777bac8bfddb468587c421be472a9bb"
+      }
+    ],
     "feishin": [
       {
         "label": "logo-128",
@@ -3855,6 +3920,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/mediamonkey/tray-menu.b84e2600002b.ico",
         "md5": "b84e2600002b431c2a71680611b2b705"
+      }
+    ],
+    "mei-music": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mei-music/logo-128.e0c2f89e5099.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mei-music/discord-large-image.284343cd5338.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mei-music/discord-small-image.8c16a51d99b1.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/mei-music/tray-menu.0559cd969781.ico",
+        "md5": "0559cd9697815c45eb5f3310904f4d4e"
       }
     ],
     "melon": [
