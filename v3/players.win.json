@@ -600,7 +600,10 @@
       "url": "https://esound.app",
       "sources": {
         "win_winrt": [
-          "com.earlystudio.esound"
+          "com.earlystudio.esound",
+          "SpicySparks.eSoundMusic_36wb9nbggdj94!esoundmusic",
+          "SpicySparks.eSoundMusic_36wb9nbggdj94!eSoundMusic",
+          "SpicySparks.eSoundMusic_36wb9nbggdj94!ESOUNDMUSIC"
         ]
       },
       "attributes": {
