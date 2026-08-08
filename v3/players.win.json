@@ -70,6 +70,30 @@
       }
     },
     {
+      "id": "algermusicplayer",
+      "name": "AlgerMusicPlayer",
+      "url": "https://github.com/xiaojie-yahu/AlgerMusicPlayer",
+      "represents": [
+        "netease-cloud-music"
+      ],
+      "sources": {
+        "win_winrt": [
+          "com.alger.music"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1535617219449323520"
+      }
+    },
+    {
       "id": "amazon-music",
       "name": "Amazon Music",
       "url": "https://music.amazon.com",
@@ -739,6 +763,27 @@
       ],
       "extra": {
         "discord_application_id": "1247654172975956088"
+      }
+    },
+    {
+      "id": "fooyin",
+      "name": "fooyin",
+      "url": "https://www.fooyin.org",
+      "sources": {
+        "win_winrt": [
+          "fooyin.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1311751990245720115"
       }
     },
     {
@@ -2937,6 +2982,29 @@
         "md5": "dfff444f877fcb2af97a8ce0b98493d2"
       }
     ],
+    "algermusicplayer": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/algermusicplayer/logo-128.d01a29b9978c.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/algermusicplayer/discord-large-image.51bf7ea41818.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/algermusicplayer/discord-small-image.4b201665339e.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/algermusicplayer/tray-menu.6c5a39e7952c.ico",
+        "md5": "6c5a39e7952cdbf0629342a89d5ec1a1"
+      }
+    ],
     "amazon-music": [
       {
         "label": "logo-128",
@@ -3556,6 +3624,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/foobar2000/tray-menu.88e5418e2820.ico",
         "md5": "88e5418e282093e2f11db8c5813f8a92"
+      }
+    ],
+    "fooyin": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/fooyin/logo-128.56a607e76931.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/fooyin/discord-large-image.8e940780aed6.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/fooyin/discord-small-image.34c9994cd01a.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/fooyin/tray-menu.138f8d65c8f2.ico",
+        "md5": "138f8d65c8f2364afee175bacd460f37"
       }
     ],
     "freefy": [

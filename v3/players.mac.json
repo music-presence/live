@@ -577,6 +577,27 @@
       }
     },
     {
+      "id": "djay-pro",
+      "name": "djay Pro",
+      "url": "https://www.algoriddim.com",
+      "sources": {
+        "mac_mediaremote": [
+          "com.algoriddim.djay-iphone-free"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1535613291890483210"
+      }
+    },
+    {
       "id": "dopamine",
       "name": "Dopamine",
       "url": "https://github.com/digimezzo/dopamine",
@@ -2696,6 +2717,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/discrete/tray-menu.02d6820559ef.ico",
         "md5": "02d6820559ef464ccb4eab8dc5e2d199"
+      }
+    ],
+    "djay-pro": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/djay-pro/logo-128.afa4eac2e1e9.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/djay-pro/discord-large-image.30359949775f.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/djay-pro/discord-small-image.daa494afeb49.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/djay-pro/tray-menu.2d5bbddd0836.ico",
+        "md5": "2d5bbddd08368f2b8f96cb7004f05f18"
       }
     ],
     "dopamine": [

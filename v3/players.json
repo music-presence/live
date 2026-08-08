@@ -90,6 +90,30 @@
       }
     },
     {
+      "id": "algermusicplayer",
+      "name": "AlgerMusicPlayer",
+      "url": "https://github.com/xiaojie-yahu/AlgerMusicPlayer",
+      "represents": [
+        "netease-cloud-music"
+      ],
+      "sources": {
+        "win_winrt": [
+          "com.alger.music"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1535617219449323520"
+      }
+    },
+    {
       "id": "amazon-music",
       "name": "Amazon Music",
       "url": "https://music.amazon.com",
@@ -877,6 +901,27 @@
       }
     },
     {
+      "id": "djay-pro",
+      "name": "djay Pro",
+      "url": "https://www.algoriddim.com",
+      "sources": {
+        "mac_mediaremote": [
+          "com.algoriddim.djay-iphone-free"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1535613291890483210"
+      }
+    },
+    {
       "id": "dopamine",
       "name": "Dopamine",
       "url": "https://github.com/digimezzo/dopamine",
@@ -1298,6 +1343,9 @@
       "sources": {
         "lin_mpris": [
           "fooyin"
+        ],
+        "win_winrt": [
+          "fooyin.exe"
         ]
       },
       "attributes": {
@@ -4787,6 +4835,10 @@
           {
             "service": "chromium",
             "identity": "com.github.th_ch.youtube_music"
+          },
+          {
+            "service": "chromium",
+            "identity": "com.github.th-ch.youtube-music"
           }
         ]
       }
@@ -4883,6 +4935,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/airplay-placeholder/tray-menu.dfff444f877f.ico",
         "md5": "dfff444f877fcb2af97a8ce0b98493d2"
+      }
+    ],
+    "algermusicplayer": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/algermusicplayer/logo-128.d01a29b9978c.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/algermusicplayer/discord-large-image.51bf7ea41818.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/algermusicplayer/discord-small-image.4b201665339e.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/algermusicplayer/tray-menu.6c5a39e7952c.ico",
+        "md5": "6c5a39e7952cdbf0629342a89d5ec1a1"
       }
     ],
     "amazon-music": [
@@ -5550,6 +5625,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/discrete/tray-menu.02d6820559ef.ico",
         "md5": "02d6820559ef464ccb4eab8dc5e2d199"
+      }
+    ],
+    "djay-pro": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/djay-pro/logo-128.afa4eac2e1e9.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/djay-pro/discord-large-image.30359949775f.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/djay-pro/discord-small-image.daa494afeb49.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/djay-pro/tray-menu.2d5bbddd0836.ico",
+        "md5": "2d5bbddd08368f2b8f96cb7004f05f18"
       }
     ],
     "dopamine": [
