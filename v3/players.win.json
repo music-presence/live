@@ -668,6 +668,30 @@
       }
     },
     {
+      "id": "finamp",
+      "name": "Finamp",
+      "url": "https://github.com/jmshrv/finamp",
+      "represents": [
+        "jellyfin"
+      ],
+      "sources": {
+        "win_winrt": [
+          "Finamp.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1440754630072991918"
+      }
+    },
+    {
       "id": "fladder",
       "name": "Fladder",
       "url": "https://github.com/DonutWare/Fladder",
@@ -738,6 +762,27 @@
       ],
       "extra": {
         "discord_application_id": "1443227033709838466"
+      }
+    },
+    {
+      "id": "focus-music",
+      "name": "focus.music",
+      "url": "https://focus.music",
+      "sources": {
+        "win_winrt": [
+          "focus.music-8C2628DE_930v1qr4esn20!App"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1535918136983814164"
       }
     },
     {
@@ -3534,6 +3579,29 @@
         "md5": "7acbf8c155314ed125167bede1d7b004"
       }
     ],
+    "finamp": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/finamp/logo-128.6d3676ea1297.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/finamp/discord-large-image.f30aa6ad14db.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/finamp/discord-small-image.a7f50066516b.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/finamp/tray-menu.0a0d50588bd1.ico",
+        "md5": "0a0d50588bd1d876cdcf722e72287b4e"
+      }
+    ],
     "fladder": [
       {
         "label": "logo-128",
@@ -3601,6 +3669,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/focalsonic/tray-menu.ead52ef354ed.ico",
         "md5": "ead52ef354ed6e2ad7ff7fb4ba089976"
+      }
+    ],
+    "focus-music": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/focus-music/logo-128.bde432f48210.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/focus-music/discord-large-image.a7befd538b10.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/focus-music/discord-small-image.32dab886d4fb.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/focus-music/tray-menu.35830f1142ea.ico",
+        "md5": "35830f1142ea1cf6dd15cd97fffcdd48"
       }
     ],
     "foobar2000": [
