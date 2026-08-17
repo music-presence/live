@@ -589,6 +589,29 @@
       }
     },
     {
+      "id": "betterlyrics",
+      "name": "BetterLyrics",
+      "url": "https://github.com/jayfunc/BetterLyrics",
+      "sources": {
+        "win_winrt": [
+          "37412.BetterLyrics_rd1g0rsrrtxw8!app",
+          "37412.BetterLyrics_rd1g0rsrrtxw8!App",
+          "37412.BetterLyrics_rd1g0rsrrtxw8!APP"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1538995897264906240"
+      }
+    },
+    {
       "id": "bloomee",
       "name": "Bloomee",
       "url": "https://github.com/HemantKArya/BloomeeTunes",
@@ -5417,6 +5440,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/bandcamp/tray-menu.83bb12379cce.ico",
         "md5": "83bb12379cceb99f5e95791204d385f2"
+      }
+    ],
+    "betterlyrics": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/betterlyrics/logo-128.367e9db8d7f5.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/betterlyrics/discord-large-image.3600b7d5aee3.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/betterlyrics/discord-small-image.b84d720c63e0.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/betterlyrics/tray-menu.468c5cfe22fc.ico",
+        "md5": "468c5cfe22fc82bb7c5b4d170e82fa98"
       }
     ],
     "bloomee": [
