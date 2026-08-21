@@ -50,6 +50,9 @@
       "name": "AIMP",
       "url": "https://www.aimp.ru",
       "sources": {
+        "lin_mpris": [
+          "AIMP"
+        ],
         "win_winrt": [
           "AIMP.exe",
           "AimpSmtc.exe",
@@ -255,6 +258,9 @@
       "sources": {
         "web_domain": [
           "play.anghami.com"
+        ],
+        "win_winrt": [
+          "com.squirrel.anghami.Anghami"
         ],
         "mac_mediaremote": [
           "com.anghami.anghami"
@@ -996,6 +1002,27 @@
       ],
       "extra": {
         "discord_application_id": "1351464539472007169"
+      }
+    },
+    {
+      "id": "echo",
+      "name": "ECHO",
+      "url": "https://github.com/Moekotori/ECHO",
+      "sources": {
+        "win_winrt": [
+          "app.echo.next"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1540457929348747335"
       }
     },
     {
@@ -5785,6 +5812,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/doppler/tray-menu.75846177b1d5.ico",
         "md5": "75846177b1d573580f56ffb242736c6f"
+      }
+    ],
+    "echo": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/echo/logo-128.ded69e78fa7e.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/echo/discord-large-image.db02c975014f.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/echo/discord-small-image.e78f00528ff6.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/echo/tray-menu.1ad8576a407b.ico",
+        "md5": "1ad8576a407b9ba1020b6f872de235c6"
       }
     ],
     "eclipse": [

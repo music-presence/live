@@ -5,6 +5,27 @@
   "subset": "lin",
   "players": [
     {
+      "id": "aimp",
+      "name": "AIMP",
+      "url": "https://www.aimp.ru",
+      "sources": {
+        "lin_mpris": [
+          "AIMP"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1285510241810911232"
+      }
+    },
+    {
       "id": "airplay-placeholder",
       "name": "AirPlay",
       "url": "https://en.wikipedia.org/wiki/AirPlay",
@@ -2262,6 +2283,29 @@
     }
   ],
   "icons": {
+    "aimp": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aimp/logo-128.3de81894147e.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aimp/discord-large-image.cbb57095fa39.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/aimp/discord-small-image.6203bd24d6f6.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/aimp/tray-menu.97f9e6f2c6a2.ico",
+        "md5": "97f9e6f2c6a2339f4f98b33bc671adec"
+      }
+    ],
     "airplay-placeholder": [
       {
         "label": "logo-128",
