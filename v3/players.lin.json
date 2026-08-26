@@ -1380,6 +1380,27 @@
       }
     },
     {
+      "id": "playmymusic",
+      "name": "PlayMyMusic",
+      "url": "https://github.com/Madp03t/PlayMyMusic",
+      "sources": {
+        "lin_mpris": [
+          "PlayMyMusic"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1542086785545408522"
+      }
+    },
+    {
       "id": "plex",
       "name": "Plex",
       "url": "https://plex.tv",
@@ -3636,6 +3657,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/parachord/tray-menu.b5914003ba14.ico",
         "md5": "b5914003ba141aed1e309a387ca3ddf4"
+      }
+    ],
+    "playmymusic": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/playmymusic/logo-128.bcbcc5b5e586.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/playmymusic/discord-large-image.dd667d105bb0.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/playmymusic/discord-small-image.920fea2e5095.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/playmymusic/tray-menu.d89c82cb476c.ico",
+        "md5": "d89c82cb476cae879ce9fa9c47930d76"
       }
     ],
     "plex": [
