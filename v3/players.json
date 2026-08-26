@@ -1158,6 +1158,27 @@
       }
     },
     {
+      "id": "evermusic",
+      "name": "Evermusic",
+      "url": "https://everappz.com/products/evermusic",
+      "sources": {
+        "mac_mediaremote": [
+          "com.leshko.cloudplayer.mac"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1542083095585488906"
+      }
+    },
+    {
       "id": "evervideo",
       "name": "Evervideo",
       "url": "https://www.everappz.com/products/evervideo",
@@ -3555,6 +3576,27 @@
       ],
       "extra": {
         "discord_application_id": "1311731989648511088"
+      }
+    },
+    {
+      "id": "resonance",
+      "name": "Resonance",
+      "url": "https://github.com/nate-xyz/resonance",
+      "sources": {
+        "lin_mpris": [
+          "io.github.nate_xyz.Resonance"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1542084484780793876"
       }
     },
     {
@@ -5975,6 +6017,29 @@
         "md5": "1bec13c678fff2dcdaafc9aa22a916ce"
       }
     ],
+    "evermusic": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/evermusic/logo-128.bf2a715c03a4.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/evermusic/discord-large-image.5d315fe10dc0.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/evermusic/discord-small-image.5627805db49f.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/evermusic/tray-menu.b8901101826a.ico",
+        "md5": "b8901101826a2c4a93809f6fee96a578"
+      }
+    ],
     "evervideo": [
       {
         "label": "logo-128",
@@ -8181,6 +8246,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/recordbox/tray-menu.359f21e8c6ff.ico",
         "md5": "359f21e8c6ffbff22f669c048808b541"
+      }
+    ],
+    "resonance": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/resonance/logo-128.8c025f1e23e4.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/resonance/discord-large-image.dd40ad57daeb.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/resonance/discord-small-image.56495ace0702.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/resonance/tray-menu.1c587cf0e8b3.ico",
+        "md5": "1c587cf0e8b3835886fcad2e74fb3f90"
       }
     ],
     "rhythmbox": [

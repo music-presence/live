@@ -662,6 +662,27 @@
       }
     },
     {
+      "id": "evermusic",
+      "name": "Evermusic",
+      "url": "https://everappz.com/products/evermusic",
+      "sources": {
+        "mac_mediaremote": [
+          "com.leshko.cloudplayer.mac"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1542083095585488906"
+      }
+    },
+    {
       "id": "evervideo",
       "name": "Evervideo",
       "url": "https://www.everappz.com/products/evervideo",
@@ -2809,6 +2830,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/eter/tray-menu.1bec13c678ff.ico",
         "md5": "1bec13c678fff2dcdaafc9aa22a916ce"
+      }
+    ],
+    "evermusic": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/evermusic/logo-128.bf2a715c03a4.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/evermusic/discord-large-image.5d315fe10dc0.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/evermusic/discord-small-image.5627805db49f.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/evermusic/tray-menu.b8901101826a.ico",
+        "md5": "b8901101826a2c4a93809f6fee96a578"
       }
     ],
     "evervideo": [
