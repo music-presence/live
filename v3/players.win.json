@@ -1849,6 +1849,30 @@
       }
     },
     {
+      "id": "panedora",
+      "name": "Panedora",
+      "url": "https://panedora.app",
+      "represents": [
+        "pandora"
+      ],
+      "sources": {
+        "win_winrt": [
+          "com.panedora.app"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1542796438705020961"
+      }
+    },
+    {
       "id": "plex",
       "name": "Plex",
       "url": "https://plex.tv",
@@ -4819,6 +4843,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/pandora/tray-menu.2e08addc7597.ico",
         "md5": "2e08addc7597f3a2b8a3d90d7577b775"
+      }
+    ],
+    "panedora": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/panedora/logo-128.0abf627ec41c.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/panedora/discord-large-image.3302d95ec013.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/panedora/discord-small-image.f73407011d1d.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/panedora/tray-menu.4f817cfd6df1.ico",
+        "md5": "4f817cfd6df18dbaaae0c9b52a272b43"
       }
     ],
     "plex": [

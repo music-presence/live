@@ -1932,6 +1932,27 @@
       }
     },
     {
+      "id": "supersonic",
+      "name": "Supersonic",
+      "url": "https://github.com/dweymouth/supersonic",
+      "sources": {
+        "mac_mediaremote": [
+          "io.github.supersonic-app.supersonic"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1351467474524049418"
+      }
+    },
+    {
       "id": "swinsian",
       "name": "Swinsian",
       "url": "https://swinsian.com",
@@ -4183,6 +4204,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/submariner/tray-menu.d2356069b197.ico",
         "md5": "d2356069b197af07070f0cbae12a2fe9"
+      }
+    ],
+    "supersonic": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/supersonic/logo-128.e5e5b712065e.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/supersonic/discord-large-image.7e8d3c2b19a0.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/supersonic/discord-small-image.6e74a05b03e5.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/supersonic/tray-menu.62a8b36734e6.ico",
+        "md5": "62a8b36734e690bd5121e5b5c0856087"
       }
     ],
     "swinsian": [
