@@ -4468,6 +4468,30 @@
       }
     },
     {
+      "id": "tidalunar",
+      "name": "TidaLunar",
+      "url": "https://github.com/Brskt/TidaLuna",
+      "represents": [
+        "tidal"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "tidalunar"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1543558641787867267"
+      }
+    },
+    {
       "id": "trdo",
       "name": "Trdo",
       "url": "https://trdo.net",
@@ -9167,6 +9191,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/tidal/tray-menu.6559603207ce.ico",
         "md5": "6559603207ce466ff0d8f94403dc6af9"
+      }
+    ],
+    "tidalunar": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/tidalunar/logo-128.aae2058963d4.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/tidalunar/discord-large-image.689aaa580959.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/tidalunar/discord-small-image.bb7ccff8dbb0.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/tidalunar/tray-menu.d84fc9584f33.ico",
+        "md5": "d84fc9584f334fcd7642c957f990337f"
       }
     ],
     "trdo": [
