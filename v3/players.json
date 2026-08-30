@@ -4,6 +4,27 @@
   "latest": true,
   "players": [
     {
+      "id": "abplayer",
+      "name": "AudioBook Player",
+      "url": "https://github.com/AlexDev505/AudioBookPlayer",
+      "sources": {
+        "win_winrt": [
+          "ABPlayer.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_audiobook"
+      ],
+      "extra": {
+        "discord_application_id": "1543563084399116330"
+      }
+    },
+    {
       "id": "adamp",
       "name": "AdAmp",
       "url": "https://github.com/ad-repo/adamp",
@@ -5099,6 +5120,29 @@
     }
   ],
   "icons": {
+    "abplayer": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/abplayer/logo-128.b3671dd5fa0b.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/abplayer/discord-large-image.78d1d1e6d241.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/abplayer/discord-small-image.1ffa68082653.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/abplayer/tray-menu.46d94d49950c.ico",
+        "md5": "46d94d49950ccd54f1f72909bf6466f4"
+      }
+    ],
     "adamp": [
       {
         "label": "logo-128",
