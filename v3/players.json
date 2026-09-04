@@ -1068,6 +1068,30 @@
       }
     },
     {
+      "id": "electronwmd",
+      "name": "Electron Web MiniDisc",
+      "url": "https://github.com/asivery/electronwmd",
+      "represents": [
+        "webminidisc"
+      ],
+      "sources": {
+        "win_winrt": [
+          "electronwmd.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1545364608896860210"
+      }
+    },
+    {
       "id": "elisa",
       "name": "Elisa",
       "url": "https://apps.kde.org/elisa",
@@ -3221,6 +3245,9 @@
         "lin_mpris": [
           "Plexamp"
         ],
+        "win_winrt": [
+          "tv.plex.plexamp"
+        ],
         "mac_mediaremote": [
           "tv.plex.plexamp",
           "tv.plex.labs.plexamp"
@@ -4197,6 +4224,30 @@
       }
     },
     {
+      "id": "soundgrammy",
+      "name": "SoundGrammy",
+      "url": "https://github.com/rastuhacode/soundgrammy",
+      "represents": [
+        "telegram"
+      ],
+      "sources": {
+        "mac_mediaremote": [
+          "com.soundgrammy.app"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1545348940071837817"
+      }
+    },
+    {
       "id": "spotify",
       "name": "Spotify",
       "url": "https://spotify.com",
@@ -4438,6 +4489,9 @@
       "name": "Telegram",
       "url": "https://telegram.org",
       "sources": {
+        "mac_mediaremote": [
+          "com.tdesktop.Telegram"
+        ],
         "win_winrt": [
           "Telegram.TelegramDesktop"
         ]
@@ -4828,6 +4882,27 @@
       ],
       "extra": {
         "discord_application_id": "1521218200585371778"
+      }
+    },
+    {
+      "id": "webminidisc",
+      "name": "Web MiniDisc Pro",
+      "url": "https://github.com/asivery/webminidisc",
+      "sources": {
+        "web_domain": [
+          "web.minidisc.wiki"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1545353204135362600"
       }
     },
     {
@@ -6061,6 +6136,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/eclipse/tray-menu.6674f07fb2b6.ico",
         "md5": "6674f07fb2b6b9c9b276c1cb8fb480f5"
+      }
+    ],
+    "electronwmd": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/electronwmd/logo-128.e3934b51fb05.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/electronwmd/discord-large-image.e59ab5892dde.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/electronwmd/discord-small-image.cd6edd9cf0bd.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/electronwmd/tray-menu.2956d0d4fd51.ico",
+        "md5": "2956d0d4fd5150ef06fddf659f3c5f69"
       }
     ],
     "elisa": [
@@ -8984,6 +9082,29 @@
         "md5": "a99d68c92a2a0f8654ebb96221ccb68b"
       }
     ],
+    "soundgrammy": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/soundgrammy/logo-128.4fe1bb2df24b.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/soundgrammy/discord-large-image.2582666d13bf.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/soundgrammy/discord-small-image.fdaed16ad5c7.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/soundgrammy/tray-menu.18c89b531d6d.ico",
+        "md5": "18c89b531d6db8f200444460626c2739"
+      }
+    ],
     "spotify": [
       {
         "label": "logo-128",
@@ -9557,6 +9678,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/waveflow/tray-menu.9662ada465c4.ico",
         "md5": "9662ada465c4a8c5457bad22ed8f545c"
+      }
+    ],
+    "webminidisc": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/logo-128.e3934b51fb05.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/discord-large-image.e59ab5892dde.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/discord-small-image.cd6edd9cf0bd.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/tray-menu.2956d0d4fd51.ico",
+        "md5": "2956d0d4fd5150ef06fddf659f3c5f69"
       }
     ],
     "winamp": [

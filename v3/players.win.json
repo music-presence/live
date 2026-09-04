@@ -643,6 +643,30 @@
       }
     },
     {
+      "id": "electronwmd",
+      "name": "Electron Web MiniDisc",
+      "url": "https://github.com/asivery/electronwmd",
+      "represents": [
+        "webminidisc"
+      ],
+      "sources": {
+        "win_winrt": [
+          "electronwmd.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1545364608896860210"
+      }
+    },
+    {
       "id": "elycast",
       "name": "ElyCast",
       "url": "https://github.com/kudasaixc/elycast",
@@ -1918,6 +1942,30 @@
       }
     },
     {
+      "id": "plexamp",
+      "name": "Plexamp",
+      "url": "https://www.plex.tv/plexamp",
+      "represents": [
+        "plex"
+      ],
+      "sources": {
+        "win_winrt": [
+          "tv.plex.plexamp"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1371460970404384848"
+      }
+    },
+    {
       "id": "pocket-casts",
       "name": "Pocket Casts",
       "url": "https://pocketcasts.com",
@@ -2843,6 +2891,27 @@
       }
     },
     {
+      "id": "webminidisc",
+      "name": "Web MiniDisc Pro",
+      "url": "https://github.com/asivery/webminidisc",
+      "sources": {
+        "web_domain": [
+          "web.minidisc.wiki"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1545353204135362600"
+      }
+    },
+    {
       "id": "winamp",
       "name": "Winamp",
       "url": "https://winamp.com",
@@ -3691,6 +3760,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/eclipse/tray-menu.6674f07fb2b6.ico",
         "md5": "6674f07fb2b6b9c9b276c1cb8fb480f5"
+      }
+    ],
+    "electronwmd": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/electronwmd/logo-128.e3934b51fb05.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/electronwmd/discord-large-image.e59ab5892dde.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/electronwmd/discord-small-image.cd6edd9cf0bd.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/electronwmd/tray-menu.2956d0d4fd51.ico",
+        "md5": "2956d0d4fd5150ef06fddf659f3c5f69"
       }
     ],
     "elycast": [
@@ -4935,6 +5027,29 @@
         "md5": "d774d5bf2d0218b6a73c93862e334684"
       }
     ],
+    "plexamp": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/plexamp/logo-128.681e5edec1fb.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/plexamp/discord-large-image.43ee41c2b9ae.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/plexamp/discord-small-image.ab27b45e4216.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/plexamp/tray-menu.3be0974000ac.ico",
+        "md5": "3be0974000acae0e37362b04873c64e4"
+      }
+    ],
     "pocket-casts": [
       {
         "label": "logo-128",
@@ -5830,6 +5945,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/waveflow/tray-menu.9662ada465c4.ico",
         "md5": "9662ada465c4a8c5457bad22ed8f545c"
+      }
+    ],
+    "webminidisc": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/logo-128.e3934b51fb05.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/discord-large-image.e59ab5892dde.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/discord-small-image.cd6edd9cf0bd.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/tray-menu.2956d0d4fd51.ico",
+        "md5": "2956d0d4fd5150ef06fddf659f3c5f69"
       }
     ],
     "winamp": [

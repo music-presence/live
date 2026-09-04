@@ -1885,6 +1885,30 @@
       }
     },
     {
+      "id": "soundgrammy",
+      "name": "SoundGrammy",
+      "url": "https://github.com/rastuhacode/soundgrammy",
+      "represents": [
+        "telegram"
+      ],
+      "sources": {
+        "mac_mediaremote": [
+          "com.soundgrammy.app"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1545348940071837817"
+      }
+    },
+    {
       "id": "spotify",
       "name": "Spotify",
       "url": "https://spotify.com",
@@ -1971,6 +1995,27 @@
       ],
       "extra": {
         "discord_application_id": "1399034733018615971"
+      }
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "url": "https://telegram.org",
+      "sources": {
+        "mac_mediaremote": [
+          "com.tdesktop.Telegram"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1465728253959602176"
       }
     },
     {
@@ -2147,6 +2192,27 @@
       ],
       "extra": {
         "discord_application_id": "1426851601171222679"
+      }
+    },
+    {
+      "id": "webminidisc",
+      "name": "Web MiniDisc Pro",
+      "url": "https://github.com/asivery/webminidisc",
+      "sources": {
+        "web_domain": [
+          "web.minidisc.wiki"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1545353204135362600"
       }
     },
     {
@@ -4160,6 +4226,29 @@
         "md5": "a99d68c92a2a0f8654ebb96221ccb68b"
       }
     ],
+    "soundgrammy": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/soundgrammy/logo-128.4fe1bb2df24b.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/soundgrammy/discord-large-image.2582666d13bf.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/soundgrammy/discord-small-image.fdaed16ad5c7.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/soundgrammy/tray-menu.18c89b531d6d.ico",
+        "md5": "18c89b531d6db8f200444460626c2739"
+      }
+    ],
     "spotify": [
       {
         "label": "logo-128",
@@ -4250,6 +4339,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/swinsian/tray-menu.90139074841a.ico",
         "md5": "90139074841abeb4ff11179c45f28270"
+      }
+    ],
+    "telegram": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/telegram/logo-128.a60e0a16d020.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/telegram/discord-large-image.b1aa818f7859.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/telegram/discord-small-image.b5f154b6bea1.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/telegram/tray-menu.d65282bf9a46.ico",
+        "md5": "d65282bf9a46d94a7b0767877fcb992b"
       }
     ],
     "tidal": [
@@ -4434,6 +4546,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/vox-mac/tray-menu.7e26bf047260.ico",
         "md5": "7e26bf04726032af61c0b2469fae4f03"
+      }
+    ],
+    "webminidisc": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/logo-128.e3934b51fb05.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/discord-large-image.e59ab5892dde.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/discord-small-image.cd6edd9cf0bd.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/tray-menu.2956d0d4fd51.ico",
+        "md5": "2956d0d4fd5150ef06fddf659f3c5f69"
       }
     ],
     "yandex-music": [

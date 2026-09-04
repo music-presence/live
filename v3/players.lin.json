@@ -2278,6 +2278,27 @@
       }
     },
     {
+      "id": "webminidisc",
+      "name": "Web MiniDisc Pro",
+      "url": "https://github.com/asivery/webminidisc",
+      "sources": {
+        "web_domain": [
+          "web.minidisc.wiki"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1545353204135362600"
+      }
+    },
+    {
       "id": "wora",
       "name": "Wora",
       "url": "https://wora.app",
@@ -4574,6 +4595,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/voxity/tray-menu.61e3087a9e74.ico",
         "md5": "61e3087a9e74e9ecc8efd2bb2f5b581a"
+      }
+    ],
+    "webminidisc": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/logo-128.e3934b51fb05.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/discord-large-image.e59ab5892dde.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/discord-small-image.cd6edd9cf0bd.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/webminidisc/tray-menu.2956d0d4fd51.ico",
+        "md5": "2956d0d4fd5150ef06fddf659f3c5f69"
       }
     ],
     "wora": [
