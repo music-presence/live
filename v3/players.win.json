@@ -91,6 +91,29 @@
       }
     },
     {
+      "id": "airserver",
+      "name": "AirServer",
+      "url": "https://www.airserver.com",
+      "sources": {
+        "win_winrt": [
+          "F3F176BD.AirServer_p8qzvses5c8me!airserver.desktop",
+          "F3F176BD.AirServer_p8qzvses5c8me!AirServer.Desktop",
+          "F3F176BD.AirServer_p8qzvses5c8me!AIRSERVER.DESKTOP"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1545401014725648456"
+      }
+    },
+    {
       "id": "algermusicplayer",
       "name": "AlgerMusicPlayer",
       "url": "https://github.com/xiaojie-yahu/AlgerMusicPlayer",
@@ -3254,6 +3277,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/airplay-placeholder/tray-menu.dfff444f877f.ico",
         "md5": "dfff444f877fcb2af97a8ce0b98493d2"
+      }
+    ],
+    "airserver": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/airserver/logo-128.ff8811f3247d.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/airserver/discord-large-image.700d23cd2850.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/airserver/discord-small-image.5490ca0c0d99.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/airserver/tray-menu.ae7d54126643.ico",
+        "md5": "ae7d54126643c4934afef11de88c569b"
       }
     ],
     "algermusicplayer": [

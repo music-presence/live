@@ -388,6 +388,30 @@
       }
     },
     {
+      "id": "beta-player",
+      "name": "Beta Player",
+      "url": "https://eremef.xyz/beta-player",
+      "represents": [
+        "bandcamp"
+      ],
+      "sources": {
+        "mac_mediaremote": [
+          "xyz.eremef.beta.app"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1545397851146944592"
+      }
+    },
+    {
       "id": "chillhop",
       "name": "Chillhop",
       "url": "https://chillhop.com",
@@ -1841,6 +1865,27 @@
       }
     },
     {
+      "id": "shelv",
+      "name": "Shelv",
+      "url": "https://vkugler.app",
+      "sources": {
+        "mac_mediaremote": [
+          "ch.vkugler.Shelv"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1545395151369928704"
+      }
+    },
+    {
       "id": "somafm",
       "name": "SomaFM",
       "url": "https://somafm.com",
@@ -2683,6 +2728,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/bandcamp/tray-menu.83bb12379cce.ico",
         "md5": "83bb12379cceb99f5e95791204d385f2"
+      }
+    ],
+    "beta-player": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/beta-player/logo-128.5f8ca5c4e4e4.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/beta-player/discord-large-image.84b33cafdaea.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/beta-player/discord-small-image.702ca7b5ad65.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/beta-player/tray-menu.8a86b3b018a6.ico",
+        "md5": "8a86b3b018a60e081b670c874f00fa30"
       }
     ],
     "chillhop": [
@@ -4178,6 +4246,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/samply/tray-menu.d785be2bd798.ico",
         "md5": "d785be2bd7987986b38c72acd2e50688"
+      }
+    ],
+    "shelv": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/shelv/logo-128.357642c4020c.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/shelv/discord-large-image.57889684d8a8.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/shelv/discord-small-image.19a3ebd8b5d1.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/shelv/tray-menu.18b164cf277e.ico",
+        "md5": "18b164cf277e81f57feb7b7cdc1066ea"
       }
     ],
     "somafm": [
