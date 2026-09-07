@@ -1324,6 +1324,27 @@
       }
     },
     {
+      "id": "ferrosonic",
+      "name": "Ferrosonic",
+      "url": "https://github.com/jaidaken/ferrosonic",
+      "sources": {
+        "lin_mpris": [
+          "ferrosonic"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1546564098530218114"
+      }
+    },
+    {
       "id": "finamp",
       "name": "Finamp",
       "url": "https://github.com/jmshrv/finamp",
@@ -2479,6 +2500,27 @@
       ],
       "extra": {
         "discord_application_id": "1542089167658553375"
+      }
+    },
+    {
+      "id": "moonlight",
+      "name": "Moonlight",
+      "url": "https://moonlightapp.org",
+      "sources": {
+        "mac_mediaremote": [
+          "com.musopen.moonlight"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1546565576288243795"
       }
     },
     {
@@ -4233,6 +4275,27 @@
       ],
       "extra": {
         "discord_application_id": "1355256469624193296"
+      }
+    },
+    {
+      "id": "sonora",
+      "name": "Sonora",
+      "url": "https://github.com/sonorahq/sonora",
+      "sources": {
+        "lin_mpris": [
+          "sonora"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1546569204625309816"
       }
     },
     {
@@ -7540,6 +7603,29 @@
         "md5": "d39b2a2b4ec80c6d48509cb9e3bce460"
       }
     ],
+    "moonlight": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/moonlight/logo-128.5edf694c65a1.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/moonlight/discord-large-image.f997355a209a.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/moonlight/discord-small-image.85123596efb4.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/moonlight/tray-menu.5abbc8ad8886.ico",
+        "md5": "5abbc8ad8886548ee5d6816c35aa49f9"
+      }
+    ],
     "moosync": [
       {
         "label": "logo-128",
@@ -9171,6 +9257,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/sonixd/tray-menu.bf35c34261b4.ico",
         "md5": "bf35c34261b43c34ae559a511c8f5127"
+      }
+    ],
+    "sonora": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sonora/logo-128.3d6136d11ef0.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sonora/discord-large-image.dac7baf5340b.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sonora/discord-small-image.ed9dee6e2e7c.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/sonora/tray-menu.7511ed8f9390.ico",
+        "md5": "7511ed8f93909bd3ddbdaab7791ad4ac"
       }
     ],
     "sonosano": [

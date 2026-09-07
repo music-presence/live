@@ -522,6 +522,27 @@
       }
     },
     {
+      "id": "ferrosonic",
+      "name": "Ferrosonic",
+      "url": "https://github.com/jaidaken/ferrosonic",
+      "sources": {
+        "lin_mpris": [
+          "ferrosonic"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1546564098530218114"
+      }
+    },
+    {
       "id": "finamp",
       "name": "Finamp",
       "url": "https://github.com/jmshrv/finamp",
@@ -1985,6 +2006,27 @@
       ],
       "extra": {
         "discord_application_id": "1478519842968567958"
+      }
+    },
+    {
+      "id": "sonora",
+      "name": "Sonora",
+      "url": "https://github.com/sonorahq/sonora",
+      "sources": {
+        "lin_mpris": [
+          "sonora"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1546569204625309816"
       }
     },
     {
@@ -4319,6 +4361,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/sone/tray-menu.7132ae3bdd1e.ico",
         "md5": "7132ae3bdd1ec864690f375bbfa9accd"
+      }
+    ],
+    "sonora": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sonora/logo-128.3d6136d11ef0.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sonora/discord-large-image.dac7baf5340b.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sonora/discord-small-image.ed9dee6e2e7c.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/sonora/tray-menu.7511ed8f9390.ico",
+        "md5": "7511ed8f93909bd3ddbdaab7791ad4ac"
       }
     ],
     "soundcloud": [

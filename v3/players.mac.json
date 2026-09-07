@@ -1216,6 +1216,27 @@
       }
     },
     {
+      "id": "moonlight",
+      "name": "Moonlight",
+      "url": "https://moonlightapp.org",
+      "sources": {
+        "mac_mediaremote": [
+          "com.musopen.moonlight"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1546565576288243795"
+      }
+    },
+    {
       "id": "moosync",
       "name": "Moosync",
       "url": "https://moosync.app",
@@ -3579,6 +3600,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/monochrome/tray-menu.d39b2a2b4ec8.ico",
         "md5": "d39b2a2b4ec80c6d48509cb9e3bce460"
+      }
+    ],
+    "moonlight": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/moonlight/logo-128.5edf694c65a1.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/moonlight/discord-large-image.f997355a209a.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/moonlight/discord-small-image.85123596efb4.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/moonlight/tray-menu.5abbc8ad8886.ico",
+        "md5": "5abbc8ad8886548ee5d6816c35aa49f9"
       }
     ],
     "moosync": [
