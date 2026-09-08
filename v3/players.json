@@ -4284,6 +4284,9 @@
       "sources": {
         "lin_mpris": [
           "sonora"
+        ],
+        "win_winrt": [
+          "Sonora.exe"
         ]
       },
       "attributes": {
