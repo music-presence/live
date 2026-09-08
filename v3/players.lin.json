@@ -408,6 +408,27 @@
       }
     },
     {
+      "id": "cosmic-player",
+      "name": "COSMIC Player",
+      "url": "https://github.com/pop-os/cosmic-player",
+      "sources": {
+        "lin_mpris": [
+          "cosmic-player"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1546981157265219656"
+      }
+    },
+    {
       "id": "deadbeef",
       "name": "DeaDBeeF",
       "url": "https://deadbeef.sourceforge.io",
@@ -2820,6 +2841,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/clementine/tray-menu.c5a6033e746b.ico",
         "md5": "c5a6033e746b31fda358c6c62952a21a"
+      }
+    ],
+    "cosmic-player": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/cosmic-player/logo-128.dd61d5808efb.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/cosmic-player/discord-large-image.195f97dadf16.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/cosmic-player/discord-small-image.bed5664b4e95.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/cosmic-player/tray-menu.25fb0ad7f794.ico",
+        "md5": "25fb0ad7f794693f99428018187ee184"
       }
     ],
     "deadbeef": [

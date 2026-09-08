@@ -897,6 +897,27 @@
       }
     },
     {
+      "id": "cosmic-player",
+      "name": "COSMIC Player",
+      "url": "https://github.com/pop-os/cosmic-player",
+      "sources": {
+        "lin_mpris": [
+          "cosmic-player"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1546981157265219656"
+      }
+    },
+    {
       "id": "daftcloud",
       "name": "DaftCloud",
       "url": "https://daft.cloud",
@@ -6109,6 +6130,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/cog/tray-menu.6077f27c1a6c.ico",
         "md5": "6077f27c1a6c701a4d141a6d297a9b30"
+      }
+    ],
+    "cosmic-player": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/cosmic-player/logo-128.dd61d5808efb.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/cosmic-player/discord-large-image.195f97dadf16.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/cosmic-player/discord-small-image.bed5664b4e95.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/cosmic-player/tray-menu.25fb0ad7f794.ico",
+        "md5": "25fb0ad7f794693f99428018187ee184"
       }
     ],
     "daftcloud": [
