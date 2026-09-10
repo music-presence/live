@@ -1019,6 +1019,27 @@
       }
     },
     {
+      "id": "kopuz",
+      "name": "Kopuz",
+      "url": "https://github.com/Kopuz-org/kopuz",
+      "sources": {
+        "lin_mpris": [
+          "kopuz"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1547737596569063514"
+      }
+    },
+    {
       "id": "kugou",
       "name": "KuGou",
       "url": "https://www.kugou.com",
@@ -3439,6 +3460,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/khinsider/tray-menu.4e48fcb5c9cf.ico",
         "md5": "4e48fcb5c9cf594fa7860a73947914fe"
+      }
+    ],
+    "kopuz": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kopuz/logo-128.04dd32e73236.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kopuz/discord-large-image.3ca05e83b4e9.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/kopuz/discord-small-image.5765a3df6fb2.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/kopuz/tray-menu.f5e62122c142.ico",
+        "md5": "f5e62122c14238adfaf7571c782ea1a8"
       }
     ],
     "kugou": [

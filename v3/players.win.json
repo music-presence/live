@@ -758,6 +758,30 @@
       }
     },
     {
+      "id": "fastpotify",
+      "name": "Fastpotify",
+      "url": "https://fastpotify.rocks",
+      "represents": [
+        "spotify"
+      ],
+      "sources": {
+        "win_winrt": [
+          "fastpotify.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1547736319461953637"
+      }
+    },
+    {
       "id": "feishin",
       "name": "Feishin",
       "url": "https://github.com/jeffvli/feishin",
@@ -2466,7 +2490,8 @@
       "url": "https://github.com/sonorahq/sonora",
       "sources": {
         "win_winrt": [
-          "Sonora.exe"
+          "Sonora.exe",
+          "sonora.exe"
         ]
       },
       "attributes": {
@@ -3919,6 +3944,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/esound/tray-menu.3777bac8bfdd.ico",
         "md5": "3777bac8bfddb468587c421be472a9bb"
+      }
+    ],
+    "fastpotify": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/fastpotify/logo-128.3067b29a96dd.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/fastpotify/discord-large-image.ff004319c03c.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/fastpotify/discord-small-image.9491b52846b8.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/fastpotify/tray-menu.017545362190.ico",
+        "md5": "0175453621907f99f621c1377ddaf193"
       }
     ],
     "feishin": [
