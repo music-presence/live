@@ -3230,6 +3230,27 @@
       "extra": {
         "discord_application_id": "1247847788302172273"
       }
+    },
+    {
+      "id": "zerobit-player",
+      "name": "Zerobit Player",
+      "url": "https://empty-57.github.io/ZeroBit-Player",
+      "sources": {
+        "win_winrt": [
+          "zerobit_player.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1548719774937260242"
+      }
     }
   ],
   "icons": {
@@ -6336,6 +6357,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/youtube-music/tray-menu.762ce1328862.ico",
         "md5": "762ce13288626a30e4635f41b8f3ae23"
+      }
+    ],
+    "zerobit-player": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/zerobit-player/logo-128.428ddeb67900.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/zerobit-player/discord-large-image.2ace1856ca04.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/zerobit-player/discord-small-image.f0d965dec423.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/zerobit-player/tray-menu.0d366f62b802.ico",
+        "md5": "0d366f62b802928578c9360126b873f4"
       }
     ]
   }
