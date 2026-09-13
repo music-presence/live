@@ -4753,6 +4753,9 @@
       "sources": {
         "lin_mpris": [
           "tidalunar"
+        ],
+        "win_winrt": [
+          "tidalunar.exe"
         ]
       },
       "attributes": {
