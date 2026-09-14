@@ -2305,7 +2305,8 @@
           "kugou.com"
         ],
         "win_winrt": [
-          "kugou"
+          "kugou",
+          "KuGou.exe"
         ],
         "mac_mediaremote": [
           "com.kugou.mac.Music"

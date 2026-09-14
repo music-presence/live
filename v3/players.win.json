@@ -1312,7 +1312,8 @@
           "kugou.com"
         ],
         "win_winrt": [
-          "kugou"
+          "kugou",
+          "KuGou.exe"
         ]
       },
       "attributes": {
