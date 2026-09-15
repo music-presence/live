@@ -88,7 +88,8 @@
         "audio_podcast"
       ],
       "extra": {
-        "discord_application_id": "1247654006587789363"
+        "discord_application_id": "1247654006587789363",
+        "fluxer_emoji_id": "1549357716860833792"
       }
     },
     {
@@ -245,7 +246,8 @@
         "audio_music"
       ],
       "extra": {
-        "discord_application_id": "1247654840780460125"
+        "discord_application_id": "1247654840780460125",
+        "fluxer_emoji_id": "1549357390963408896"
       }
     },
     {
@@ -468,7 +470,8 @@
         "audio_podcast"
       ],
       "extra": {
-        "discord_application_id": "1247654082215284847"
+        "discord_application_id": "1247654082215284847",
+        "fluxer_emoji_id": "1549357562988601344"
       }
     },
     {
@@ -1728,7 +1731,8 @@
         "audio_music"
       ],
       "extra": {
-        "discord_application_id": "1247655024637513778"
+        "discord_application_id": "1247655024637513778",
+        "fluxer_emoji_id": "1549357648413986816"
       },
       "experimental": {
         "lin_mpris_identity": [
@@ -2090,7 +2094,8 @@
         "audio_music"
       ],
       "extra": {
-        "discord_application_id": "1285553804518887508"
+        "discord_application_id": "1285553804518887508",
+        "fluxer_emoji_id": "1549357946335404032"
       }
     },
     {
@@ -2117,7 +2122,8 @@
         "audio_podcast"
       ],
       "extra": {
-        "discord_application_id": "1247651846936596540"
+        "discord_application_id": "1247651846936596540",
+        "fluxer_emoji_id": "1549357468839055360"
       },
       "experimental": {
         "lin_mpris_identity": [
@@ -2214,7 +2220,8 @@
         "audio_music"
       ],
       "extra": {
-        "discord_application_id": "1246943204411179120"
+        "discord_application_id": "1246943204411179120",
+        "fluxer_emoji_id": "1549357779137855488"
       }
     },
     {
@@ -2475,7 +2482,8 @@
         "audio_podcast"
       ],
       "extra": {
-        "discord_application_id": "1247847788302172273"
+        "discord_application_id": "1247847788302172273",
+        "fluxer_emoji_id": "1549357853645484032"
       },
       "experimental": {
         "lin_mpris_identity": [
