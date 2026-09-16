@@ -591,6 +591,27 @@
       }
     },
     {
+      "id": "audiomack",
+      "name": "Audiomack",
+      "url": "https://audiomack.com",
+      "sources": {
+        "win_winrt": [
+          "Audiomack.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": true
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1549724858836066326"
+      }
+    },
+    {
       "id": "audion",
       "name": "Audion",
       "url": "https://www.audionplayer.com",
@@ -5956,6 +5977,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/audible/tray-menu.0af4905553e3.ico",
         "md5": "0af4905553e33995f691827f6ff6ef3b"
+      }
+    ],
+    "audiomack": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/audiomack/logo-128.f18109fab271.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/audiomack/discord-large-image.7e14ae0c3faa.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/audiomack/discord-small-image.f2c3e9ee40da.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/audiomack/tray-menu.301ffc6d2351.ico",
+        "md5": "301ffc6d235129aa0e2eddd10d8e2620"
       }
     ],
     "audion": [
