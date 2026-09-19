@@ -5447,6 +5447,30 @@
       "extra": {
         "discord_application_id": "1548719774937260242"
       }
+    },
+    {
+      "id": "zuno",
+      "name": "Zuno",
+      "url": "https://zuno.fayzan.xyz",
+      "represents": [
+        "youtube-music"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "zuno"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1550779935269060628"
+      }
     }
   ],
   "icons": {
@@ -10416,6 +10440,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/zerobit-player/tray-menu.0d366f62b802.ico",
         "md5": "0d366f62b802928578c9360126b873f4"
+      }
+    ],
+    "zuno": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/zuno/logo-128.390712502b7d.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/zuno/discord-large-image.1fa290e06dd2.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/zuno/discord-small-image.26985bbd4ff1.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/zuno/tray-menu.5c9f18fda188.ico",
+        "md5": "5c9f18fda1887627bd5cca82c321093a"
       }
     ]
   }
