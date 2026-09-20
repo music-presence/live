@@ -1911,6 +1911,28 @@
       }
     },
     {
+      "id": "siriusxm",
+      "name": "SiriusXM",
+      "url": "https://www.siriusxm.com",
+      "sources": {
+        "web_domain": [
+          "siriusxm.com"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_radio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1471112567865741490"
+      }
+    },
+    {
       "id": "somafm",
       "name": "SomaFM",
       "url": "https://somafm.com",
@@ -4321,6 +4343,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/shelv/tray-menu.18b164cf277e.ico",
         "md5": "18b164cf277e81f57feb7b7cdc1066ea"
+      }
+    ],
+    "siriusxm": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/siriusxm/logo-128.5b05f8331ed3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/siriusxm/discord-large-image.0aef2d45e5ef.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/siriusxm/discord-small-image.ae6c264b8b58.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/siriusxm/tray-menu.feebfc0354ca.ico",
+        "md5": "feebfc0354caa20d2d684d0b50ce19f2"
       }
     ],
     "somafm": [

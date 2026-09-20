@@ -4219,6 +4219,9 @@
       "name": "SiriusXM",
       "url": "https://www.siriusxm.com",
       "sources": {
+        "web_domain": [
+          "siriusxm.com"
+        ],
         "win_winrt": [
           "electron.app.SiriusXM"
         ]
@@ -5459,6 +5462,9 @@
       "sources": {
         "lin_mpris": [
           "zuno"
+        ],
+        "win_winrt": [
+          "com.zuno.desktop"
         ]
       },
       "attributes": {
