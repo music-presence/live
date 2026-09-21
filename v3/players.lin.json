@@ -1121,7 +1121,8 @@
       "url": "https://monochrome.tf",
       "sources": {
         "web_domain": [
-          "monochrome.tf"
+          "monochrome.tf",
+          "monochrome.st"
         ]
       },
       "attributes": {
@@ -2175,6 +2176,31 @@
       ],
       "extra": {
         "discord_application_id": "1311732691699367998"
+      }
+    },
+    {
+      "id": "sung",
+      "name": "Sung",
+      "url": "https://github.com/yappologistic/Sung",
+      "represents": [
+        "youtube-music",
+        "jellyfin"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "sung"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1551595265742475314"
       }
     },
     {
@@ -4618,6 +4644,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/strawberry/tray-menu.a94ab76523d4.ico",
         "md5": "a94ab76523d4907a53e3f64544813a5b"
+      }
+    ],
+    "sung": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sung/logo-128.984613f67a75.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sung/discord-large-image.cefa480f8029.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/sung/discord-small-image.40f5f59783bb.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/sung/tray-menu.a64ad66f2320.ico",
+        "md5": "a64ad66f23204ca0076c869e92e1ed16"
       }
     ],
     "supersonic": [

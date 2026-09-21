@@ -401,7 +401,8 @@
       "url": "https://monochrome.tf",
       "sources": {
         "web_domain": [
-          "monochrome.tf"
+          "monochrome.tf",
+          "monochrome.st"
         ]
       },
       "attributes": {
