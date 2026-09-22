@@ -1421,6 +1421,30 @@
       }
     },
     {
+      "id": "oxitide",
+      "name": "Oxitide",
+      "url": "https://github.com/yelanxin/OxiTide",
+      "represents": [
+        "tidal"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "oxitide"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1551911048544784404"
+      }
+    },
+    {
       "id": "pandora",
       "name": "Pandora",
       "url": "https://pandora.com",
@@ -3931,6 +3955,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/outertune/tray-menu.1b714dc69c66.ico",
         "md5": "1b714dc69c66eff79e44a3f1bf0c7bc6"
+      }
+    ],
+    "oxitide": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/oxitide/logo-128.f042b3bb1fe5.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/oxitide/discord-large-image.056352323ff8.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/oxitide/discord-small-image.4a955a03f263.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/oxitide/tray-menu.e86023987830.ico",
+        "md5": "e8602398783017ccc0cae19dccdf8bd2"
       }
     ],
     "pandora": [
