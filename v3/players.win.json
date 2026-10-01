@@ -1892,6 +1892,27 @@
       }
     },
     {
+      "id": "octo",
+      "name": "Octo",
+      "url": "https://github.com/winters27/octo-player",
+      "sources": {
+        "win_winrt": [
+          "Octo.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1555175107889078282"
+      }
+    },
+    {
       "id": "optimus-player-placeholder",
       "name": "Optimus",
       "url": "https://www.optimusplayer.com",
@@ -5152,6 +5173,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/nora/tray-menu.a41c6342ac54.ico",
         "md5": "a41c6342ac54f0aafbceb0330be4e515"
+      }
+    ],
+    "octo": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/octo/logo-128.e0bef8e95cc3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/octo/discord-large-image.66f8064bf4ee.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/octo/discord-small-image.1113a2bbf905.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/octo/tray-menu.fe91ddeb084b.ico",
+        "md5": "fe91ddeb084bebe1a55ed613bd5737cb"
       }
     ],
     "optimus-player-placeholder": [
