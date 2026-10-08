@@ -2328,6 +2328,27 @@
       }
     },
     {
+      "id": "salt-player",
+      "name": "Salt Player",
+      "url": "https://moriafly.com/program/spw",
+      "sources": {
+        "win_winrt": [
+          "Salt Player for Windows.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1557754804560724029"
+      }
+    },
+    {
       "id": "saturn",
       "name": "Saturn",
       "url": "https://saturn.kim",
@@ -5587,6 +5608,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/rune/tray-menu.6eecf4f22ca1.ico",
         "md5": "6eecf4f22ca1ea4c19214f67adc73398"
+      }
+    ],
+    "salt-player": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/salt-player/logo-128.2fb8b8054691.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/salt-player/discord-large-image.415f268f9daa.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/salt-player/discord-small-image.0ac7aab24692.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/salt-player/tray-menu.9f5e64fc9dee.ico",
+        "md5": "9f5e64fc9dee2031260c37421f1d32c4"
       }
     ],
     "saturn": [
