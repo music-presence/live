@@ -241,6 +241,27 @@
       }
     },
     {
+      "id": "any-listen",
+      "name": "Any Listen",
+      "url": "https://github.com/any-listen/any-listen",
+      "sources": {
+        "win_winrt": [
+          "cn.toside.anylisten.desktop"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1558449505886806047"
+      }
+    },
+    {
       "id": "aonsoku",
       "name": "Aonsoku",
       "url": "https://github.com/victoralvesf/aonsoku",
@@ -3315,7 +3336,8 @@
           "music.youtube.com-5929F88E_vezhnr0wkvrcy!APP",
           "com.squirrel.youtube_music_desktop_app.youtube-music-desktop-app",
           "electron.app.YouTube Music for Desktop",
-          "electron.app.YouTube Music"
+          "electron.app.YouTube Music",
+          "webcatalog-photon-youtube-music"
         ]
       },
       "attributes": {
@@ -3584,6 +3606,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/anghami/tray-menu.9d2bced7ce48.ico",
         "md5": "9d2bced7ce48487ef3d03c63f6efd99a"
+      }
+    ],
+    "any-listen": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/any-listen/logo-128.a91ff6b36b2f.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/any-listen/discord-large-image.f5af154cdc86.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/any-listen/discord-small-image.7238c012798e.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/any-listen/tray-menu.72ff9ba82e25.ico",
+        "md5": "72ff9ba82e251c1d4af08427e0ac5600"
       }
     ],
     "aonsoku": [
