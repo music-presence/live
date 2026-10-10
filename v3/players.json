@@ -658,6 +658,9 @@
       "name": "Bandcamp",
       "url": "https://bandcamp.com",
       "sources": {
+        "lin_mpris": [
+          "bc-desktop"
+        ],
         "web_domain": [
           "bandcamp.com"
         ],
