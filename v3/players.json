@@ -658,9 +658,6 @@
       "name": "Bandcamp",
       "url": "https://bandcamp.com",
       "sources": {
-        "lin_mpris": [
-          "bc-desktop"
-        ],
         "web_domain": [
           "bandcamp.com"
         ],
@@ -683,6 +680,14 @@
       ],
       "extra": {
         "discord_application_id": "1386118429316218880"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "bc-desktop"
+          }
+        ]
       }
     },
     {
