@@ -2830,7 +2830,8 @@
       "url": "https://telegram.org",
       "sources": {
         "win_winrt": [
-          "Telegram.TelegramDesktop"
+          "Telegram.TelegramDesktop",
+          "Telegram.exe"
         ]
       },
       "attributes": {

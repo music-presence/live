@@ -4848,7 +4848,8 @@
           "com.tdesktop.Telegram"
         ],
         "win_winrt": [
-          "Telegram.TelegramDesktop"
+          "Telegram.TelegramDesktop",
+          "Telegram.exe"
         ]
       },
       "attributes": {
