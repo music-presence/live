@@ -3331,7 +3331,10 @@
           "electron.app.Pandora",
           "www.pandora.com-E52CFF50_nv5nhcy212296!app",
           "www.pandora.com-E52CFF50_nv5nhcy212296!App",
-          "www.pandora.com-E52CFF50_nv5nhcy212296!APP"
+          "www.pandora.com-E52CFF50_nv5nhcy212296!APP",
+          "PandoraMediaInc.29680B314EFC2_n619g4d5j0fnw!app",
+          "PandoraMediaInc.29680B314EFC2_n619g4d5j0fnw!App",
+          "PandoraMediaInc.29680B314EFC2_n619g4d5j0fnw!APP"
         ]
       },
       "attributes": {
@@ -4973,7 +4976,7 @@
     {
       "id": "tunebar",
       "name": "Tunebar",
-      "url": "https://apps.apple.com/by/app/tunebar/id6759842578",
+      "url": "https://apps.apple.com/app/id6759842578",
       "sources": {
         "mac_mediaremote": [
           "dev.bunn.tunebar"
@@ -5115,6 +5118,27 @@
       ],
       "extra": {
         "discord_application_id": "1446204568198316052"
+      }
+    },
+    {
+      "id": "vidhub",
+      "name": "VidHub",
+      "url": "https://apps.apple.com/app/id1659622164",
+      "sources": {
+        "mac_mediaremote": [
+          "com.mac.utility.media.hub"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1559488320575119481"
       }
     },
     {
@@ -10295,6 +10319,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/valent/tray-menu.1506dc12771e.ico",
         "md5": "1506dc12771ec6d1dc64fb4e6be7304e"
+      }
+    ],
+    "vidhub": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/vidhub/logo-128.248b27ab8640.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/vidhub/discord-large-image.f9b148c4724d.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/vidhub/discord-small-image.296d1f14cbd9.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/vidhub/tray-menu.71faa18be8ca.ico",
+        "md5": "71faa18be8ca4edd03b243917eafe084"
       }
     ],
     "vlc": [

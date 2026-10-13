@@ -2165,7 +2165,7 @@
     {
       "id": "tunebar",
       "name": "Tunebar",
-      "url": "https://apps.apple.com/by/app/tunebar/id6759842578",
+      "url": "https://apps.apple.com/app/id6759842578",
       "sources": {
         "mac_mediaremote": [
           "dev.bunn.tunebar"
@@ -2246,6 +2246,27 @@
       ],
       "extra": {
         "discord_application_id": "1403424105532751963"
+      }
+    },
+    {
+      "id": "vidhub",
+      "name": "VidHub",
+      "url": "https://apps.apple.com/app/id1659622164",
+      "sources": {
+        "mac_mediaremote": [
+          "com.mac.utility.media.hub"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1559488320575119481"
       }
     },
     {
@@ -4689,6 +4710,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/untitled/tray-menu.53425ed87e9e.ico",
         "md5": "53425ed87e9ef9994029a848d7fc3ff0"
+      }
+    ],
+    "vidhub": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/vidhub/logo-128.248b27ab8640.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/vidhub/discord-large-image.f9b148c4724d.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/vidhub/discord-small-image.296d1f14cbd9.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/vidhub/tray-menu.71faa18be8ca.ico",
+        "md5": "71faa18be8ca4edd03b243917eafe084"
       }
     ],
     "vlc": [
