@@ -3200,6 +3200,30 @@
       }
     },
     {
+      "id": "opamp",
+      "name": "OpAmp",
+      "url": "https://opamp.app",
+      "represents": [
+        "plex"
+      ],
+      "sources": {
+        "mac_mediaremote": [
+          "com.itsnwa.opamp"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1560012586525921412"
+      }
+    },
+    {
       "id": "optimus-player",
       "name": "Optimus Player",
       "url": "https://www.optimusplayer.com",
@@ -8579,6 +8603,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/octo/tray-menu.fe91ddeb084b.ico",
         "md5": "fe91ddeb084bebe1a55ed613bd5737cb"
+      }
+    ],
+    "opamp": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/opamp/logo-128.a316fb5a70c0.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/opamp/discord-large-image.0c2a4db62ae1.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/opamp/discord-small-image.27a9ccf4b9a8.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/opamp/tray-menu.93b96c28bde7.ico",
+        "md5": "93b96c28bde785d066f8d9756aa7358f"
       }
     ],
     "optimus-player": [
