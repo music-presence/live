@@ -4962,6 +4962,30 @@
       }
     },
     {
+      "id": "tideway",
+      "name": "Tideway",
+      "url": "https://github.com/J-M-PUNK/tideway",
+      "represents": [
+        "tidal"
+      ],
+      "sources": {
+        "mac_mediaremote": [
+          "com.tidaldownloader.app"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1560015771013218435"
+      }
+    },
+    {
       "id": "trdo",
       "name": "Trdo",
       "url": "https://trdo.net",
@@ -10190,6 +10214,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/tidalunar/tray-menu.d84fc9584f33.ico",
         "md5": "d84fc9584f334fcd7642c957f990337f"
+      }
+    ],
+    "tideway": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/tideway/logo-128.d5dfef803fd0.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/tideway/discord-large-image.b1fc3f04673d.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/tideway/discord-small-image.486de1ee2baf.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/tideway/tray-menu.07d911eef38d.ico",
+        "md5": "07d911eef38d7b8a0dbfe14a9be41e58"
       }
     ],
     "trdo": [
