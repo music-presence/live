@@ -322,6 +322,27 @@
       }
     },
     {
+      "id": "banshee",
+      "name": "Banshee",
+      "url": "https://github.com/popey/banshee",
+      "sources": {
+        "lin_mpris": [
+          "banshee"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1560641888577388684"
+      }
+    },
+    {
       "id": "chillhop",
       "name": "Chillhop",
       "url": "https://chillhop.com",
@@ -2914,6 +2935,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/bandcamp/tray-menu.83bb12379cce.ico",
         "md5": "83bb12379cceb99f5e95791204d385f2"
+      }
+    ],
+    "banshee": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/banshee/logo-128.a0a9d22e9edb.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/banshee/discord-large-image.35e76045c1c4.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/banshee/discord-small-image.03574cd28f67.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/banshee/tray-menu.1181b829e548.ico",
+        "md5": "1181b829e548b4972a56c83554f813b7"
       }
     ],
     "chillhop": [

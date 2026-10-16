@@ -1371,6 +1371,27 @@
       }
     },
     {
+      "id": "liner",
+      "name": "Liner",
+      "url": "https://github.com/tryliner/desktop",
+      "sources": {
+        "win_winrt": [
+          "com.hkamori.liner"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1560643612994310236"
+      }
+    },
+    {
       "id": "lyra",
       "name": "Lyra",
       "url": "https://apps.microsoft.com/detail/9nkg57pvd5bq",
@@ -3308,7 +3329,8 @@
           "electron.app.YouTube",
           "www.youtube.com-54E21B02_pd8mbgmqs65xy!app",
           "www.youtube.com-54E21B02_pd8mbgmqs65xy!App",
-          "www.youtube.com-54E21B02_pd8mbgmqs65xy!APP"
+          "www.youtube.com-54E21B02_pd8mbgmqs65xy!APP",
+          "webcatalog-photon-youtube"
         ]
       },
       "attributes": {
@@ -4714,6 +4736,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/kugou-zh-placeholder/tray-menu.a96e687d34ee.ico",
         "md5": "a96e687d34ee88cedf0d86212b3b72ec"
+      }
+    ],
+    "liner": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/liner/logo-128.cff7be1fdc63.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/liner/discord-large-image.81b9e0f8f00b.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/liner/discord-small-image.e6ceb9751298.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/liner/tray-menu.723583cb8121.ico",
+        "md5": "723583cb8121d10346803259a5e4d4a6"
       }
     ],
     "lyra": [
