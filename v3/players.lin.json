@@ -683,6 +683,34 @@
       }
     },
     {
+      "id": "freetube",
+      "name": "FreeTube",
+      "url": "https://freetubeapp.io",
+      "represents": [
+        "youtube"
+      ],
+      "sources": {},
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1560977404653207592"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "FreeTube"
+          }
+        ]
+      }
+    },
+    {
       "id": "g4music",
       "name": "Gapless",
       "url": "https://gitlab.gnome.org/neithern/g4music",
@@ -1946,6 +1974,27 @@
       ],
       "extra": {
         "discord_application_id": "1430094591809556531"
+      }
+    },
+    {
+      "id": "rox",
+      "name": "rox",
+      "url": "https://rox.music",
+      "sources": {
+        "lin_mpris": [
+          "rox"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1560979674992222321"
       }
     },
     {
@@ -3259,6 +3308,29 @@
         "md5": "340fd5515f1e3995c4e974c8d1d0320f"
       }
     ],
+    "freetube": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/freetube/logo-128.e564755419e1.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/freetube/discord-large-image.a84afbef335b.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/freetube/discord-small-image.e058fc6f1f7b.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/freetube/tray-menu.9f0f5b7387a4.ico",
+        "md5": "9f0f5b7387a4d513112262093fd1cf18"
+      }
+    ],
     "g4music": [
       {
         "label": "logo-128",
@@ -4499,6 +4571,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/rhythmbox/tray-menu.5fb7adbeff80.ico",
         "md5": "5fb7adbeff80ccd0c5343d4f3c35e769"
+      }
+    ],
+    "rox": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rox/logo-128.da97b6074589.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rox/discord-large-image.ef046350877e.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rox/discord-small-image.928846ac5310.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/rox/tray-menu.fd19a3a683c8.ico",
+        "md5": "fd19a3a683c831fd6426f71bead39542"
       }
     ],
     "sayonara": [
