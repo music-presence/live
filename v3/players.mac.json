@@ -530,6 +530,27 @@
       }
     },
     {
+      "id": "colibri",
+      "name": "Colibri",
+      "url": "https://colibri-lossless.com",
+      "sources": {
+        "mac_mediaremote": [
+          "gaborhargitai.colibri"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1562829093018280036"
+      }
+    },
+    {
       "id": "daftcloud",
       "name": "DaftCloud",
       "url": "https://daft.cloud",
@@ -2987,6 +3008,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/cog/tray-menu.6077f27c1a6c.ico",
         "md5": "6077f27c1a6c701a4d141a6d297a9b30"
+      }
+    ],
+    "colibri": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/colibri/logo-128.ee5308da8015.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/colibri/discord-large-image.c150fa575565.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/colibri/discord-small-image.177b37c0ad76.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/colibri/tray-menu.80d5c2056265.ico",
+        "md5": "80d5c2056265c18015973eff9262bad3"
       }
     ],
     "daftcloud": [
