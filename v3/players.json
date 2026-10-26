@@ -2002,7 +2002,8 @@
         ],
         "win_winrt": [
           "electron.app.iBroadcast",
-          "electron.app.ibroadcast"
+          "electron.app.ibroadcast",
+          "webcatalog-photon-ibroadcast"
         ],
         "mac_mediaremote": [
           "com.webcatalog.juli.ibroadcast"
