@@ -4144,6 +4144,9 @@
       "sources": {
         "lin_mpris": [
           "rox"
+        ],
+        "win_winrt": [
+          "rox.exe"
         ]
       },
       "attributes": {

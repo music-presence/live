@@ -2356,6 +2356,27 @@
       }
     },
     {
+      "id": "rox",
+      "name": "rox",
+      "url": "https://rox.music",
+      "sources": {
+        "win_winrt": [
+          "rox.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1560979674992222321"
+      }
+    },
+    {
       "id": "rune",
       "name": "Rune",
       "url": "https://rune.not.ci",
@@ -5683,6 +5704,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/roon/tray-menu.70af0ab6f3ba.ico",
         "md5": "70af0ab6f3bad148fd231fbff43561e5"
+      }
+    ],
+    "rox": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rox/logo-128.da97b6074589.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rox/discord-large-image.ef046350877e.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/rox/discord-small-image.928846ac5310.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/rox/tray-menu.fd19a3a683c8.ico",
+        "md5": "fd19a3a683c831fd6426f71bead39542"
       }
     ],
     "rune": [
