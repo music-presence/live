@@ -2782,23 +2782,23 @@
       {
         "label": "logo-128",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/apple-music/logo-128.1effc8e3136f.png"
+        "url": "https://live.musicpresence.app/v3/icons/apple-music/logo-128.d37fb09c4103.png"
       },
       {
         "label": "discord-large-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/apple-music/discord-large-image.5dc63e0f0001.png"
+        "url": "https://live.musicpresence.app/v3/icons/apple-music/discord-large-image.f0093765ae41.png"
       },
       {
         "label": "discord-small-image",
         "type": "png",
-        "url": "https://live.musicpresence.app/v3/icons/apple-music/discord-small-image.9a39ed08b8ed.png"
+        "url": "https://live.musicpresence.app/v3/icons/apple-music/discord-small-image.571835f9764f.png"
       },
       {
         "label": "tray-menu",
         "type": "ico",
-        "url": "https://live.musicpresence.app/v3/icons/apple-music/tray-menu.99386a5b12d9.ico",
-        "md5": "99386a5b12d9d901270037012d7a4933"
+        "url": "https://live.musicpresence.app/v3/icons/apple-music/tray-menu.16e633fd9fe4.ico",
+        "md5": "16e633fd9fe4b8c5cdd2dc243098cc8d"
       }
     ],
     "apple-podcasts": [
