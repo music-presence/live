@@ -3019,6 +3019,9 @@
       "sources": {
         "lin_mpris": [
           "navibeat"
+        ],
+        "mac_mediaremote": [
+          "app.navibeat.NaviBeatApp"
         ]
       },
       "attributes": {

@@ -1325,6 +1325,27 @@
       }
     },
     {
+      "id": "navibeat",
+      "name": "NaviBeat",
+      "url": "https://navibeat.app",
+      "sources": {
+        "mac_mediaremote": [
+          "app.navibeat.NaviBeatApp"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1536083477798199406"
+      }
+    },
+    {
       "id": "netease-cloud-music",
       "name": "NetEase Cloud Music",
       "url": "https://music.163.com",
@@ -3836,6 +3857,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/musicer/tray-menu.4abb1ebff024.ico",
         "md5": "4abb1ebff024579577308a88ccd36480"
+      }
+    ],
+    "navibeat": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/navibeat/logo-128.9a3a95f11d8c.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/navibeat/discord-large-image.76ecce1d0678.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/navibeat/discord-small-image.45d5124f8631.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/navibeat/tray-menu.cfb74e11e07b.ico",
+        "md5": "cfb74e11e07bae98c91d1ed1505efb6b"
       }
     ],
     "netease-cloud-music": [
