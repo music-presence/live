@@ -2469,6 +2469,31 @@
       }
     },
     {
+      "id": "lokal",
+      "name": "Lokal",
+      "url": "https://github.com/lokal-music/lokal",
+      "sources": {},
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1566198021987770368"
+      },
+      "experimental": {
+        "lin_mpris_identity": [
+          {
+            "service": "chromium",
+            "identity": "Lokal"
+          }
+        ]
+      }
+    },
+    {
       "id": "longplay",
       "name": "Longplay",
       "url": "https://longplay.rocks",
@@ -8060,6 +8085,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/liner/tray-menu.723583cb8121.ico",
         "md5": "723583cb8121d10346803259a5e4d4a6"
+      }
+    ],
+    "lokal": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/lokal/logo-128.0f6a7f998543.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/lokal/discord-large-image.a592de8ab8f2.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/lokal/discord-small-image.9856ae883809.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/lokal/tray-menu.8477d288f911.ico",
+        "md5": "8477d288f9115868104a3419d8095ee2"
       }
     ],
     "longplay": [
