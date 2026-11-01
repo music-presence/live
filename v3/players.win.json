@@ -446,7 +446,8 @@
       "url": "https://www.audionplayer.com",
       "sources": {
         "win_winrt": [
-          "com.audion.app"
+          "com.audion.app",
+          "audion.exe"
         ]
       },
       "attributes": {
