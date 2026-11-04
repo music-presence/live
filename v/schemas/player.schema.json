@@ -1,0 +1,264 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "url",
+    "sources",
+    "attributes",
+    "content",
+    "extra"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "#/definitions/id"
+    },
+    "name": {
+      "$comment": "The official name of the player or service",
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "$comment": "URL to the website or origin of this media player",
+      "type": "string",
+      "format": "uri",
+      "pattern": "^http[s]?://\\S+[^/\\s]$"
+    },
+    "represents": {
+      "$comment": "IDs of other media players this player may represent",
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/id"
+      }
+    },
+    "sources": {
+      "$ref": "#/definitions/sources"
+    },
+    "attributes": {
+      "$ref": "#/definitions/attributes"
+    },
+    "content": {
+      "$ref": "#/definitions/content"
+    },
+    "extra": {
+      "$ref": "#/definitions/extra"
+    },
+    "experimental": {
+      "$ref": "#/definitions/experimental"
+    }
+  },
+  "definitions": {
+    "id": {
+      "$comment": "A unique identifier for a media player",
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9\\-]*[a-z0-9]$"
+    },
+    "sources": {
+      "$comment": "All known source identifiers for a media player",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "win_smtc": {
+          "$comment": "A list of app user model IDs via SMTC on Windows",
+          "$ref": "#/definitions/basicSourceList"
+        },
+        "mac_bundle": {
+          "$comment": "A list of app bundle identifiers on Mac",
+          "$ref": "#/definitions/basicSourceList"
+        },
+        "lin_mpris": {
+          "$comment": "A list of source identifiers or source matchers for MPRIS via D-Bus on Linux",
+          "type": "array",
+          "uniqueItems": true,
+          "minItems": 1,
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/sourceIdentifier"
+              },
+              {
+                "$ref": "#/definitions/sourceMatcherMpris"
+              }
+            ]
+          }
+        },
+        "web_domain": {
+          "$comment": "A list of fully-qualified domain names on the web",
+          "$ref": "#/definitions/basicSourceList"
+        },
+        "win_winrt": {
+          "$comment": "DEPRECATED: Will be removed in v4",
+          "$ref": "#/definitions/basicSourceList"
+        },
+        "mac_mediaremote": {
+          "$comment": "DEPRECATED: Will be removed in v4",
+          "$ref": "#/definitions/basicSourceList"
+        }
+      }
+    },
+    "basicSourceList": {
+      "$comment": "A list of source identifiers",
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/sourceIdentifier"
+      }
+    },
+    "sourceMatcherMpris": {
+      "$comment": "Matchers for a media source that reports metadata via MPRIS",
+      "type": "object",
+      "required": [
+        "service"
+      ],
+      "properties": {
+        "service": {
+          "$comment": "The value to match against the D-Bus service name without the \"org.mpris.MediaPlayer2.\" prefix and without any instance suffix",
+          "$ref": "#/definitions/sourceIdentifier"
+        },
+        "identity": {
+          "$comment": "The value to match against the \"org.mpris.MediaPlayer2.Identity\" D-Bus property of the service",
+          "type": "string"
+        },
+        "desktop_entry": {
+          "$comment": "The value to match against the \"org.mpris.MediaPlayer2.DesktopEntry\" D-Bus property of the service",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "sourceIdentifier": {
+      "$comment": "An identifier for a media source, e.g. an application package identifier",
+      "type": "string",
+      "pattern": "^\\S.+[^\\s]$"
+    },
+    "attributes": {
+      "$comment": "Attributes for a media player",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pure",
+        "service"
+      ],
+      "properties": {
+        "pure": {
+          "$comment": "Media from this player can be expected to be free of personal data from the user. This excludes multimedia players that might e.g. play personal home videos",
+          "type": "boolean"
+        },
+        "service": {
+          "$comment": "This media player is a streaming service and provides licensed content that must be branded with the service's logo",
+          "type": "boolean"
+        },
+        "browser": {
+          "$comment": "This media player is a web browser",
+          "type": "boolean"
+        }
+      }
+    },
+    "content": {
+      "$comment": "The type of content this media player is designed to play. Items should be ordered starting with the type of content that is played most with this player to the type of content that is played least. Uncommon content types for this player should be omitted",
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "$ref": "https://live.musicpresence.app/v/schemas/content-types.schema.json"
+      },
+      "allOf": [
+        {
+          "$comment": "The root audio type must be present too",
+          "if": {
+            "contains": {
+              "pattern": "^audio_.*$"
+            }
+          },
+          "then": {
+            "contains": {
+              "const": "audio"
+            }
+          }
+        },
+        {
+          "$comment": "The root audio type is not sufficient by itself",
+          "if": {
+            "minItems": 1,
+            "maxItems": 1,
+            "contains": {
+              "const": "audio"
+            }
+          },
+          "then": {
+            "contains": {
+              "pattern": "^audio_.*$"
+            }
+          }
+        },
+        {
+          "$comment": "The root video type must be present too",
+          "if": {
+            "contains": {
+              "pattern": "^video_.*$"
+            }
+          },
+          "then": {
+            "contains": {
+              "const": "video"
+            }
+          }
+        },
+        {
+          "$comment": "The root video type is not sufficient by itself",
+          "if": {
+            "minItems": 1,
+            "maxItems": 1,
+            "contains": {
+              "const": "video"
+            }
+          },
+          "then": {
+            "contains": {
+              "pattern": "^video_.*$"
+            }
+          }
+        }
+      ]
+    },
+    "extra": {
+      "$comment": "Extra properties that might be useful",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "discord_application_id"
+      ],
+      "properties": {
+        "discord_application_id": {
+          "$comment": "The ID of a Discord application registered at https://discord.com/developers/applications which has the name of this media player",
+          "type": "string",
+          "pattern": "\\d{16,24}"
+        },
+        "fluxer_emoji_id": {
+          "$comment": "The ID of a Fluxer emoji uploaded to a community which shows the logo of this media player",
+          "type": "string",
+          "pattern": "\\d{16,24}"
+        }
+      }
+    },
+    "experimental": {
+      "$comment": "Experimental properties that might vanish or change their meaning without major version bumps",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "lin_mpris_identity": {
+          "type": "array",
+          "uniqueItems": true,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/sourceMatcherMpris"
+          }
+        }
+      }
+    }
+  }
+}
