@@ -1325,6 +1325,27 @@
       }
     },
     {
+      "id": "namida",
+      "name": "Namida",
+      "url": "https://github.com/namidaco/namida",
+      "sources": {
+        "mac_mediaremote": [
+          "com.msob7y.namida"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1395045458648371240"
+      }
+    },
+    {
       "id": "navibeat",
       "name": "NaviBeat",
       "url": "https://navibeat.app",
@@ -3857,6 +3878,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/musicer/tray-menu.4abb1ebff024.ico",
         "md5": "4abb1ebff024579577308a88ccd36480"
+      }
+    ],
+    "namida": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/namida/logo-128.84861941dedb.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/namida/discord-large-image.fec3949b6f28.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/namida/discord-small-image.9e5e26645abb.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/namida/tray-menu.c025c2c413b0.ico",
+        "md5": "c025c2c413b0e5712d2f5c849e0f42ba"
       }
     ],
     "navibeat": [

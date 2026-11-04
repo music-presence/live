@@ -2449,6 +2449,30 @@
       }
     },
     {
+      "id": "limusic",
+      "name": "Limusic",
+      "url": "https://github.com/SimoHypers/limusic",
+      "represents": [
+        "youtube-music"
+      ],
+      "sources": {
+        "win_winrt": [
+          "com.limusic.desktop"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1567477578997174302"
+      }
+    },
+    {
       "id": "liner",
       "name": "Liner",
       "url": "https://github.com/tryliner/desktop",
@@ -3019,6 +3043,9 @@
       "name": "Namida",
       "url": "https://github.com/namidaco/namida",
       "sources": {
+        "mac_mediaremote": [
+          "com.msob7y.namida"
+        ],
         "lin_mpris": [
           "namida"
         ],
@@ -8063,6 +8090,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/kugou-zh-placeholder/tray-menu.a96e687d34ee.ico",
         "md5": "a96e687d34ee88cedf0d86212b3b72ec"
+      }
+    ],
+    "limusic": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/limusic/logo-128.174fdf923d91.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/limusic/discord-large-image.8bd3ba56fd8d.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/limusic/discord-small-image.d06b3b111cf6.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/limusic/tray-menu.a6aac6b2eb40.ico",
+        "md5": "a6aac6b2eb405aeec0ee9d69c01d2e2e"
       }
     ],
     "liner": [
