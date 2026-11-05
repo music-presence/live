@@ -3047,14 +3047,14 @@
       "name": "Namida",
       "url": "https://github.com/namidaco/namida",
       "sources": {
-        "mac_mediaremote": [
-          "com.msob7y.namida"
-        ],
         "lin_mpris": [
           "namida"
         ],
         "win_winrt": [
           "namida.exe"
+        ],
+        "mac_mediaremote": [
+          "com.msob7y.namida"
         ]
       },
       "attributes": {
@@ -5050,12 +5050,12 @@
       "name": "Telegram",
       "url": "https://telegram.org",
       "sources": {
-        "mac_mediaremote": [
-          "com.tdesktop.Telegram"
-        ],
         "win_winrt": [
           "Telegram.TelegramDesktop",
           "Telegram.exe"
+        ],
+        "mac_mediaremote": [
+          "com.tdesktop.Telegram"
         ]
       },
       "attributes": {
