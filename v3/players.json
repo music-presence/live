@@ -2793,6 +2793,27 @@
       }
     },
     {
+      "id": "mornye",
+      "name": "Mornye",
+      "url": "https://desktop.mornye.com",
+      "sources": {
+        "win_winrt": [
+          "com.zarz.mornye"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1568179498795401277"
+      }
+    },
+    {
       "id": "mpc-hc",
       "name": "MPC-HC",
       "url": "https://github.com/clsid2/mpc-hc",
@@ -8416,6 +8437,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/moosync/tray-menu.83b62b45b681.ico",
         "md5": "83b62b45b6812075dffff8e51c2c330a"
+      }
+    ],
+    "mornye": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mornye/logo-128.b1295272032b.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mornye/discord-large-image.c0ab38da24f7.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mornye/discord-small-image.75280ed1c7c0.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/mornye/tray-menu.1df98bca06c1.ico",
+        "md5": "1df98bca06c1d6b800a0414eb4c43943"
       }
     ],
     "mpc-hc": [
