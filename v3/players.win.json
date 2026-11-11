@@ -2818,7 +2818,8 @@
       "sources": {
         "win_winrt": [
           "spotube.exe",
-          "Spotube"
+          "Spotube",
+          "com.app.org.spotube.spotube"
         ]
       },
       "attributes": {
