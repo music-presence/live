@@ -2594,7 +2594,8 @@
       ],
       "sources": {
         "win_winrt": [
-          "Airplay.Shairport.Audio.1.0"
+          "Airplay.Shairport.Audio.1.0",
+          "Airplay.Shairport.1.0"
         ]
       },
       "attributes": {
