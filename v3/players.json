@@ -943,6 +943,9 @@
       "sources": {
         "lin_mpris": [
           "clementine"
+        ],
+        "win_winrt": [
+          "clementine.exe"
         ]
       },
       "attributes": {
