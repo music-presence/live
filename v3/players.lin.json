@@ -1290,6 +1290,27 @@
       }
     },
     {
+      "id": "mpc-qt",
+      "name": "MPC-QT",
+      "url": "https://github.com/mpc-qt/mpc-qt",
+      "sources": {
+        "lin_mpris": [
+          "MpcQt"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1573396689606287582"
+      }
+    },
+    {
       "id": "mpd",
       "name": "MPD",
       "url": "https://www.musicpd.org",
@@ -3956,6 +3977,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/mornye/tray-menu.1df98bca06c1.ico",
         "md5": "1df98bca06c1d6b800a0414eb4c43943"
+      }
+    ],
+    "mpc-qt": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mpc-qt/logo-128.9ef6552398a8.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mpc-qt/discord-large-image.3a56496f4921.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/mpc-qt/discord-small-image.95b6b96adb8e.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/mpc-qt/tray-menu.0a221ac35c60.ico",
+        "md5": "0a221ac35c604f870e292da0e8764cea"
       }
     ],
     "mpd": [
