@@ -2712,7 +2712,11 @@
       "represents": [
         "youtube-music"
       ],
-      "sources": {},
+      "sources": {
+        "win_winrt": [
+          "Metrolist.Desktop"
+        ]
+      },
       "attributes": {
         "pure": true,
         "service": false
@@ -4914,6 +4918,9 @@
         "spotify"
       ],
       "sources": {
+        "lin_mpris": [
+          "spotifast"
+        ],
         "win_winrt": [
           "spotifast.exe",
           "fastpotify.exe"
