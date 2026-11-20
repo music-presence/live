@@ -5228,6 +5228,9 @@
       "name": "Telegram",
       "url": "https://telegram.org",
       "sources": {
+        "lin_mpris": [
+          "org.telegram.desktop"
+        ],
         "win_winrt": [
           "Telegram.TelegramDesktop",
           "Telegram.exe"
