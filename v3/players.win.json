@@ -516,6 +516,30 @@
       }
     },
     {
+      "id": "bettersoundcloud",
+      "name": "BetterSoundCloud",
+      "url": "https://bsc.akj.studio",
+      "represents": [
+        "soundcloud"
+      ],
+      "sources": {
+        "win_winrt": [
+          "com.alirezakj.bettersoundcloud"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1574045940413628591"
+      }
+    },
+    {
       "id": "bitchord",
       "name": "BitChord",
       "url": "https://github.com/jackychan4891/BitChord-PC-Continued",
@@ -4121,6 +4145,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/betterlyrics/tray-menu.468c5cfe22fc.ico",
         "md5": "468c5cfe22fc82bb7c5b4d170e82fa98"
+      }
+    ],
+    "bettersoundcloud": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/bettersoundcloud/logo-128.a8fe52e8e5c3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/bettersoundcloud/discord-large-image.8d8bcbe78319.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/bettersoundcloud/discord-small-image.8832610400ed.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/bettersoundcloud/tray-menu.11be3e46cc2e.ico",
+        "md5": "11be3e46cc2e5c1629bac09e603c9800"
       }
     ],
     "bitchord": [
