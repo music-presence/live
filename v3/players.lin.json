@@ -2370,9 +2370,7 @@
       "url": "https://spotify.com",
       "sources": {
         "lin_mpris": [
-          "spotify",
-          "spotify_player",
-          "spotifyd"
+          "spotify"
         ],
         "web_domain": [
           "open.spotify.com"
@@ -2398,6 +2396,54 @@
             "identity": "Spotify"
           }
         ]
+      }
+    },
+    {
+      "id": "spotify-player",
+      "name": "spotify_player",
+      "url": "https://github.com/aome510/spotify-player",
+      "represents": [
+        "spotify"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "spotify_player"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1574342402905342093"
+      }
+    },
+    {
+      "id": "spotifyd",
+      "name": "spotifyd",
+      "url": "https://github.com/Spotifyd/spotifyd",
+      "represents": [
+        "spotify"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "spotifyd"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1574389966937530501"
       }
     },
     {
@@ -5055,6 +5101,52 @@
         "label": "tray-menu",
         "type": "ico",
         "url": "https://live.musicpresence.app/v3/icons/spotify/tray-menu.db3a25b10eeb.ico",
+        "md5": "db3a25b10eeb3c8eb8e17a38c215ef06"
+      }
+    ],
+    "spotify-player": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/spotify-player/logo-128.3f356a4d2aa3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/spotify-player/discord-large-image.c4bd750c5832.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/spotify-player/discord-small-image.479c9cfbeb46.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/spotify-player/tray-menu.db3a25b10eeb.ico",
+        "md5": "db3a25b10eeb3c8eb8e17a38c215ef06"
+      }
+    ],
+    "spotifyd": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/spotifyd/logo-128.3f356a4d2aa3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/spotifyd/discord-large-image.c4bd750c5832.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v3/icons/spotifyd/discord-small-image.479c9cfbeb46.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v3/icons/spotifyd/tray-menu.db3a25b10eeb.ico",
         "md5": "db3a25b10eeb3c8eb8e17a38c215ef06"
       }
     ],
