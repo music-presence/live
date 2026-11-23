@@ -1384,7 +1384,8 @@
       ],
       "sources": {
         "win_winrt": [
-          "dev.kodama.music"
+          "dev.kodama.music",
+          "dev.kodama.desktop"
         ]
       },
       "attributes": {
