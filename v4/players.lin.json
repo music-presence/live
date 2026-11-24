@@ -227,23 +227,23 @@
       "id": "apple-music",
       "name": "Apple Music",
       "url": "https://music.apple.com",
-      "caveats": {
-        "windows_smtc_metadata_malformed": "The metadata that is reported via System Media Transport Controls by the native windows app is incorrectly formatted and sometimes includes information that is not song metadata.",
-        "web_playback_info_inaccurate": "The web app tends to report inaccurate playback information and track durations most of the time, especially during longer playback sessions."
-      },
+      "caveats": [
+        "windows_app_smtc_metadata_malformed",
+        "web_app_playback_info_inaccurate"
+      ],
       "sources": {
         "web_domain": [
           {
             "domain": "music.apple.com",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           },
           {
             "domain": "classical.music.apple.com",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           },
           {
             "domain": "beta.music.apple.com",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           }
         ]
       },
@@ -1219,6 +1219,27 @@
       }
     },
     {
+      "id": "mornye",
+      "name": "Mornye",
+      "url": "https://desktop.mornye.com",
+      "sources": {
+        "lin_mpris": [
+          "mornye"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1568179498795401277"
+      }
+    },
+    {
       "id": "mousiki-placeholder",
       "name": "Mousiki",
       "url": "https://github.com/itzender5820/mousiki",
@@ -1264,6 +1285,27 @@
       ],
       "extra": {
         "discord_application_id": "1570447741262504118"
+      }
+    },
+    {
+      "id": "mpc-qt",
+      "name": "MPC-QT",
+      "url": "https://github.com/mpc-qt/mpc-qt",
+      "sources": {
+        "lin_mpris": [
+          "MpcQt"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1573396689606287582"
       }
     },
     {
@@ -2291,14 +2333,42 @@
       }
     },
     {
+      "id": "spotifast",
+      "name": "Spotifast",
+      "url": "https://spotifast.rocks",
+      "represents": [
+        "spotify"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "spotifast"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1550781688362172517"
+      }
+    },
+    {
       "id": "spotify",
       "name": "Spotify",
       "url": "https://spotify.com",
+      "caveats": [
+        "desktop_app_advertisements_unskippable"
+      ],
       "sources": {
         "lin_mpris": [
-          "spotify",
-          "spotify_player",
-          "spotifyd",
+          {
+            "service": "spotify",
+            "caveat": "desktop_app_advertisements_unskippable"
+          },
           {
             "service": "Valent",
             "identity": "Spotify"
@@ -2320,6 +2390,54 @@
       "extra": {
         "discord_application_id": "1247651846936596540",
         "fluxer_emoji_id": "1549773084154658816"
+      }
+    },
+    {
+      "id": "spotify-player",
+      "name": "spotify_player",
+      "url": "https://github.com/aome510/spotify-player",
+      "represents": [
+        "spotify"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "spotify_player"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1574342402905342093"
+      }
+    },
+    {
+      "id": "spotifyd",
+      "name": "spotifyd",
+      "url": "https://github.com/Spotifyd/spotifyd",
+      "represents": [
+        "spotify"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "spotifyd"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1574389966937530501"
       }
     },
     {
@@ -2408,6 +2526,27 @@
       ],
       "extra": {
         "discord_application_id": "1311745484028772412"
+      }
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "url": "https://telegram.org",
+      "sources": {
+        "lin_mpris": [
+          "org.telegram.desktop"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1465728253959602176"
       }
     },
     {
@@ -3864,6 +4003,52 @@
         "md5": "d39b2a2b4ec80c6d48509cb9e3bce460"
       }
     ],
+    "mornye": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/mornye/logo-128.b1295272032b.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/mornye/discord-large-image.c0ab38da24f7.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/mornye/discord-small-image.75280ed1c7c0.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v4/icons/mornye/tray-menu.1df98bca06c1.ico",
+        "md5": "1df98bca06c1d6b800a0414eb4c43943"
+      }
+    ],
+    "mpc-qt": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/mpc-qt/logo-128.9ef6552398a8.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/mpc-qt/discord-large-image.3a56496f4921.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/mpc-qt/discord-small-image.95b6b96adb8e.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v4/icons/mpc-qt/tray-menu.0a221ac35c60.ico",
+        "md5": "0a221ac35c604f870e292da0e8764cea"
+      }
+    ],
     "mpd": [
       {
         "label": "logo-128",
@@ -4853,6 +5038,29 @@
         "md5": "a99d68c92a2a0f8654ebb96221ccb68b"
       }
     ],
+    "spotifast": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotifast/logo-128.4a1993fe4f6a.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotifast/discord-large-image.89e7109b73c1.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotifast/discord-small-image.c041b9d8f10c.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v4/icons/spotifast/tray-menu.017545362190.ico",
+        "md5": "0175453621907f99f621c1377ddaf193"
+      }
+    ],
     "spotify": [
       {
         "label": "logo-128",
@@ -4873,6 +5081,52 @@
         "label": "tray-menu",
         "type": "ico",
         "url": "https://live.musicpresence.app/v4/icons/spotify/tray-menu.db3a25b10eeb.ico",
+        "md5": "db3a25b10eeb3c8eb8e17a38c215ef06"
+      }
+    ],
+    "spotify-player": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotify-player/logo-128.3f356a4d2aa3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotify-player/discord-large-image.c4bd750c5832.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotify-player/discord-small-image.479c9cfbeb46.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v4/icons/spotify-player/tray-menu.db3a25b10eeb.ico",
+        "md5": "db3a25b10eeb3c8eb8e17a38c215ef06"
+      }
+    ],
+    "spotifyd": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotifyd/logo-128.3f356a4d2aa3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotifyd/discord-large-image.c4bd750c5832.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotifyd/discord-small-image.479c9cfbeb46.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v4/icons/spotifyd/tray-menu.db3a25b10eeb.ico",
         "md5": "db3a25b10eeb3c8eb8e17a38c215ef06"
       }
     ],
@@ -4966,6 +5220,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v4/icons/tauon/tray-menu.e64ce9917bb1.ico",
         "md5": "e64ce9917bb19db90e2d8777546c2f7b"
+      }
+    ],
+    "telegram": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/telegram/logo-128.ddb330058b0d.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/telegram/discord-large-image.7ea5a8da33df.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/telegram/discord-small-image.609ac56e9493.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v4/icons/telegram/tray-menu.d65282bf9a46.ico",
+        "md5": "d65282bf9a46d94a7b0767877fcb992b"
       }
     ],
     "tidal": [

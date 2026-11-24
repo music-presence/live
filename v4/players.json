@@ -464,10 +464,10 @@
       "id": "apple-music",
       "name": "Apple Music",
       "url": "https://music.apple.com",
-      "caveats": {
-        "windows_smtc_metadata_malformed": "The metadata that is reported via System Media Transport Controls by the native windows app is incorrectly formatted and sometimes includes information that is not song metadata.",
-        "web_playback_info_inaccurate": "The web app tends to report inaccurate playback information and track durations most of the time, especially during longer playback sessions."
-      },
+      "caveats": [
+        "windows_app_smtc_metadata_malformed",
+        "web_app_playback_info_inaccurate"
+      ],
       "sources": {
         "mac_bundle": [
           "com.apple.Music"
@@ -475,58 +475,58 @@
         "win_smtc": [
           {
             "app_user_model_id": "AppleMusic.exe",
-            "caveat": "windows_smtc_metadata_malformed"
+            "caveat": "windows_app_smtc_metadata_malformed"
           },
           {
             "app_user_model_id": "AppleInc.AppleMusicWin_nzyj5cx40ttqa!APP",
-            "caveat": "windows_smtc_metadata_malformed"
+            "caveat": "windows_app_smtc_metadata_malformed"
           },
           {
             "app_user_model_id": "AppleInc.AppleMusicWin_nzyj5cx40ttqa!App",
-            "caveat": "windows_smtc_metadata_malformed"
+            "caveat": "windows_app_smtc_metadata_malformed"
           },
           {
             "app_user_model_id": "AppleInc.AppleMusicWin_nzyj5cx40ttqa!app",
-            "caveat": "windows_smtc_metadata_malformed"
+            "caveat": "windows_app_smtc_metadata_malformed"
           },
           {
             "app_user_model_id": "Apple Music Beta.exe",
             "product_name": "Electron",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           },
           {
             "app_user_model_id": "webcatalog-photon-apple-music-beta",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           },
           {
             "app_user_model_id": "electron.app.Apple Music Beta",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           },
           {
             "app_user_model_id": "music.apple.com-A5F611C_7vh1tm7h3g5s0!APP",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           },
           {
             "app_user_model_id": "music.apple.com-A5F611C_7vh1tm7h3g5s0!App",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           },
           {
             "app_user_model_id": "music.apple.com-A5F611C_7vh1tm7h3g5s0!app",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           }
         ],
         "web_domain": [
           {
             "domain": "music.apple.com",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           },
           {
             "domain": "classical.music.apple.com",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           },
           {
             "domain": "beta.music.apple.com",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           }
         ]
       },
@@ -699,6 +699,27 @@
       }
     },
     {
+      "id": "aurora",
+      "name": "Aurora",
+      "url": "https://auroraplayer.lol",
+      "sources": {
+        "win_smtc": [
+          "com.aurora.music"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1574737225797869670"
+      }
+    },
+    {
       "id": "bandcamp",
       "name": "Bandcamp",
       "url": "https://bandcamp.com",
@@ -799,6 +820,54 @@
       ],
       "extra": {
         "discord_application_id": "1538995897264906240"
+      }
+    },
+    {
+      "id": "bettersoundcloud",
+      "name": "BetterSoundCloud",
+      "url": "https://bsc.akj.studio",
+      "represents": [
+        "soundcloud"
+      ],
+      "sources": {
+        "win_smtc": [
+          "com.alirezakj.bettersoundcloud"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1574045940413628591"
+      }
+    },
+    {
+      "id": "bitchord",
+      "name": "BitChord",
+      "url": "https://github.com/jackychan4891/BitChord-PC-Continued",
+      "represents": [
+        "youtube-music"
+      ],
+      "sources": {
+        "win_smtc": [
+          "bitchord.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1571189838558920804"
       }
     },
     {
@@ -951,6 +1020,9 @@
       "name": "Clementine",
       "url": "https://www.clementine-player.org",
       "sources": {
+        "win_smtc": [
+          "clementine.exe"
+        ],
         "lin_mpris": [
           "clementine"
         ]
@@ -1254,6 +1326,9 @@
       "sources": {
         "win_smtc": [
           "velopack.Eclipse"
+        ],
+        "mac_bundle": [
+          "com.debridmusic.app"
         ]
       },
       "attributes": {
@@ -1678,7 +1753,8 @@
           "Resolute.foobar2000modern_cg7j1awqsza28!foobar2000",
           "Resolute.foobar2000modern_cg7j1awqsza28!FOOBAR2000",
           "Resolute.foobar2000_cg7j1awqsza28!foobar2000",
-          "Resolute.foobar2000_cg7j1awqsza28!FOOBAR2000"
+          "Resolute.foobar2000_cg7j1awqsza28!FOOBAR2000",
+          "Gatefold.Player.23ABCE33"
         ],
         "mac_bundle": [
           "com.foobar2000.mac"
@@ -2393,7 +2469,8 @@
       ],
       "sources": {
         "win_smtc": [
-          "dev.kodama.music"
+          "dev.kodama.music",
+          "dev.kodama.desktop"
         ]
       },
       "attributes": {
@@ -2490,7 +2567,8 @@
       ],
       "sources": {
         "win_smtc": [
-          "com.limusic.desktop"
+          "com.limusic.desktop",
+          "limusic-app.exe"
         ]
       },
       "attributes": {
@@ -2709,6 +2787,9 @@
         "youtube-music"
       ],
       "sources": {
+        "win_smtc": [
+          "Metrolist.Desktop"
+        ],
         "lin_mpris": [
           {
             "service": "Valent",
@@ -2826,6 +2907,9 @@
       "sources": {
         "win_smtc": [
           "com.zarz.mornye"
+        ],
+        "lin_mpris": [
+          "mornye"
         ]
       },
       "attributes": {
@@ -2908,6 +2992,27 @@
       ],
       "extra": {
         "discord_application_id": "1317508146318802974"
+      }
+    },
+    {
+      "id": "mpc-qt",
+      "name": "MPC-QT",
+      "url": "https://github.com/mpc-qt/mpc-qt",
+      "sources": {
+        "lin_mpris": [
+          "MpcQt"
+        ]
+      },
+      "attributes": {
+        "pure": false,
+        "service": false
+      },
+      "content": [
+        "video",
+        "audio"
+      ],
+      "extra": {
+        "discord_application_id": "1573396689606287582"
       }
     },
     {
@@ -3033,7 +3138,8 @@
           "MusicBee.exe",
           "50072StevenMayall.MusicBee_kcr266et74avj!musicbeepackage",
           "50072StevenMayall.MusicBee_kcr266et74avj!MusicBeePackage",
-          "50072StevenMayall.MusicBee_kcr266et74avj!MUSICBEEPACKAGE"
+          "50072StevenMayall.MusicBee_kcr266et74avj!MUSICBEEPACKAGE",
+          "HALRAD.MBXHub.MusicBee"
         ],
         "lin_mpris": [
           "MusicBee"
@@ -4522,7 +4628,8 @@
       ],
       "sources": {
         "win_smtc": [
-          "Airplay.Shairport.Audio.1.0"
+          "Airplay.Shairport.Audio.1.0",
+          "Airplay.Shairport.1.0"
         ]
       },
       "attributes": {
@@ -4900,6 +5007,9 @@
         "win_smtc": [
           "spotifast.exe",
           "fastpotify.exe"
+        ],
+        "lin_mpris": [
+          "spotifast"
         ]
       },
       "attributes": {
@@ -4918,22 +5028,43 @@
       "id": "spotify",
       "name": "Spotify",
       "url": "https://spotify.com",
+      "caveats": [
+        "desktop_app_advertisements_unskippable"
+      ],
       "sources": {
         "win_smtc": [
-          "Spotify.exe",
-          "Spotify Desktop.exe",
-          "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!spotify",
-          "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify",
-          "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!SPOTIFY",
-          "Spotishka Desktop.exe"
+          {
+            "app_user_model_id": "Spotify.exe",
+            "caveat": "desktop_app_advertisements_unskippable"
+          },
+          {
+            "app_user_model_id": "Spotify Desktop.exe",
+            "caveat": "desktop_app_advertisements_unskippable"
+          },
+          {
+            "app_user_model_id": "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!spotify",
+            "caveat": "desktop_app_advertisements_unskippable"
+          },
+          {
+            "app_user_model_id": "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify",
+            "caveat": "desktop_app_advertisements_unskippable"
+          },
+          {
+            "app_user_model_id": "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!SPOTIFY",
+            "caveat": "desktop_app_advertisements_unskippable"
+          }
         ],
         "mac_bundle": [
-          "com.spotify.client"
+          {
+            "bundle_id": "com.spotify.client",
+            "caveat": "desktop_app_advertisements_unskippable"
+          }
         ],
         "lin_mpris": [
-          "spotify",
-          "spotify_player",
-          "spotifyd",
+          {
+            "service": "spotify",
+            "caveat": "desktop_app_advertisements_unskippable"
+          },
           {
             "service": "Valent",
             "identity": "Spotify"
@@ -4955,6 +5086,78 @@
       "extra": {
         "discord_application_id": "1247651846936596540",
         "fluxer_emoji_id": "1549773084154658816"
+      }
+    },
+    {
+      "id": "spotify-player",
+      "name": "spotify_player",
+      "url": "https://github.com/aome510/spotify-player",
+      "represents": [
+        "spotify"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "spotify_player"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1574342402905342093"
+      }
+    },
+    {
+      "id": "spotifyd",
+      "name": "spotifyd",
+      "url": "https://github.com/Spotifyd/spotifyd",
+      "represents": [
+        "spotify"
+      ],
+      "sources": {
+        "lin_mpris": [
+          "spotifyd"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1574389966937530501"
+      }
+    },
+    {
+      "id": "spotishka",
+      "name": "Spotishka",
+      "url": "https://spotishka.com",
+      "represents": [
+        "spotify"
+      ],
+      "sources": {
+        "win_smtc": [
+          "Spotishka Desktop.exe"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1574340725397790950"
       }
     },
     {
@@ -5185,6 +5388,9 @@
         ],
         "mac_bundle": [
           "com.tdesktop.Telegram"
+        ],
+        "lin_mpris": [
+          "org.telegram.desktop"
         ]
       },
       "attributes": {
@@ -6556,6 +6762,29 @@
         "md5": "f2a925cd9db336403eaa07ae9f01eeba"
       }
     ],
+    "aurora": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/aurora/logo-128.ab1df6f0a0c0.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/aurora/discord-large-image.ae46afc2ac5d.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/aurora/discord-small-image.5b07473f7fbf.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v4/icons/aurora/tray-menu.b0a7020aed23.ico",
+        "md5": "b0a7020aed236286f18856c5a86c1ff1"
+      }
+    ],
     "bandcamp": [
       {
         "label": "logo-128",
@@ -6646,6 +6875,52 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v4/icons/betterlyrics/tray-menu.468c5cfe22fc.ico",
         "md5": "468c5cfe22fc82bb7c5b4d170e82fa98"
+      }
+    ],
+    "bettersoundcloud": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/bettersoundcloud/logo-128.a8fe52e8e5c3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/bettersoundcloud/discord-large-image.8d8bcbe78319.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/bettersoundcloud/discord-small-image.8832610400ed.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v4/icons/bettersoundcloud/tray-menu.11be3e46cc2e.ico",
+        "md5": "11be3e46cc2e5c1629bac09e603c9800"
+      }
+    ],
+    "bitchord": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/bitchord/logo-128.09eb1261f65b.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/bitchord/discord-large-image.ff2f9fe13b34.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/bitchord/discord-small-image.4aca44907a3d.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v4/icons/bitchord/tray-menu.3c5a05bcfc95.ico",
+        "md5": "3c5a05bcfc950dcd5f9c0791645dac12"
       }
     ],
     "bloomee": [
@@ -8557,6 +8832,29 @@
         "md5": "a0390a6f16547c3ea93ba36a15d6acc1"
       }
     ],
+    "mpc-qt": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/mpc-qt/logo-128.9ef6552398a8.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/mpc-qt/discord-large-image.3a56496f4921.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/mpc-qt/discord-small-image.95b6b96adb8e.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v4/icons/mpc-qt/tray-menu.0a221ac35c60.ico",
+        "md5": "0a221ac35c604f870e292da0e8764cea"
+      }
+    ],
     "mpd": [
       {
         "label": "logo-128",
@@ -10440,6 +10738,75 @@
         "label": "tray-menu",
         "type": "ico",
         "url": "https://live.musicpresence.app/v4/icons/spotify/tray-menu.db3a25b10eeb.ico",
+        "md5": "db3a25b10eeb3c8eb8e17a38c215ef06"
+      }
+    ],
+    "spotify-player": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotify-player/logo-128.3f356a4d2aa3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotify-player/discord-large-image.c4bd750c5832.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotify-player/discord-small-image.479c9cfbeb46.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v4/icons/spotify-player/tray-menu.db3a25b10eeb.ico",
+        "md5": "db3a25b10eeb3c8eb8e17a38c215ef06"
+      }
+    ],
+    "spotifyd": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotifyd/logo-128.3f356a4d2aa3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotifyd/discord-large-image.c4bd750c5832.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotifyd/discord-small-image.479c9cfbeb46.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v4/icons/spotifyd/tray-menu.db3a25b10eeb.ico",
+        "md5": "db3a25b10eeb3c8eb8e17a38c215ef06"
+      }
+    ],
+    "spotishka": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotishka/logo-128.3f356a4d2aa3.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotishka/discord-large-image.c4bd750c5832.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/spotishka/discord-small-image.479c9cfbeb46.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v4/icons/spotishka/tray-menu.db3a25b10eeb.ico",
         "md5": "db3a25b10eeb3c8eb8e17a38c215ef06"
       }
     ],

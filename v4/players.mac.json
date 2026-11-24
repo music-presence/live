@@ -274,10 +274,10 @@
       "id": "apple-music",
       "name": "Apple Music",
       "url": "https://music.apple.com",
-      "caveats": {
-        "windows_smtc_metadata_malformed": "The metadata that is reported via System Media Transport Controls by the native windows app is incorrectly formatted and sometimes includes information that is not song metadata.",
-        "web_playback_info_inaccurate": "The web app tends to report inaccurate playback information and track durations most of the time, especially during longer playback sessions."
-      },
+      "caveats": [
+        "windows_app_smtc_metadata_malformed",
+        "web_app_playback_info_inaccurate"
+      ],
       "sources": {
         "mac_bundle": [
           "com.apple.Music"
@@ -285,15 +285,15 @@
         "web_domain": [
           {
             "domain": "music.apple.com",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           },
           {
             "domain": "classical.music.apple.com",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           },
           {
             "domain": "beta.music.apple.com",
-            "caveat": "web_playback_info_inaccurate"
+            "caveat": "web_app_playback_info_inaccurate"
           }
         ]
       },
@@ -697,6 +697,27 @@
       ],
       "extra": {
         "discord_application_id": "1351464539472007169"
+      }
+    },
+    {
+      "id": "eclipse",
+      "name": "Eclipse",
+      "url": "https://eclipsemusic.app",
+      "sources": {
+        "mac_bundle": [
+          "com.debridmusic.app"
+        ]
+      },
+      "attributes": {
+        "pure": true,
+        "service": false
+      },
+      "content": [
+        "audio",
+        "audio_music"
+      ],
+      "extra": {
+        "discord_application_id": "1514537002568253543"
       }
     },
     {
@@ -2126,9 +2147,15 @@
       "id": "spotify",
       "name": "Spotify",
       "url": "https://spotify.com",
+      "caveats": [
+        "desktop_app_advertisements_unskippable"
+      ],
       "sources": {
         "mac_bundle": [
-          "com.spotify.client"
+          {
+            "bundle_id": "com.spotify.client",
+            "caveat": "desktop_app_advertisements_unskippable"
+          }
         ],
         "web_domain": [
           "open.spotify.com"
@@ -3244,6 +3271,29 @@
         "type": "ico",
         "url": "https://live.musicpresence.app/v4/icons/doppler/tray-menu.75846177b1d5.ico",
         "md5": "75846177b1d573580f56ffb242736c6f"
+      }
+    ],
+    "eclipse": [
+      {
+        "label": "logo-128",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/eclipse/logo-128.4e4977e5bac4.png"
+      },
+      {
+        "label": "discord-large-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/eclipse/discord-large-image.d1450e8d04df.png"
+      },
+      {
+        "label": "discord-small-image",
+        "type": "png",
+        "url": "https://live.musicpresence.app/v4/icons/eclipse/discord-small-image.8ef5686b19c2.png"
+      },
+      {
+        "label": "tray-menu",
+        "type": "ico",
+        "url": "https://live.musicpresence.app/v4/icons/eclipse/tray-menu.6674f07fb2b6.ico",
+        "md5": "6674f07fb2b6b9c9b276c1cb8fb480f5"
       }
     ],
     "eter": [
