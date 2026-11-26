@@ -1027,7 +1027,9 @@
       "url": "https://focus.music",
       "sources": {
         "win_winrt": [
-          "focus.music-8C2628DE_930v1qr4esn20!App"
+          "focus.music-8C2628DE_930v1qr4esn20!app",
+          "focus.music-8C2628DE_930v1qr4esn20!App",
+          "focus.music-8C2628DE_930v1qr4esn20!APP"
         ]
       },
       "attributes": {
@@ -1523,7 +1525,9 @@
       "sources": {
         "win_winrt": [
           "com.musicapp.lyra",
-          "AlessandroGerelli.LyraMusic_6tzwxm0crfkde!LyraMusic"
+          "AlessandroGerelli.LyraMusic_6tzwxm0crfkde!lyramusic",
+          "AlessandroGerelli.LyraMusic_6tzwxm0crfkde!LyraMusic",
+          "AlessandroGerelli.LyraMusic_6tzwxm0crfkde!LYRAMUSIC"
         ]
       },
       "attributes": {
@@ -3167,6 +3171,7 @@
         "win_winrt": [
           "TIDAL.exe",
           "com.squirrel.TIDAL.TIDAL",
+          "WiMPMusic.27241E05630EA_kn85bz84x7te4!tidal",
           "WiMPMusic.27241E05630EA_kn85bz84x7te4!TIDAL"
         ]
       },
@@ -3213,7 +3218,9 @@
       "url": "https://trdo.net",
       "sources": {
         "win_winrt": [
-          "40087JoeFinApps.Trdo_kdbpvth5scec4!App"
+          "40087JoeFinApps.Trdo_kdbpvth5scec4!app",
+          "40087JoeFinApps.Trdo_kdbpvth5scec4!App",
+          "40087JoeFinApps.Trdo_kdbpvth5scec4!APP"
         ]
       },
       "attributes": {
