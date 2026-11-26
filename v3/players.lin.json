@@ -1176,7 +1176,11 @@
       "represents": [
         "youtube-music"
       ],
-      "sources": {},
+      "sources": {
+        "lin_mpris": [
+          "metrolist"
+        ]
+      },
       "attributes": {
         "pure": true,
         "service": false
