@@ -663,6 +663,9 @@
       "name": "Aurora",
       "url": "https://auroraplayer.lol",
       "sources": {
+        "lin_mpris": [
+          "aurora"
+        ],
         "win_winrt": [
           "com.aurora.music"
         ]
